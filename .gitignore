@@ -1,0 +1,15 @@
+Build/
+__pycache__/
+.cache/
+.vscode/
+
+code.bin
+compile_commands.json
+
+baserom
+asm
+*.3ds
+*.elf
+*.o
+*.s
+*.bin

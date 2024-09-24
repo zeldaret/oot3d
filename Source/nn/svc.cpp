@@ -1,0 +1,15 @@
+#include "non_matchings.hpp"
+
+GLOBAL_ASM("asm/_ZN2nn3svc16ArbitrateAddressENS_6HandleEjNS_2os15ArbitrationTypeEix.s")
+GLOBAL_ASM("asm/_ZN2nn3svc20WaitSynchronizationNEPiPKNS_6HandleEibx.s")
+GLOBAL_ASM("asm/_ZN2nn3svc11CreateEventEPNS_6HandleENS_2os9ResetTypeE.s")
+GLOBAL_ASM("asm/_ZN2nn3svc13ControlMemoryEPjjjjjj.s")
+GLOBAL_ASM("asm/_ZN2nn3svc12CreateThreadEPNS_6HandleEPFvjEjjii.s")
+GLOBAL_ASM("asm/_ZN2nn3svc11SleepThreadEy.s")
+GLOBAL_ASM("asm/_ZN2nn3svc5BreakENS_3dbg11BreakReasonE.s")
+GLOBAL_ASM("asm/_ZN2nn3svc12GetProcessIdEPjNS_6HandleE.s")
+GLOBAL_ASM("asm/_ZN2nn3svc16GetResourceLimitEPNS_6HandleES1_.s")
+GLOBAL_ASM("asm/_ZN2nn3svc20CreateAddressArbiterEPNS_6HandleE.s")
+GLOBAL_ASM("asm/_ZN2nn3svc15DuplicateHandleEPNS_6HandleES1_.s")
+GLOBAL_ASM("asm/_ZN2nn3svc13ConnectToPortEPNS_6HandleEPKc.s")
+GLOBAL_ASM("asm/_ZN2nn3svc11ExitProcessEv.s")
