@@ -6,12 +6,18 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 if(NOT DEFINED ENV{ARMCC_PATH})
     message(FATAL_ERROR "please set ARMCC_PATH")
 endif()
+if(NOT DEFINED ENV{RVCT40INC})
+    message(FATAL_ERROR "please set RVCT40INC. Probably to ARMCC_PATH/include/windows")
+endif()
+if(NOT DEFINED ENV{RVCT40LIB})
+    message(FATAL_ERROR "please set RVCT40LIB. Probably to ARMCC_PATH/include/lib")
+endif()
 
-find_program(ARM_ASM NAMES armasm.exe PATHS $ENV{ARMCC_PATH}/bin REQUIRED NO_DEFAULT_PATH)
-find_program(ARM_AR NAMES armar.exe PATHS $ENV{ARMCC_PATH}/bin REQUIRED NO_DEFAULT_PATH)
-find_program(ARM_CC NAMES armcc.exe PATHS $ENV{ARMCC_PATH}/bin REQUIRED NO_DEFAULT_PATH)
-find_program(ARM_LINK NAMES armlink.exe PATHS $ENV{ARMCC_PATH}/bin REQUIRED NO_DEFAULT_PATH)
-find_program(ARM_FROMELF NAMES fromelf.exe PATHS $ENV{ARMCC_PATH}/bin REQUIRED NO_DEFAULT_PATH)
+find_program(ARM_ASM NAMES armasm.exe PATHS "$ENV{ARMCC_PATH}/win_32-pentium" REQUIRED NO_DEFAULT_PATH)
+find_program(ARM_AR NAMES armar.exe PATHS "$ENV{ARMCC_PATH}/win_32-pentium" REQUIRED NO_DEFAULT_PATH)
+find_program(ARM_CC NAMES armcc.exe PATHS "$ENV{ARMCC_PATH}/win_32-pentium" REQUIRED NO_DEFAULT_PATH)
+find_program(ARM_LINK NAMES armlink.exe PATHS "$ENV{ARMCC_PATH}/win_32-pentium" REQUIRED NO_DEFAULT_PATH)
+find_program(ARM_FROMELF NAMES fromelf.exe PATHS "$ENV{ARMCC_PATH}/win_32-pentium" REQUIRED NO_DEFAULT_PATH)
 
 macro (set_compilers)
     set(CMAKE_CXX_COMPILER_ID ARMCC)
@@ -93,7 +99,7 @@ foreach(CPP_FILE ${cxxsourcefiles})
     get_filename_component(FILE_NAME ${CPP_FILE} NAME_WE)
     add_custom_command(
         OUTPUT ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s
-        COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/tools/preproc.py ${CPP_FILE} ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s "${DISASSEMBLY_DIR}/"
+        COMMAND python ${CMAKE_CURRENT_SOURCE_DIR}/tools/preproc.py ${CPP_FILE} ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s "${DISASSEMBLY_DIR}/"
         DEPENDS ${CPP_FILE}
     )
     set_source_files_properties(${NON_MATCH_ASM_FILES}/${FILE_NAME}.s PROPERTIES COMPILE_FLAGS "--cpu=MPCore")
