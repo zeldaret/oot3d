@@ -6,7 +6,7 @@ extern "C" {
 
 GLOBAL_ASM("data/z_bgcheck.data.s")
 
-UNPLACED_INLINE void ReadCollisionHeaderFromZsi(void* arg1, CollisionHeader** col) {
+void ReadCollisionHeaderFromZsi(void* arg1, CollisionHeader** col) {
     *col = (CollisionHeader*) arg1;
 }
 

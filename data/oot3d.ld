@@ -51286,10 +51286,6 @@ data 0x04F9000
     {
         *(i.data_54AC28)
     }
-    RW +0 /* 0x0055A220 */
-    {
-        * (+RW-DATA)
-    }
     z_bg_treemouth.bss +0x00F8C8 /* 0x00569AE8 */
     {
         *z_bg_treemouth.o(+BSS)
@@ -51302,24 +51298,11 @@ data 0x04F9000
     {
         *err.o(+BSS)
     }
-    ZI +0
-    {
-        * (+ZI)
-    }
-}
-MODULE_INFO     (0x00100000 + (0x04000000 - 0x00100000))
-{
-    .module_id  (0x00100000 + (0x04000000 - 0x00100000))
-    {
-        * (.module_id)
-    }
 }
 GARBAGE_SECTION 0x00832000
 {
     REST_SECTION 0x00832000
     {
-        * (unplaced_inlines)
-        * (stubs)
         * (+CODE)
         * (+CONST)
     }
