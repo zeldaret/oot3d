@@ -48,11 +48,11 @@ __compiler_armcc(C)
 __compiler_armcc(CXX)
 __compiler_armcc(ASM)
 
-add_subdirectory(Library)
-add_subdirectory(Disassembly)
+add_subdirectory(library)
+add_subdirectory(disassembly)
 
-file(GLOB_RECURSE csourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/Source/*.c)
-file(GLOB_RECURSE cxxsourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/Source/*.cpp)
+file(GLOB_RECURSE csourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/source/*.c)
+file(GLOB_RECURSE cxxsourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
 
 SET(CXX_FLAGS "--apcs=//interwork --cpu=MPCore --fpmode=fast --vfe --no_rtti --no_rtti_data --cpp --arm --force_new_nothrow --signed_chars --multibyte-chars --locale=japanese --data-reorder --split_sections --forceinline -O3 -Otime")
 
@@ -88,11 +88,11 @@ add_custom_target(
     check
     DEPENDS code ${CMAKE_CURRENT_BINARY_DIR}/code.bin
     COMMENT "Checking for match..."
-    COMMAND cd ${CMAKE_CURRENT_SOURCE_DIR} && md5sum -c ${CMAKE_CURRENT_SOURCE_DIR}/Data/checksum.md5
+    COMMAND cd ${CMAKE_CURRENT_SOURCE_DIR} && md5sum -c ${CMAKE_CURRENT_SOURCE_DIR}/data/checksum.md5
 )
 
 set(NON_MATCH_ASM_FILES ${CMAKE_CURRENT_BINARY_DIR}/nonmatch)
-set(DISASSEMBLY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Disassembly)
+set(DISASSEMBLY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/disassembly)
 file(MAKE_DIRECTORY ${NON_MATCH_ASM_FILES})
 
 foreach(CPP_FILE ${cxxsourcefiles})
@@ -112,12 +112,12 @@ target_link_options(oot3d PUBLIC
     --cpu=MPCore --entry=__ctr_start --startup=__ctr_start --library_type=standardlib
     --ref_cpp_init --scanlib --legacyalign
     --tailreorder --remove --datacompressor=off
-    --inline --via ${CMAKE_CURRENT_SOURCE_DIR}/Data/keep_symbols.txt
+    --inline --via ${CMAKE_CURRENT_SOURCE_DIR}/data/keep_symbols.txt
     --verbose --mangled --symbols --vfemode=force
-    --scatter=${CMAKE_CURRENT_SOURCE_DIR}/Data/oot3d.ld
+    --scatter=${CMAKE_CURRENT_SOURCE_DIR}/data/oot3d.ld
     --diag_suppress=6238,6306
     )
 
-target_include_directories(oot3d PUBLIC ${CMAKE_SOURCE_DIR}/Include ${CMAKE_SOURCE_DIR}/Library/nnsdk/Include ${CMAKE_SOURCE_DIR}/Source/Game)
+target_include_directories(oot3d PUBLIC ${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/library/nnsdk/Include ${CMAKE_SOURCE_DIR}/source/game)
 
 add_dependencies(oot3d disasm)
