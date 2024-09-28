@@ -1,6 +1,6 @@
-[submodule "Library/nnsdk"]
-	path = Library/nnsdk
+[submodule "library/nnsdk"]
+	path = library/nnsdk
 	url = git@github.com:gamestabled/auto_nnsdk.git
-[submodule "Tools/asm-differ"]
-	path = Tools/asm-differ
+[submodule "tools/asm-differ"]
+	path = tools/asm-differ
 	url = https://github.com/3dsdecomp/asm-differ

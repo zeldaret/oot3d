@@ -1,10 +1,11 @@
-Build/
+build/
 __pycache__/
 .cache/
 .vscode/
 
 code.bin
 compile_commands.json
+disassembly/split_asm.txt
 
 baserom
 asm

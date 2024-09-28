@@ -22,7 +22,7 @@ Discord: <https://discord.zelda.deco.mp>
 ## Installation
 These instructions and the tools in this repository all assume a Windows development environment. Cross-platform support may be added in the future.
 
-To set up the repository, place a USA version of `The Legend of Zelda: Ocarina of Time 3D (USA)` in the `Disassembly` directory of the repository and name it `baserom.3ds`. Any revision (v0 or v1) and either trimmed or untrimmed roms should be able to produce a correct repository.
+To set up the repository, place a USA version of `The Legend of Zelda: Ocarina of Time 3D (USA)` in the `disassembly` directory of the repository and name it `baserom.3ds`. Any revision (v0 or v1) and either trimmed or untrimmed roms should be able to produce a correct repository.
 
 Download and extract the contents of RVCT4.0 [Build 821] for Windows. Once extracted, the following environment variables must be set:
 
@@ -32,16 +32,16 @@ Download and extract the contents of RVCT4.0 [Build 821] for Windows. Once extra
 
 You will also need to have installed cmake, make, and python for Windows.
 
-To begin, run `cmake -B Build -S . -G "Unix Makefiles"`. This should configure the build using the ARM compiler toolchain. If this succeeds, perform the first build using `cmake --build Build -t check`. If all goes well, you should see:
+To begin, run `cmake -B build -S . -G "Unix Makefiles"`. This should configure the build using the ARM compiler toolchain. If this succeeds, perform the first build using `cmake --build build -t check`. If all goes well, you should see:
 ```
-Build/code.bin: OK
+build/code.bin: OK
 ```
 
 Note: to speed up the build, you can pass `-jN`, where N is the number of threads to use in the build.
 
 ## Building
 
-A variety of useful cmake targets are available. Run `cmake --build Build -t [target]` with the following values of `[target]`:
+A variety of useful cmake targets are available. Run `cmake --build build -t [target]` with the following values of `[target]`:
 
 * To build `oot3d.axf`, set `[target]` = `oot3d`
 * To build `code.bin`, set `[target]` = `code`
