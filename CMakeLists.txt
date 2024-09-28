@@ -51,8 +51,8 @@ __compiler_armcc(ASM)
 add_subdirectory(library)
 add_subdirectory(disassembly)
 
-file(GLOB_RECURSE csourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/source/*.c)
-file(GLOB_RECURSE cxxsourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
+file(GLOB_RECURSE csourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
+file(GLOB_RECURSE cxxsourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 SET(CXX_FLAGS "--apcs=//interwork --cpu=MPCore --fpmode=fast --vfe --no_rtti --no_rtti_data --cpp --arm --force_new_nothrow --signed_chars --multibyte-chars --locale=japanese --data-reorder --split_sections --forceinline -O3 -Otime")
 
@@ -118,6 +118,6 @@ target_link_options(oot3d PUBLIC
     --diag_suppress=6238,6306
     )
 
-target_include_directories(oot3d PUBLIC ${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/library/nnsdk/Include ${CMAKE_SOURCE_DIR}/source/game)
+target_include_directories(oot3d PUBLIC ${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/library/nnsdk/Include ${CMAKE_SOURCE_DIR}/src/game)
 
 add_dependencies(oot3d disasm)
