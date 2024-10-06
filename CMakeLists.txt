@@ -106,7 +106,7 @@ foreach(CPP_FILE ${cxxsourcefiles})
     target_sources(oot3d PUBLIC ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s)
 endforeach()
 
-target_link_libraries(oot3d PUBLIC nnsdk)
+target_link_libraries(oot3d PUBLIC 3ds_sdk)
 
 target_link_options(oot3d PUBLIC
     --cpu=MPCore --entry=__ctr_start --startup=__ctr_start --library_type=standardlib
@@ -118,6 +118,6 @@ target_link_options(oot3d PUBLIC
     --diag_suppress=6238,6306
     )
 
-target_include_directories(oot3d PUBLIC ${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/library/nnsdk/Include ${CMAKE_SOURCE_DIR}/src/game)
+target_include_directories(oot3d PUBLIC ${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/library/3ds_sdk/include ${CMAKE_SOURCE_DIR}/src/game)
 
 add_dependencies(oot3d disasm)
