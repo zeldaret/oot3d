@@ -86,11 +86,9 @@ add_custom_target(
 
 add_custom_target(
     check
-    DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/code.bin
+    DEPENDS code ${CMAKE_CURRENT_BINARY_DIR}/code.bin
     COMMENT "Checking for match..."
-    COMMAND ${CMAKE_COMMAND} -DCHECKFILE=${CMAKE_CURRENT_BINARY_DIR}/code.bin
-                            -DCHECKSUM_FILE=${CMAKE_CURRENT_SOURCE_DIR}/data/checksum.md5
-                            -P ${CMAKE_CURRENT_SOURCE_DIR}/tools/check_code_bin.cmake
+    COMMAND cd ${CMAKE_CURRENT_SOURCE_DIR} && md5sum -c ${CMAKE_CURRENT_SOURCE_DIR}/data/checksum.md5
 )
 
 set(NON_MATCH_ASM_FILES ${CMAKE_CURRENT_BINARY_DIR}/nonmatch)
