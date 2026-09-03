@@ -86,9 +86,11 @@ add_custom_target(
 
 add_custom_target(
     check
-    DEPENDS code ${CMAKE_CURRENT_BINARY_DIR}/code.bin
+    DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/code.bin
     COMMENT "Checking for match..."
-    COMMAND cd ${CMAKE_CURRENT_SOURCE_DIR} && md5sum -c ${CMAKE_CURRENT_SOURCE_DIR}/data/checksum.md5
+    COMMAND ${CMAKE_COMMAND} -DCHECKFILE=${CMAKE_CURRENT_BINARY_DIR}/code.bin
+                            -DCHECKSUM_FILE=${CMAKE_CURRENT_SOURCE_DIR}/data/checksum.md5
+                            -P ${CMAKE_CURRENT_SOURCE_DIR}/tools/check_code_bin.cmake
 )
 
 set(NON_MATCH_ASM_FILES ${CMAKE_CURRENT_BINARY_DIR}/nonmatch)
@@ -122,7 +124,7 @@ target_link_options(oot3d PUBLIC
     --ref_cpp_init --scanlib --legacyalign
     --tailreorder --remove --datacompressor=off
     --inline --via ${CMAKE_CURRENT_SOURCE_DIR}/data/keep_symbols.txt
-    --verbose --mangled --symbols --vfemode=force
+    --mangled --symbols --vfemode=force
     --scatter=${CMAKE_CURRENT_SOURCE_DIR}/data/oot3d.ld
     --diag_suppress=6238,6306
     )
