@@ -97,16 +97,25 @@ file(MAKE_DIRECTORY ${NON_MATCH_ASM_FILES})
 
 foreach(CPP_FILE ${cxxsourcefiles})
     get_filename_component(FILE_NAME ${CPP_FILE} NAME_WE)
+    set(DEP_FILE_LIST ${CPP_FILE})
+    file(STRINGS ${CPP_FILE} ASM_REFS REGEX "^[ \t]*GLOBAL_ASM\\(\"")
+    foreach(ASM_REF ${ASM_REFS})
+        if(ASM_REF MATCHES "GLOBAL_ASM\\(\"([^\"]+)\"\\)")
+            list(APPEND DEP_FILE_LIST "${DISASSEMBLY_DIR}/${CMAKE_MATCH_1}")
+        endif()
+    endforeach()
+
     add_custom_command(
         OUTPUT ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s
         COMMAND python ${CMAKE_CURRENT_SOURCE_DIR}/tools/preproc.py ${CPP_FILE} ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s "${DISASSEMBLY_DIR}/"
-        DEPENDS ${CPP_FILE}
+        DEPENDS ${DEP_FILE_LIST}
     )
     set_source_files_properties(${NON_MATCH_ASM_FILES}/${FILE_NAME}.s PROPERTIES COMPILE_FLAGS "--cpu=MPCore")
     target_sources(oot3d PUBLIC ${NON_MATCH_ASM_FILES}/${FILE_NAME}.s)
 endforeach()
 
 target_link_libraries(oot3d PUBLIC 3ds_sdk)
+set_property(TARGET oot3d APPEND PROPERTY LINK_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/data/oot3d.ld)
 
 target_link_options(oot3d PUBLIC
     --cpu=MPCore --entry=__ctr_start --startup=__ctr_start --library_type=standardlib
