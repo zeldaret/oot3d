@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnDh_Destroy.s")
 GLOBAL_ASM("asm/EnDh_Update.s")
 
 GLOBAL_ASM("asm/EnDh_Draw.s")
+
+GLOBAL_ASM("asm/EnDh_Attack.s")
+
+GLOBAL_ASM("asm/EnDh_Burrow.s")
+
+GLOBAL_ASM("asm/EnDh_Damage.s")
+
+GLOBAL_ASM("asm/EnDh_Death.s")
+
+GLOBAL_ASM("asm/EnDh_Retreat.s")
+
+GLOBAL_ASM("asm/EnDh_SetupWalk.s")
+
+GLOBAL_ASM("asm/EnDh_SpawnDebris.s")
+
+GLOBAL_ASM("asm/EnDh_Wait.s")
+
+GLOBAL_ASM("asm/EnDh_Walk.s")
+
 }

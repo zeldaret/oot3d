@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnJj_Destroy.s")
 GLOBAL_ASM("asm/EnJj_Update.s")
 
 GLOBAL_ASM("asm/EnJj_Draw.s")
+
+GLOBAL_ASM("asm/EnJj_BeginCutscene.s")
+
+GLOBAL_ASM("asm/EnJj_OpenMouth.s")
+
+GLOBAL_ASM("asm/EnJj_RemoveDust.s")
+
+GLOBAL_ASM("asm/EnJj_UpdateStaticCollision.s")
+
+GLOBAL_ASM("asm/EnJj_WaitForFish.s")
+
+GLOBAL_ASM("asm/EnJj_WaitToOpenMouth.s")
+
 }

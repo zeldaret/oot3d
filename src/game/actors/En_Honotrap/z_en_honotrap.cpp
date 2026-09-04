@@ -29,4 +29,25 @@ GLOBAL_ASM("asm/EnHonotrap_Destroy.s")
 GLOBAL_ASM("asm/EnHonotrap_Update.s")
 
 GLOBAL_ASM("asm/EnHonotrap_Draw.s")
+
+GLOBAL_ASM("asm/EnHonotrap_EyeAttack.s")
+
+GLOBAL_ASM("asm/EnHonotrap_EyeClose.s")
+
+GLOBAL_ASM("asm/EnHonotrap_EyeIdle.s")
+
+GLOBAL_ASM("asm/EnHonotrap_EyeOpen.s")
+
+GLOBAL_ASM("asm/EnHonotrap_Flame.s")
+
+GLOBAL_ASM("asm/EnHonotrap_FlameChase.s")
+
+GLOBAL_ASM("asm/EnHonotrap_FlameDrop.s")
+
+GLOBAL_ASM("asm/EnHonotrap_FlameMove.s")
+
+GLOBAL_ASM("asm/EnHonotrap_FlameVanish.s")
+
+GLOBAL_ASM("asm/EnHonotrap_SetupEyeIdle.s")
+
 }

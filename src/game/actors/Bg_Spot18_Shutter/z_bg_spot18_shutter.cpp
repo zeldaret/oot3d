@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgSpot18Shutter_Destroy.s")
 GLOBAL_ASM("asm/BgSpot18Shutter_Update.s")
 
 GLOBAL_ASM("asm/BgSpot18Shutter_Draw.s")
+
+GLOBAL_ASM("asm/BgSpot18Shutter_DoNothing.s")
+
 }

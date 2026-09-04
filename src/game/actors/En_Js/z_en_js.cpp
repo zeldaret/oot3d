@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnJs_Destroy.s")
 GLOBAL_ASM("asm/EnJs_Update.s")
 
 GLOBAL_ASM("asm/EnJs_Draw.s")
+
+GLOBAL_ASM("asm/EnJs_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnJs_PostLimbDraw.s")
+
 }

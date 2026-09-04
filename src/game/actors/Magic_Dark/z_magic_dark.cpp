@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/MagicDark_Destroy.s")
 GLOBAL_ASM("asm/MagicDark_Update.s")
 
 GLOBAL_ASM("asm/MagicDark_Draw.s")
+
+GLOBAL_ASM("asm/MagicDark_DiamondDraw.s")
+
+GLOBAL_ASM("asm/MagicDark_DiamondUpdate.s")
+
+GLOBAL_ASM("asm/MagicDark_DimLighting.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgSpot01Idosoko_Destroy.s")
 GLOBAL_ASM("asm/BgSpot01Idosoko_Update.s")
 
 GLOBAL_ASM("asm/BgSpot01Idosoko_Draw.s")
+
+GLOBAL_ASM("asm/BgSpot01Idosoko_DoNothing.s")
+
 }

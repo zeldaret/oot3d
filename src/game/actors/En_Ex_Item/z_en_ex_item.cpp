@@ -27,4 +27,23 @@ GLOBAL_ASM("asm/EnExItem_Destroy.s")
 GLOBAL_ASM("asm/EnExItem_Update.s")
 
 GLOBAL_ASM("asm/EnExItem_Draw.s")
+
+GLOBAL_ASM("asm/EnExItem_BowlCounter.s")
+
+GLOBAL_ASM("asm/EnExItem_BowlPrize.s")
+
+GLOBAL_ASM("asm/EnExItem_ExitChest.s")
+
+GLOBAL_ASM("asm/EnExItem_FairyMagic.s")
+
+GLOBAL_ASM("asm/EnExItem_SetupBowlCounter.s")
+
+GLOBAL_ASM("asm/EnExItem_TargetPrizeApproach.s")
+
+GLOBAL_ASM("asm/EnExItem_TargetPrizeFinish.s")
+
+GLOBAL_ASM("asm/EnExItem_TargetPrizeGive.s")
+
+GLOBAL_ASM("asm/EnExItem_WaitForObject.s")
+
 }

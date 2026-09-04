@@ -29,4 +29,25 @@ GLOBAL_ASM("asm/BossGanondrof_Destroy.s")
 GLOBAL_ASM("asm/BossGanondrof_Update.s")
 
 GLOBAL_ASM("asm/BossGanondrof_Draw.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Block.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Charge.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Intro.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Neutral.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Paintings.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Return.s")
+
+GLOBAL_ASM("asm/BossGanondrof_SetupNeutral.s")
+
+GLOBAL_ASM("asm/BossGanondrof_SetupReturn.s")
+
+GLOBAL_ASM("asm/BossGanondrof_SetupThrow.s")
+
+GLOBAL_ASM("asm/BossGanondrof_Throw.s")
+
 }

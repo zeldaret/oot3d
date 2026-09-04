@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/ObjTimeblock_Destroy.s")
 GLOBAL_ASM("asm/ObjTimeblock_Update.s")
 
 GLOBAL_ASM("asm/ObjTimeblock_Draw.s")
+
+GLOBAL_ASM("asm/ObjTimeblock_AltBehaviorVisible.s")
+
+GLOBAL_ASM("asm/ObjTimeblock_AltBehaviourNotVisible.s")
+
+GLOBAL_ASM("asm/ObjTimeblock_DoNothing.s")
+
+GLOBAL_ASM("asm/ObjTimeblock_Normal.s")
+
+GLOBAL_ASM("asm/ObjTimeblock_WaitForOcarina.s")
+
+GLOBAL_ASM("asm/ObjTimeblock_WaitForSong.s")
+
 }

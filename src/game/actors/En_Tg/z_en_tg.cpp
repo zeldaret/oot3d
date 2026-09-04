@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnTg_Destroy.s")
 GLOBAL_ASM("asm/EnTg_Update.s")
 
 GLOBAL_ASM("asm/EnTg_Draw.s")
+
+GLOBAL_ASM("asm/EnTg_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnTg_PostLimbDraw.s")
+
 }

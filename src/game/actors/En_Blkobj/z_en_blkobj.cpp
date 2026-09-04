@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnBlkobj_Destroy.s")
 GLOBAL_ASM("asm/EnBlkobj_Update.s")
 
 GLOBAL_ASM("asm/EnBlkobj_Draw.s")
+
+GLOBAL_ASM("asm/EnBlkobj_DarkLinkFight.s")
+
+GLOBAL_ASM("asm/EnBlkobj_DoNothing.s")
+
+GLOBAL_ASM("asm/EnBlkobj_SpawnDarkLink.s")
+
+GLOBAL_ASM("asm/EnBlkobj_Wait.s")
+
 }

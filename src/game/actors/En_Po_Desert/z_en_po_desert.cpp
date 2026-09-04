@@ -29,4 +29,15 @@ GLOBAL_ASM("asm/EnPoDesert_Destroy.s")
 GLOBAL_ASM("asm/EnPoDesert_Update.s")
 
 GLOBAL_ASM("asm/EnPoDesert_Draw.s")
+
+GLOBAL_ASM("asm/EnPoDesert_Disappear.s")
+
+GLOBAL_ASM("asm/EnPoDesert_MoveToNextPoint.s")
+
+GLOBAL_ASM("asm/EnPoDesert_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnPoDesert_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnPoDesert_WaitForPlayer.s")
+
 }

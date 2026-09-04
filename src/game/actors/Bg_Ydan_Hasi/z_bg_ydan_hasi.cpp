@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/BgYdanHasi_Destroy.s")
 GLOBAL_ASM("asm/BgYdanHasi_Update.s")
 
 GLOBAL_ASM("asm/BgYdanHasi_Draw.s")
+
+GLOBAL_ASM("asm/BgYdanHasi_DecWaterTimer.s")
+
+GLOBAL_ASM("asm/BgYdanHasi_InitWater.s")
+
+GLOBAL_ASM("asm/BgYdanHasi_MoveWater.s")
+
+GLOBAL_ASM("asm/BgYdanHasi_SetupThreeBlocks.s")
+
+GLOBAL_ASM("asm/BgYdanHasi_UpdateFloatingBlock.s")
+
+GLOBAL_ASM("asm/BgYdanHasi_UpdateThreeBlocks.s")
+
 }

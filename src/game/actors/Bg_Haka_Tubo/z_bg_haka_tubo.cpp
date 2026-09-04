@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/BgHakaTubo_Destroy.s")
 GLOBAL_ASM("asm/BgHakaTubo_Update.s")
 
 GLOBAL_ASM("asm/BgHakaTubo_Draw.s")
+
+GLOBAL_ASM("asm/BgHakaTubo_DropCollectible.s")
+
+GLOBAL_ASM("asm/BgHakaTubo_Idle.s")
+
 }

@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/ArrowLight_Destroy.s")
 GLOBAL_ASM("asm/ArrowLight_Update.s")
 
 GLOBAL_ASM("asm/ArrowLight_Draw.s")
+
+GLOBAL_ASM("asm/ArrowLight_Charge.s")
+
+GLOBAL_ASM("asm/ArrowLight_Fly.s")
+
+GLOBAL_ASM("asm/ArrowLight_Hit.s")
+
 }

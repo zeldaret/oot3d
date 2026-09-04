@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/ObjKibako_Destroy.s")
 GLOBAL_ASM("asm/ObjKibako_Update.s")
 
 GLOBAL_ASM("asm/ObjKibako_Draw.s")
+
+GLOBAL_ASM("asm/ObjKibako_AirBreak.s")
+
+GLOBAL_ASM("asm/ObjKibako_Held.s")
+
+GLOBAL_ASM("asm/ObjKibako_Idle.s")
+
+GLOBAL_ASM("asm/ObjKibako_SetupIdle.s")
+
+GLOBAL_ASM("asm/ObjKibako_Thrown.s")
+
+GLOBAL_ASM("asm/ObjKibako_WaterBreak.s")
+
 }

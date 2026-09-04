@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/BgYdanSp_Destroy.s")
 GLOBAL_ASM("asm/BgYdanSp_Update.s")
 
 GLOBAL_ASM("asm/BgYdanSp_Draw.s")
+
+GLOBAL_ASM("asm/BgYdanSp_BurnFloorWeb.s")
+
+GLOBAL_ASM("asm/BgYdanSp_BurnWallWeb.s")
+
+GLOBAL_ASM("asm/BgYdanSp_FloorWebBreaking.s")
+
+GLOBAL_ASM("asm/BgYdanSp_FloorWebBroken.s")
+
+GLOBAL_ASM("asm/BgYdanSp_FloorWebIdle.s")
+
+GLOBAL_ASM("asm/BgYdanSp_WallWebIdle.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/DemoEc_Destroy.s")
 GLOBAL_ASM("asm/DemoEc_Update.s")
 
 GLOBAL_ASM("asm/DemoEc_Draw.s")
+
+GLOBAL_ASM("asm/DemoEc_OverrideLimbDraw.s")
+
 }

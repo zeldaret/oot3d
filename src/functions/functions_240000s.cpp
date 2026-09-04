@@ -4,7 +4,6 @@ GLOBAL_ASM("asm/caseD_2_00243f54.s")
 
 GLOBAL_ASM("asm/FUN_00243fa4.s")
 
-GLOBAL_ASM("asm/DemoEc_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/caseD_7.s")
 
@@ -70,9 +69,7 @@ GLOBAL_ASM("asm/caseD_2_00245240.s")
 
 GLOBAL_ASM("asm/caseD_2_00245298.s")
 
-GLOBAL_ASM("asm/EnHorseNormal_Wander.s")
 
-GLOBAL_ASM("asm/EnHorseNormal_Wait.s")
 
 GLOBAL_ASM("asm/EffectBlure_Init2.s")
 
@@ -106,7 +103,6 @@ GLOBAL_ASM("asm/FUN_00249044.s")
 
 GLOBAL_ASM("asm/FUN_00249048.s")
 
-GLOBAL_ASM("asm/EnDodongo_Death.s")
 
 GLOBAL_ASM("asm/FUN_00249af8.s")
 
@@ -134,9 +130,7 @@ GLOBAL_ASM("asm/FUN_0024d998.s")
 
 GLOBAL_ASM("asm/FUN_0024d9c0.s")
 
-GLOBAL_ASM("asm/EnTp_Die.s")
 
-GLOBAL_ASM("asm/EnTp_Tail_FollowHead.s")
 
 GLOBAL_ASM("asm/FUN_0024f670.s")
 
@@ -144,11 +138,8 @@ GLOBAL_ASM("asm/FUN_0024f78c.s")
 
 GLOBAL_ASM("asm/FUN_0024fa94.s")
 
-GLOBAL_ASM("asm/EnDh_Death.s")
 
-GLOBAL_ASM("asm/EnDh_Retreat.s")
 
-GLOBAL_ASM("asm/EnDh_Wait.s")
 
 GLOBAL_ASM("asm/FUN_002501ac.s")
 
@@ -168,9 +159,7 @@ GLOBAL_ASM("asm/FUN_0025355c.s")
 
 GLOBAL_ASM("asm/FUN_002535f0.s")
 
-GLOBAL_ASM("asm/MagicDark_DiamondDraw.s")
 
-GLOBAL_ASM("asm/MagicFire_UpdateBeforeCast.s")
 
 GLOBAL_ASM("asm/FUN_00254868.s")
 
@@ -184,13 +173,11 @@ GLOBAL_ASM("asm/FUN_002561e8.s")
 
 GLOBAL_ASM("asm/FUN_00256384.s")
 
-GLOBAL_ASM("asm/EnNiw_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_00256564.s")
 
 GLOBAL_ASM("asm/FUN_00256568.s")
 
-GLOBAL_ASM("asm/EnDodojr_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_0025678c.s")
 
@@ -216,7 +203,6 @@ GLOBAL_ASM("asm/FUN_00256d50.s")
 
 GLOBAL_ASM("asm/FUN_00256dd0.s")
 
-GLOBAL_ASM("asm/EnSkj_SetupWaitForOcarina.s")
 
 GLOBAL_ASM("asm/FUN_00256fb0.s")
 
@@ -268,11 +254,9 @@ GLOBAL_ASM("asm/FUN_00258bb0.s")
 
 GLOBAL_ASM("asm/FUN_00258c08.s")
 
-GLOBAL_ASM("asm/BossGanondrof_SetupReturn.s")
 
 GLOBAL_ASM("asm/FUN_00258cd4.s")
 
-GLOBAL_ASM("asm/EnExItem_WaitForObject.s")
 
 GLOBAL_ASM("asm/FUN_002593d0.s")
 
@@ -292,9 +276,7 @@ GLOBAL_ASM("asm/FUN_002598e4.s")
 
 GLOBAL_ASM("asm/FUN_002599b0.s")
 
-GLOBAL_ASM("asm/EnExItem_BowlPrize.s")
 
-GLOBAL_ASM("asm/EnExItem_TargetPrizeApproach.s")
 
 GLOBAL_ASM("asm/FUN_00259e98.s")
 
@@ -306,13 +288,11 @@ GLOBAL_ASM("asm/FUN_0025a17c.s")
 
 GLOBAL_ASM("asm/FUN_0025a1d0.s")
 
-GLOBAL_ASM("asm/EnExRuppy_WaitInGame.s")
 
 GLOBAL_ASM("asm/FUN_0025a4b0.s")
 
 GLOBAL_ASM("asm/FUN_0025a514.s")
 
-GLOBAL_ASM("asm/EnBomBowlMan_BlinkAwake.s")
 
 GLOBAL_ASM("asm/FUN_0025a7d8.s")
 
@@ -320,9 +300,7 @@ GLOBAL_ASM("asm/FUN_0025a824.s")
 
 GLOBAL_ASM("asm/FUN_0025a888.s")
 
-GLOBAL_ASM("asm/EnDaiku_InitEscape.s")
 
-GLOBAL_ASM("asm/ObjTimeblock_WaitForOcarina.s")
 
 GLOBAL_ASM("asm/FUN_0025ac68.s")
 
@@ -392,13 +370,11 @@ GLOBAL_ASM("asm/FUN_0025d3f0.s")
 
 GLOBAL_ASM("asm/FUN_0025d43c.s")
 
-GLOBAL_ASM("asm/BgDyYoseizo_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_0025e314.s")
 
 GLOBAL_ASM("asm/FUN_00260008.s")
 
-GLOBAL_ASM("asm/BossGoma_UpdateHit.s")
 
 GLOBAL_ASM("asm/caseD_14_0026285c.s")
 
@@ -482,19 +458,14 @@ GLOBAL_ASM("asm/FUN_002681a4.s")
 
 GLOBAL_ASM("asm/FUN_002692ac.s")
 
-GLOBAL_ASM("asm/EnGe2_UpdateStunned.s")
 
-GLOBAL_ASM("asm/EnGe2_UpdateAfterTalk.s")
 
 GLOBAL_ASM("asm/FUN_00269aa0.s")
 
-GLOBAL_ASM("asm/EnHorse_CutsceneUpdate.s")
 
-GLOBAL_ASM("asm/EnLight_UpdateSwitch.s")
 
 GLOBAL_ASM("asm/caseD_2_0026b1dc.s")
 
-GLOBAL_ASM("asm/EnNiwLady_Draw.s")
 
 GLOBAL_ASM("asm/FUN_0026bb68.s")
 
@@ -522,17 +493,13 @@ GLOBAL_ASM("asm/caseD_1_0026db7c.s")
 
 GLOBAL_ASM("asm/caseD_0_0026dc48.s")
 
-GLOBAL_ASM("asm/EnTakaraMan_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_0026e080.s")
 
-GLOBAL_ASM("asm/EnTp_Fragment_Fade.s")
 
 GLOBAL_ASM("asm/FUN_0026e1e0.s")
 
-GLOBAL_ASM("asm/EnDha_Die.s")
 
-GLOBAL_ASM("asm/EnDha_Wait.s")
 
 GLOBAL_ASM("asm/FUN_0026f230.s")
 
@@ -540,7 +507,6 @@ GLOBAL_ASM("asm/FUN_0026f2dc.s")
 
 GLOBAL_ASM("asm/FUN_0026f30c.s")
 
-GLOBAL_ASM("asm/MagicDark_DiamondUpdate.s")
 
 GLOBAL_ASM("asm/FUN_0026f7ec.s")
 
@@ -566,9 +532,7 @@ GLOBAL_ASM("asm/FUN_00272908.s")
 
 GLOBAL_ASM("asm/FUN_00272930.s")
 
-GLOBAL_ASM("asm/EnCrow_OverrideLimbDraw.s")
 
-GLOBAL_ASM("asm/EnCrow_PostLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_00273070.s")
 
@@ -576,7 +540,6 @@ GLOBAL_ASM("asm/FUN_00273108.s")
 
 GLOBAL_ASM("asm/FUN_0027313c.s")
 
-GLOBAL_ASM("asm/EnSkj_WaitForOcarina.s")
 
 GLOBAL_ASM("asm/FUN_002732c4.s")
 
@@ -632,15 +595,12 @@ GLOBAL_ASM("asm/FUN_00274d24.s")
 
 GLOBAL_ASM("asm/FUN_00274dfc.s")
 
-GLOBAL_ASM("asm/BgPoEvent_PaintingVanish.s")
 
 GLOBAL_ASM("asm/FUN_00274fa4.s")
 
 GLOBAL_ASM("asm/FUN_00274ff8.s")
 
-GLOBAL_ASM("asm/EnExRuppy_GalleryTarget.s")
 
-GLOBAL_ASM("asm/EnBomBowlMan_WakeUp.s")
 
 GLOBAL_ASM("asm/FUN_00275218.s")
 
@@ -650,13 +610,11 @@ GLOBAL_ASM("asm/FUN_00275330.s")
 
 GLOBAL_ASM("asm/FUN_002753e4.s")
 
-GLOBAL_ASM("asm/EnDaiku_EscapeRotate.s")
 
 GLOBAL_ASM("asm/FUN_0027554c.s")
 
 GLOBAL_ASM("asm/FUN_002755ac.s")
 
-GLOBAL_ASM("asm/EnBox_AppearOnSwitchFlag.s")
 
 GLOBAL_ASM("asm/Camera_Parallel0.s")
 
@@ -760,7 +718,6 @@ GLOBAL_ASM("asm/caseD_6_0027dfb0.s")
 
 GLOBAL_ASM("asm/caseD_0_0027dfe8.s")
 
-GLOBAL_ASM("asm/EnHorseNormal_WaitClone.s")
 
 GLOBAL_ASM("asm/EffectShieldParticle_Init.s")
 
@@ -790,4 +747,3 @@ GLOBAL_ASM("asm/FUN_0027fc54.s")
 
 GLOBAL_ASM("asm/FUN_0027fd24.s")
 
-GLOBAL_ASM("asm/EnDodongo_SweepTail.s")

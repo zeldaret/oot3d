@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/ObjWarp2block_Destroy.s")
 GLOBAL_ASM("asm/ObjWarp2block_Update.s")
 
 GLOBAL_ASM("asm/ObjWarp2block_Draw.s")
+
+GLOBAL_ASM("asm/ObjWarp2block_DoNothing.s")
+
 }

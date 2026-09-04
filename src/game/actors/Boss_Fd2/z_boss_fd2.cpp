@@ -29,4 +29,25 @@ GLOBAL_ASM("asm/BossFd2_Destroy.s")
 GLOBAL_ASM("asm/BossFd2_Update.s")
 
 GLOBAL_ASM("asm/BossFd2_Draw.s")
+
+GLOBAL_ASM("asm/BossFd2_BreatheFire.s")
+
+GLOBAL_ASM("asm/BossFd2_Burrow.s")
+
+GLOBAL_ASM("asm/BossFd2_ClawSwipe.s")
+
+GLOBAL_ASM("asm/BossFd2_Damaged.s")
+
+GLOBAL_ASM("asm/BossFd2_Death.s")
+
+GLOBAL_ASM("asm/BossFd2_Emerge.s")
+
+GLOBAL_ASM("asm/BossFd2_Idle.s")
+
+GLOBAL_ASM("asm/BossFd2_SetupEmerge.s")
+
+GLOBAL_ASM("asm/BossFd2_Vulnerable.s")
+
+GLOBAL_ASM("asm/BossFd2_Wait.s")
+
 }

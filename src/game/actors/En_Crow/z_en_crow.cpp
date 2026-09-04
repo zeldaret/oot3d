@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnCrow_Destroy.s")
 GLOBAL_ASM("asm/EnCrow_Update.s")
 
 GLOBAL_ASM("asm/EnCrow_Draw.s")
+
+GLOBAL_ASM("asm/EnCrow_Damaged.s")
+
+GLOBAL_ASM("asm/EnCrow_Die.s")
+
+GLOBAL_ASM("asm/EnCrow_DiveAttack.s")
+
+GLOBAL_ASM("asm/EnCrow_FlyIdle.s")
+
+GLOBAL_ASM("asm/EnCrow_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnCrow_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnCrow_Respawn.s")
+
+GLOBAL_ASM("asm/EnCrow_SetupTurnAway.s")
+
+GLOBAL_ASM("asm/EnCrow_TurnAway.s")
+
 }

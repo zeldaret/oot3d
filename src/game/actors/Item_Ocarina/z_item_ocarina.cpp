@@ -27,4 +27,15 @@ GLOBAL_ASM("asm/ItemOcarina_Destroy.s")
 GLOBAL_ASM("asm/ItemOcarina_Update.s")
 
 GLOBAL_ASM("asm/ItemOcarina_Draw.s")
+
+GLOBAL_ASM("asm/ItemOcarina_DoNothing.s")
+
+GLOBAL_ASM("asm/ItemOcarina_Fly.s")
+
+GLOBAL_ASM("asm/ItemOcarina_GetThrown.s")
+
+GLOBAL_ASM("asm/ItemOcarina_StartSoTCutscene.s")
+
+GLOBAL_ASM("asm/ItemOcarina_WaitInWater.s")
+
 }

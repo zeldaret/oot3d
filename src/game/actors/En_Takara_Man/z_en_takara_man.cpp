@@ -27,4 +27,7 @@ GLOBAL_ASM("asm/EnTakaraMan_Destroy.s")
 GLOBAL_ASM("asm/EnTakaraMan_Update.s")
 
 GLOBAL_ASM("asm/EnTakaraMan_Draw.s")
+
+GLOBAL_ASM("asm/EnTakaraMan_OverrideLimbDraw.s")
+
 }

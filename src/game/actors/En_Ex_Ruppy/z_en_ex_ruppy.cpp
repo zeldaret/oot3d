@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/EnExRuppy_Destroy.s")
 GLOBAL_ASM("asm/EnExRuppy_Update.s")
 
 GLOBAL_ASM("asm/EnExRuppy_Draw.s")
+
+GLOBAL_ASM("asm/EnExRuppy_DropIntoWater.s")
+
+GLOBAL_ASM("asm/EnExRuppy_EnterWater.s")
+
+GLOBAL_ASM("asm/EnExRuppy_GalleryTarget.s")
+
+GLOBAL_ASM("asm/EnExRuppy_Kill.s")
+
+GLOBAL_ASM("asm/EnExRuppy_Sink.s")
+
+GLOBAL_ASM("asm/EnExRuppy_WaitAsCollectible.s")
+
+GLOBAL_ASM("asm/EnExRuppy_WaitInGame.s")
+
+GLOBAL_ASM("asm/EnExRuppy_WaitToBlowUp.s")
+
 }

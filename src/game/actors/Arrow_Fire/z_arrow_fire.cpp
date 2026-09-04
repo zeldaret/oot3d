@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/ArrowFire_Destroy.s")
 GLOBAL_ASM("asm/ArrowFire_Update.s")
 
 GLOBAL_ASM("asm/ArrowFire_Draw.s")
+
+GLOBAL_ASM("asm/ArrowFire_Charge.s")
+
+GLOBAL_ASM("asm/ArrowFire_Fly.s")
+
+GLOBAL_ASM("asm/ArrowFire_Hit.s")
+
 }

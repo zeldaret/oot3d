@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/EnBox_Destroy.s")
 GLOBAL_ASM("asm/EnBox_Update.s")
 
 GLOBAL_ASM("asm/EnBox_Draw.s")
+
+GLOBAL_ASM("asm/EnBox_AppearAnimation.s")
+
+GLOBAL_ASM("asm/EnBox_AppearInit.s")
+
+GLOBAL_ASM("asm/EnBox_AppearOnRoomClear.s")
+
+GLOBAL_ASM("asm/EnBox_AppearOnSwitchFlag.s")
+
+GLOBAL_ASM("asm/EnBox_Fall.s")
+
+GLOBAL_ASM("asm/EnBox_FallOnSwitchFlag.s")
+
+GLOBAL_ASM("asm/EnBox_Open.s")
+
+GLOBAL_ASM("asm/EnBox_WaitOpen.s")
+
 }

@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/EnIshi_Destroy.s")
 GLOBAL_ASM("asm/EnIshi_Update.s")
 
 GLOBAL_ASM("asm/EnIshi_Draw.s")
+
+GLOBAL_ASM("asm/EnIshi_Fly.s")
+
+GLOBAL_ASM("asm/EnIshi_LiftedUp.s")
+
+GLOBAL_ASM("asm/EnIshi_Wait.s")
+
 }

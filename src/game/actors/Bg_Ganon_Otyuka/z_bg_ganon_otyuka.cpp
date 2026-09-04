@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/BgGanonOtyuka_Destroy.s")
 GLOBAL_ASM("asm/BgGanonOtyuka_Update.s")
 
 GLOBAL_ASM("asm/BgGanonOtyuka_Draw.s")
+
+GLOBAL_ASM("asm/BgGanonOtyuka_DoNothing.s")
+
+GLOBAL_ASM("asm/BgGanonOtyuka_Fall.s")
+
+GLOBAL_ASM("asm/BgGanonOtyuka_WaitForFall.s")
+
 }

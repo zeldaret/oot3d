@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/BgHeavyBlock_Destroy.s")
 GLOBAL_ASM("asm/BgHeavyBlock_Update.s")
 
 GLOBAL_ASM("asm/BgHeavyBlock_Draw.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_DoNothing.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_DrawPiece.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_Fly.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_InitPiece.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_Land.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_LiftedUp.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_MovePiece.s")
+
+GLOBAL_ASM("asm/BgHeavyBlock_Wait.s")
+
 }

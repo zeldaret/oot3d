@@ -27,4 +27,7 @@ GLOBAL_ASM("asm/EnSceneChange_Destroy.s")
 GLOBAL_ASM("asm/EnSceneChange_Update.s")
 
 GLOBAL_ASM("asm/EnSceneChange_Draw.s")
+
+GLOBAL_ASM("asm/EnSceneChange_DoNothing.s")
+
 }

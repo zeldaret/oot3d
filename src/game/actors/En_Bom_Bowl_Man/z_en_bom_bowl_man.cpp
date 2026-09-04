@@ -29,4 +29,27 @@ GLOBAL_ASM("asm/EnBomBowlMan_Destroy.s")
 GLOBAL_ASM("asm/EnBomBowlMan_Update.s")
 
 GLOBAL_ASM("asm/EnBomBowlMan_Draw.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_BlinkAwake.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_CheckBeatenDC.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_ChooseShowPrize.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_HandlePlayChoice.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_SetupChooseShowPrize.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_SetupWaitAsleep.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_TalkAsleep.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_WaitAsleep.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_WaitNotBeatenDC.s")
+
+GLOBAL_ASM("asm/EnBomBowlMan_WakeUp.s")
+
 }

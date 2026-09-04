@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnDns_Destroy.s")
 GLOBAL_ASM("asm/EnDns_Update.s")
 
 GLOBAL_ASM("asm/EnDns_Draw.s")
+
+GLOBAL_ASM("asm/EnDns_Burrow.s")
+
+GLOBAL_ASM("asm/EnDns_ChangeAnim.s")
+
+GLOBAL_ASM("asm/EnDns_SetupBurrow.s")
+
+GLOBAL_ASM("asm/EnDns_SetupWait.s")
+
+GLOBAL_ASM("asm/EnDns_Talk.s")
+
+GLOBAL_ASM("asm/EnDns_Wait.s")
+
 }

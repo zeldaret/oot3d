@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnSkb_Destroy.s")
 GLOBAL_ASM("asm/EnSkb_Update.s")
 
 GLOBAL_ASM("asm/EnSkb_Draw.s")
+
+GLOBAL_ASM("asm/EnSkb_PostLimbDraw.s")
+
 }

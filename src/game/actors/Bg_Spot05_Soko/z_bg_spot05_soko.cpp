@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgSpot05Soko_Destroy.s")
 GLOBAL_ASM("asm/BgSpot05Soko_Update.s")
 
 GLOBAL_ASM("asm/BgSpot05Soko_Draw.s")
+
+GLOBAL_ASM("asm/BgSpot05Soko_DoNothing.s")
+
 }

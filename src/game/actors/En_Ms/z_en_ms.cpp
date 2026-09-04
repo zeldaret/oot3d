@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnMs_Destroy.s")
 GLOBAL_ASM("asm/EnMs_Update.s")
 
 GLOBAL_ASM("asm/EnMs_Draw.s")
+
+GLOBAL_ASM("asm/EnMs_Sell.s")
+
+GLOBAL_ASM("asm/EnMs_Talk.s")
+
+GLOBAL_ASM("asm/EnMs_TalkAfterPurchase.s")
+
+GLOBAL_ASM("asm/EnMs_Wait.s")
+
 }

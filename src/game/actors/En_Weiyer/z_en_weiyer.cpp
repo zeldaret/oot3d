@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnWeiyer_Destroy.s")
 GLOBAL_ASM("asm/EnWeiyer_Update.s")
 
 GLOBAL_ASM("asm/EnWeiyer_Draw.s")
+
+GLOBAL_ASM("asm/EnWeiyer_OverrideLimbDraw.s")
+
 }

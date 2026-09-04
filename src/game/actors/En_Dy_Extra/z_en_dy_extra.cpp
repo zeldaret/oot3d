@@ -27,4 +27,9 @@ GLOBAL_ASM("asm/EnDyExtra_Destroy.s")
 GLOBAL_ASM("asm/EnDyExtra_Update.s")
 
 GLOBAL_ASM("asm/EnDyExtra_Draw.s")
+
+GLOBAL_ASM("asm/EnDyExtra_FallAndKill.s")
+
+GLOBAL_ASM("asm/EnDyExtra_WaitForTrigger.s")
+
 }

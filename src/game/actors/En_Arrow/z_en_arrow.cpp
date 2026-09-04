@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnArrow_Destroy.s")
 GLOBAL_ASM("asm/EnArrow_Update.s")
 
 GLOBAL_ASM("asm/EnArrow_Draw.s")
+
+GLOBAL_ASM("asm/EnArrow_Fly.s")
+
+GLOBAL_ASM("asm/EnArrow_Shoot.s")
+
 }

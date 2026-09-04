@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/BgHidanFwbig_Destroy.s")
 GLOBAL_ASM("asm/BgHidanFwbig_Update.s")
 
 GLOBAL_ASM("asm/BgHidanFwbig_Draw.s")
+
+GLOBAL_ASM("asm/BgHidanFwbig_Lower.s")
+
+GLOBAL_ASM("asm/BgHidanFwbig_Move.s")
+
+GLOBAL_ASM("asm/BgHidanFwbig_Rise.s")
+
+GLOBAL_ASM("asm/BgHidanFwbig_WaitForCs.s")
+
+GLOBAL_ASM("asm/BgHidanFwbig_WaitForPlayer.s")
+
+GLOBAL_ASM("asm/BgHidanFwbig_WaitForSwitch.s")
+
 }

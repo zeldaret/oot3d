@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnAni_Destroy.s")
 GLOBAL_ASM("asm/EnAni_Update.s")
 
 GLOBAL_ASM("asm/EnAni_Draw.s")
+
+GLOBAL_ASM("asm/EnAni_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnAni_PostLimbDraw.s")
+
 }

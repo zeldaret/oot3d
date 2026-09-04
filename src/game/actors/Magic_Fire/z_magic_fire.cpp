@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/MagicFire_Destroy.s")
 GLOBAL_ASM("asm/MagicFire_Update.s")
 
 GLOBAL_ASM("asm/MagicFire_Draw.s")
+
+GLOBAL_ASM("asm/MagicFire_UpdateBeforeCast.s")
+
 }

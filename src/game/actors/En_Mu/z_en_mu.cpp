@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnMu_Destroy.s")
 GLOBAL_ASM("asm/EnMu_Update.s")
 
 GLOBAL_ASM("asm/EnMu_Draw.s")
+
+GLOBAL_ASM("asm/EnMu_CheckDialogState.s")
+
+GLOBAL_ASM("asm/EnMu_GetFaceReaction.s")
+
+GLOBAL_ASM("asm/EnMu_Interact.s")
+
+GLOBAL_ASM("asm/EnMu_OverrideDrawLimb.s")
+
+GLOBAL_ASM("asm/EnMu_Pose.s")
+
+GLOBAL_ASM("asm/EnMu_PostDrawLimb.s")
+
 }

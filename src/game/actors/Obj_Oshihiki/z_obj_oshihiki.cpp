@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/ObjOshihiki_Destroy.s")
 GLOBAL_ASM("asm/ObjOshihiki_Update.s")
 
 GLOBAL_ASM("asm/ObjOshihiki_Draw.s")
+
+GLOBAL_ASM("asm/ObjOshihiki_OnActor.s")
+
 }

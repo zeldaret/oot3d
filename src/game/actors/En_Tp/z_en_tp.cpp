@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/EnTp_Destroy.s")
 GLOBAL_ASM("asm/EnTp_Update.s")
 
 GLOBAL_ASM("asm/EnTp_Draw.s")
+
+GLOBAL_ASM("asm/EnTp_Die.s")
+
+GLOBAL_ASM("asm/EnTp_Fragment_Fade.s")
+
+GLOBAL_ASM("asm/EnTp_Tail_FollowHead.s")
+
 }

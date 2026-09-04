@@ -29,4 +29,19 @@ GLOBAL_ASM("asm/DemoKankyo_Destroy.s")
 GLOBAL_ASM("asm/DemoKankyo_Update.s")
 
 GLOBAL_ASM("asm/DemoKankyo_Draw.s")
+
+GLOBAL_ASM("asm/DemoKankyo_DoNothing.s")
+
+GLOBAL_ASM("asm/DemoKankyo_DoNothing2.s")
+
+GLOBAL_ASM("asm/DemoKankyo_KillDoorOfTimeCollision.s")
+
+GLOBAL_ASM("asm/DemoKankyo_SetupType.s")
+
+GLOBAL_ASM("asm/DemoKankyo_UpdateClouds.s")
+
+GLOBAL_ASM("asm/DemoKankyo_UpdateDoorOfTime.s")
+
+GLOBAL_ASM("asm/DemoKankyo_UpdateRock.s")
+
 }

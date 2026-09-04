@@ -26,4 +26,13 @@ GLOBAL_ASM("asm/EnOssan_Init.s")
 GLOBAL_ASM("asm/EnOssan_Destroy.s")
 
 GLOBAL_ASM("asm/EnOssan_Update.s")
+
+GLOBAL_ASM("asm/EnOssan_DrawKokiriShopkeeper.s")
+
+GLOBAL_ASM("asm/EnOssan_InitActionFunc.s")
+
+GLOBAL_ASM("asm/EnOssan_InitKokiriShopkeeper.s")
+
+GLOBAL_ASM("asm/EnOssan_MainActionFunc.s")
+
 }

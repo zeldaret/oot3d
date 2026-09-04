@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnButte_Destroy.s")
 GLOBAL_ASM("asm/EnButte_Update.s")
 
 GLOBAL_ASM("asm/EnButte_Draw.s")
+
+GLOBAL_ASM("asm/EnButte_FlyAround.s")
+
+GLOBAL_ASM("asm/EnButte_FollowLink.s")
+
+GLOBAL_ASM("asm/EnButte_TransformIntoFairy.s")
+
+GLOBAL_ASM("asm/EnButte_WaitToDie.s")
+
 }

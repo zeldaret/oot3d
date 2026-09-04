@@ -10,7 +10,6 @@ GLOBAL_ASM("asm/DamageTable_Get.s")
 
 GLOBAL_ASM("asm/FUN_0035021c.s")
 
-GLOBAL_ASM("asm/EnCs_SetAnimFromIndex.s")
 
 GLOBAL_ASM("asm/CollisionCheck_SetInfo2.s")
 
@@ -128,7 +127,6 @@ GLOBAL_ASM("asm/FUN_003534b8.s")
 
 GLOBAL_ASM("asm/Item_DropCollectible2.s")
 
-GLOBAL_ASM("asm/EnPoField_SoulUpdateProperties.s")
 
 GLOBAL_ASM("asm/FUN_00353804.s")
 
@@ -140,7 +138,6 @@ GLOBAL_ASM("asm/FUN_003539d8.s")
 
 GLOBAL_ASM("asm/FUN_00353aa4.s")
 
-GLOBAL_ASM("asm/BossGanondrof_SetupNeutral.s")
 
 GLOBAL_ASM("asm/FUN_00353c6c.s")
 
@@ -198,7 +195,6 @@ GLOBAL_ASM("asm/FUN_00355830.s")
 
 GLOBAL_ASM("asm/Player_HoldsHookshot.s")
 
-GLOBAL_ASM("asm/EnRr_SetupStunned.s")
 
 GLOBAL_ASM("asm/FUN_00355b40.s")
 
@@ -246,7 +242,6 @@ GLOBAL_ASM("asm/FUN_003575e8.s")
 
 GLOBAL_ASM("asm/FUN_00357680.s")
 
-GLOBAL_ASM("asm/EnSsh_PostLimbDraw.s")
 
 GLOBAL_ASM("asm/Collider_UpdateSpheres.s")
 
@@ -264,11 +259,9 @@ GLOBAL_ASM("asm/Math3D_DistPlaneToPos.s")
 
 GLOBAL_ASM("asm/SurfaceType_IsHorseBlocked.s")
 
-GLOBAL_ASM("asm/EnHorse_ObstructMovement.s")
 
 GLOBAL_ASM("asm/FUN_00357d54.s")
 
-GLOBAL_ASM("asm/EnHorse_StartMountedIdle.s")
 
 GLOBAL_ASM("asm/FUN_00357ea0.s")
 
@@ -322,7 +315,6 @@ GLOBAL_ASM("asm/Lights_PointNoGlowSetInfo.s")
 
 GLOBAL_ASM("asm/FUN_00359220.s")
 
-GLOBAL_ASM("asm/EnOwl_CheckInitTalk.s")
 
 GLOBAL_ASM("asm/FUN_00359420.s")
 
@@ -354,7 +346,6 @@ GLOBAL_ASM("asm/FUN_00359c08.s")
 
 GLOBAL_ASM("asm/FUN_00359cf0.s")
 
-GLOBAL_ASM("asm/EnWallmas_TimerInit.s")
 
 GLOBAL_ASM("asm/FUN_00359e34.s")
 
@@ -362,9 +353,7 @@ GLOBAL_ASM("asm/OnePointCutscene_EndCutscene.s")
 
 GLOBAL_ASM("asm/FUN_0035a050.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupAdvance.s")
 
-GLOBAL_ASM("asm/BgDyYoseizo_Bob.s")
 
 GLOBAL_ASM("asm/FUN_0035a49c.s")
 
@@ -374,9 +363,7 @@ GLOBAL_ASM("asm/FUN_0035a534.s")
 
 GLOBAL_ASM("asm/FUN_0035a6f4.s")
 
-GLOBAL_ASM("asm/EnGeldB_Circle.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupReady.s")
 
 GLOBAL_ASM("asm/FUN_0035ae08.s")
 
@@ -402,11 +389,8 @@ GLOBAL_ASM("asm/FUN_0035b494.s")
 
 GLOBAL_ASM("asm/FUN_0035b578.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupBlock.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupSpinDodge.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupCircle.s")
 
 GLOBAL_ASM("asm/FUN_0035b950.s")
 
@@ -430,7 +414,6 @@ GLOBAL_ASM("asm/SkelAnime_SetFaceAnimations.s")
 
 GLOBAL_ASM("asm/FUN_0035c414.s")
 
-GLOBAL_ASM("asm/EnGo2_SetupRolling.s")
 
 GLOBAL_ASM("asm/FUN_0035c528.s")
 
@@ -556,7 +539,6 @@ GLOBAL_ASM("asm/FUN_0035fe90.s")
 
 GLOBAL_ASM("asm/FUN_0035fee8.s")
 
-GLOBAL_ASM("asm/EnOwl_ChangeMode.s")
 
 GLOBAL_ASM("asm/FUN_0035ff80.s")
 

@@ -26,4 +26,7 @@ GLOBAL_ASM("asm/EnNiwLady_Init.s")
 GLOBAL_ASM("asm/EnNiwLady_Destroy.s")
 
 GLOBAL_ASM("asm/EnNiwLady_Update.s")
+
+GLOBAL_ASM("asm/EnNiwLady_Draw.s")
+
 }

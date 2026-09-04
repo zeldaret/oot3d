@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnDodojr_Destroy.s")
 GLOBAL_ASM("asm/EnDodojr_Update.s")
 
 GLOBAL_ASM("asm/EnDodojr_Draw.s")
+
+GLOBAL_ASM("asm/EnDodojr_OverrideLimbDraw.s")
+
 }

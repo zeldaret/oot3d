@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/DoorShutter_Destroy.s")
 GLOBAL_ASM("asm/DoorShutter_Update.s")
 
 GLOBAL_ASM("asm/DoorShutter_Draw.s")
+
+GLOBAL_ASM("asm/DoorShutter_SetupDoor.s")
+
+GLOBAL_ASM("asm/DoorShutter_SetupType.s")
+
 }

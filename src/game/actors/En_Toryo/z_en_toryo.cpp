@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnToryo_Destroy.s")
 GLOBAL_ASM("asm/EnToryo_Update.s")
 
 GLOBAL_ASM("asm/EnToryo_Draw.s")
+
+GLOBAL_ASM("asm/EnToryo_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnToryo_PostLimbDraw.s")
+
 }

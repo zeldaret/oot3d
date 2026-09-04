@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/BgJyaMegami_Destroy.s")
 GLOBAL_ASM("asm/BgJyaMegami_Update.s")
 
 GLOBAL_ASM("asm/BgJyaMegami_Draw.s")
+
+GLOBAL_ASM("asm/BgJyaMegami_DetectLight.s")
+
+GLOBAL_ASM("asm/BgJyaMegami_Explode.s")
+
 }

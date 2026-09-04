@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgSpot12Saku_Destroy.s")
 GLOBAL_ASM("asm/BgSpot12Saku_Update.s")
 
 GLOBAL_ASM("asm/BgSpot12Saku_Draw.s")
+
+GLOBAL_ASM("asm/BgSpot12Saku_DoNothing.s")
+
 }

@@ -24,4 +24,9 @@ ActorInit Obj_Mure2_InitVars = {
 GLOBAL_ASM("asm/ObjMure2_Init.s")
 
 GLOBAL_ASM("asm/ObjMure2_Update.s")
+
+GLOBAL_ASM("asm/ObjMure2_SetPosShrubCircle.s")
+
+GLOBAL_ASM("asm/ObjMure2_Wait.s")
+
 }

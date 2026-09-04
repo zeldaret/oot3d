@@ -146,17 +146,13 @@ GLOBAL_ASM("asm/FUN_00326138.s")
 
 GLOBAL_ASM("asm/FUN_003262b8.s")
 
-GLOBAL_ASM("asm/EnTite_SetupTurnTowardPlayer.s")
 
-GLOBAL_ASM("asm/EnTite_SetupIdle.s")
 
 GLOBAL_ASM("asm/FUN_003264c8.s")
 
 GLOBAL_ASM("asm/FUN_00326528.s")
 
-GLOBAL_ASM("asm/EnHorse_StickDirection.s")
 
-GLOBAL_ASM("asm/EnHorse_PlayerCanMove.s")
 
 GLOBAL_ASM("asm/FUN_00326bc4.s")
 
@@ -232,7 +228,6 @@ GLOBAL_ASM("asm/FUN_0032b188.s")
 
 GLOBAL_ASM("asm/FUN_0032b1c4.s")
 
-GLOBAL_ASM("asm/BgHeavyBlock_InitPiece.s")
 
 GLOBAL_ASM("asm/FUN_0032b45c.s")
 
@@ -324,7 +319,6 @@ GLOBAL_ASM("asm/FUN_0032e648.s")
 
 GLOBAL_ASM("asm/FUN_0032e658.s")
 
-GLOBAL_ASM("asm/MagicDark_DimLighting.s")
 
 GLOBAL_ASM("asm/FUN_0032e780.s")
 
@@ -432,11 +426,9 @@ GLOBAL_ASM("asm/FUN_0033258c.s")
 
 GLOBAL_ASM("asm/FUN_003325f0.s")
 
-GLOBAL_ASM("asm/EnHorse_RotateToPoint.s")
 
 GLOBAL_ASM("asm/_ll_sdiv.s")
 
-GLOBAL_ASM("asm/EnDh_SpawnDebris.s")
 
 GLOBAL_ASM("asm/Collider_ResetQuadAT.s")
 
@@ -528,17 +520,14 @@ GLOBAL_ASM("asm/FUN_00334fa0.s")
 
 GLOBAL_ASM("asm/FUN_00335044.s")
 
-GLOBAL_ASM("asm/ObjSwitch_InitTrisCollider.s")
 
 GLOBAL_ASM("asm/EnterImpl_003351e8.s")
 
 GLOBAL_ASM("asm/FUN_0033526c.s")
 
-GLOBAL_ASM("asm/EnHorse_SetFollowAnimation.s")
 
 GLOBAL_ASM("asm/Camera_SetCameraData.s")
 
-GLOBAL_ASM("asm/EnHorse_Spawn.s")
 
 GLOBAL_ASM("asm/FUN_003356c8.s")
 
@@ -758,17 +747,13 @@ GLOBAL_ASM("asm/FUN_0033d270.s")
 
 GLOBAL_ASM("asm/FUN_0033d364.s")
 
-GLOBAL_ASM("asm/EnHorse_PlayIdleAnimation.s")
 
-GLOBAL_ASM("asm/EnHorse_InitHorsebackArchery.s")
 
-GLOBAL_ASM("asm/EnHorse_UpdateIngoHorseAnim.s")
 
 GLOBAL_ASM("asm/FUN_0033da8c.s")
 
 GLOBAL_ASM("asm/FUN_0033dcbc.s")
 
-GLOBAL_ASM("asm/EnGo2_StopRolling.s")
 
 GLOBAL_ASM("asm/FUN_0033dd8c.s")
 
@@ -788,7 +773,6 @@ GLOBAL_ASM("asm/FUN_0033e0e0.s")
 
 GLOBAL_ASM("asm/FUN_0033e2a0.s")
 
-GLOBAL_ASM("asm/BossFd2_SetupEmerge.s")
 
 GLOBAL_ASM("asm/FUN_0033e450.s")
 
@@ -824,7 +808,6 @@ GLOBAL_ASM("asm/FUN_0033f428.s")
 
 GLOBAL_ASM("asm/FUN_0033f4cc.s")
 
-GLOBAL_ASM("asm/EnDaiku_EscapeSuccess.s")
 
 GLOBAL_ASM("asm/FUN_0033f7ac.s")
 

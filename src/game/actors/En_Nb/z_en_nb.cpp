@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnNb_Destroy.s")
 GLOBAL_ASM("asm/EnNb_Update.s")
 
 GLOBAL_ASM("asm/EnNb_Draw.s")
+
+GLOBAL_ASM("asm/EnNb_SetCurrentAnim.s")
+
+GLOBAL_ASM("asm/caseD_14_00293124.s")
+
 }

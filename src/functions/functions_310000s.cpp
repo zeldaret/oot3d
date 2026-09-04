@@ -204,7 +204,6 @@ GLOBAL_ASM("asm/FUN_003150fc.s")
 
 GLOBAL_ASM("asm/FUN_00315350.s")
 
-GLOBAL_ASM("asm/BgIceTurara_Break.s")
 
 GLOBAL_ASM("asm/FUN_003155bc.s")
 
@@ -220,7 +219,6 @@ GLOBAL_ASM("asm/FUN_003158ac.s")
 
 GLOBAL_ASM("asm/Math_ApproachS.s")
 
-GLOBAL_ASM("asm/BossFd_SetCameraSpeed.s")
 
 GLOBAL_ASM("asm/FUN_003159f8.s")
 
@@ -240,9 +238,7 @@ GLOBAL_ASM("asm/FUN_00316000.s")
 
 GLOBAL_ASM("asm/FUN_00316040.s")
 
-GLOBAL_ASM("asm/ObjKibako_WaterBreak.s")
 
-GLOBAL_ASM("asm/ObjKibako_AirBreak.s")
 
 GLOBAL_ASM("asm/FUN_0031650c.s")
 
@@ -274,7 +270,6 @@ GLOBAL_ASM("asm/FUN_0031769c.s")
 
 GLOBAL_ASM("asm/FUN_00317708.s")
 
-GLOBAL_ASM("asm/EnFish_SetYOffset.s")
 
 GLOBAL_ASM("asm/FUN_00317908.s")
 
@@ -282,7 +277,6 @@ GLOBAL_ASM("asm/FUN_003179d0.s")
 
 GLOBAL_ASM("asm/FUN_00317b28.s")
 
-GLOBAL_ASM("asm/EnFw_SpawnDust.s")
 
 GLOBAL_ASM("asm/FUN_00317d1c.s")
 
@@ -294,11 +288,8 @@ GLOBAL_ASM("asm/FUN_00317fb8.s")
 
 GLOBAL_ASM("asm/FUN_00318010.s")
 
-GLOBAL_ASM("asm/EnHorse_UpdateSpeed.s")
 
-GLOBAL_ASM("asm/EnHorse_StartWalking.s")
 
-GLOBAL_ASM("asm/EnHorse_StartReversingInterruptable.s")
 
 GLOBAL_ASM("asm/FUN_00318898.s")
 
@@ -362,7 +353,6 @@ GLOBAL_ASM("asm/caseD_a_0031c07c.s")
 
 GLOBAL_ASM("asm/FUN_0031c224.s")
 
-GLOBAL_ASM("asm/EnHorse_StartMovingAnimation.s")
 
 GLOBAL_ASM("asm/FUN_0031c698.s")
 
@@ -386,11 +376,8 @@ GLOBAL_ASM("asm/Math3D_PointDistToLine2D.s")
 
 GLOBAL_ASM("asm/Math3D_RotateXZPlane.s")
 
-GLOBAL_ASM("asm/EnHorse_PlayWalkingSound.s")
 
-GLOBAL_ASM("asm/EnHorse_IdleAnimSounds.s")
 
-GLOBAL_ASM("asm/DemoGj_SetupMovement.s")
 
 GLOBAL_ASM("asm/FUN_0031dae4.s")
 
@@ -422,7 +409,6 @@ GLOBAL_ASM("asm/caseD_10_0031ed2c.s")
 
 GLOBAL_ASM("asm/FUN_0031ed30.s")
 
-GLOBAL_ASM("asm/DemoGj_SetupRotation.s")
 
 GLOBAL_ASM("asm/FUN_0031f38c.s")
 

@@ -54,8 +54,8 @@ set(CMAKE_EXECUTABLE_SUFFIX ".axf")
 add_subdirectory(library)
 add_subdirectory(disassembly)
 
-file(GLOB_RECURSE csourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
-file(GLOB_RECURSE cxxsourcefiles ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
+file(GLOB_RECURSE csourcefiles CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
+file(GLOB_RECURSE cxxsourcefiles CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 SET(CXX_FLAGS "--apcs=//interwork --cpu=MPCore --fpmode=fast --vfe --no_rtti --no_rtti_data --cpp --arm --force_new_nothrow --signed_chars --multibyte-chars --locale=japanese --data-reorder --split_sections --forceinline -O3 -Otime")
 

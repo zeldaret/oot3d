@@ -29,4 +29,27 @@ GLOBAL_ASM("asm/EnKarebaba_Destroy.s")
 GLOBAL_ASM("asm/EnKarebaba_Update.s")
 
 GLOBAL_ASM("asm/EnKarebaba_Draw.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Awaken.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Dead.s")
+
+GLOBAL_ASM("asm/EnKarebaba_DeadItemDrop.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Dying.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Grow.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Idle.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Regrow.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Retract.s")
+
+GLOBAL_ASM("asm/EnKarebaba_SetupIdle.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Spin.s")
+
+GLOBAL_ASM("asm/EnKarebaba_Upright.s")
+
 }

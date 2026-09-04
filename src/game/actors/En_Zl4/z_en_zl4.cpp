@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnZl4_Destroy.s")
 GLOBAL_ASM("asm/EnZl4_Update.s")
 
 GLOBAL_ASM("asm/EnZl4_Draw.s")
+
+GLOBAL_ASM("asm/EnZl4_Cutscene.s")
+
+GLOBAL_ASM("asm/EnZl4_GetText.s")
+
+GLOBAL_ASM("asm/EnZl4_Idle.s")
+
+GLOBAL_ASM("asm/EnZl4_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnZl4_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnZl4_TheEnd.s")
+
 }

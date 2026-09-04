@@ -28,13 +28,10 @@ GLOBAL_ASM("asm/FUN_003815f8.s")
 
 GLOBAL_ASM("asm/FUN_00381a8c.s")
 
-GLOBAL_ASM("asm/EnPoDesert_OverrideLimbDraw.s")
 
-GLOBAL_ASM("asm/EnPoDesert_PostLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_00381d18.s")
 
-GLOBAL_ASM("asm/EnSkj_WaitForOfferResponse.s")
 
 GLOBAL_ASM("asm/FUN_00381dbc.s")
 
@@ -46,11 +43,8 @@ GLOBAL_ASM("asm/FUN_00381f60.s")
 
 GLOBAL_ASM("asm/FUN_0038202c.s")
 
-GLOBAL_ASM("asm/EnDntJiji_GivePrize.s")
 
-GLOBAL_ASM("asm/EnSyatekiMan_FinishPrize.s")
 
-GLOBAL_ASM("asm/BgDyYoseizo_CompleteSpinGrow_NoReward.s")
 
 GLOBAL_ASM("asm/FUN_00382298.s")
 
@@ -102,7 +96,6 @@ GLOBAL_ASM("asm/FUN_0038639c.s")
 
 GLOBAL_ASM("asm/FUN_003864c4.s")
 
-GLOBAL_ASM("asm/EnHorse_UpdateIngoRace.s")
 
 GLOBAL_ASM("asm/caseD_c_00386b28.s")
 
@@ -122,11 +115,9 @@ GLOBAL_ASM("asm/caseD_3a.s")
 
 GLOBAL_ASM("asm/caseD_16_003870dc.s")
 
-GLOBAL_ASM("asm/EnPeehat_Ground_StateSeekPlayer.s")
 
 GLOBAL_ASM("asm/FUN_00387388.s")
 
-GLOBAL_ASM("asm/EnPoField_UpdateDead.s")
 
 GLOBAL_ASM("asm/FUN_00387850.s")
 
@@ -162,13 +153,11 @@ GLOBAL_ASM("asm/FUN_003895d4.s")
 
 GLOBAL_ASM("asm/FUN_00389714.s")
 
-GLOBAL_ASM("asm/EnFr_SetReward.s")
 
 GLOBAL_ASM("asm/FUN_00389970.s")
 
 GLOBAL_ASM("asm/FUN_00389c20.s")
 
-GLOBAL_ASM("asm/EnHata_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_00389e64.s")
 
@@ -176,9 +165,7 @@ GLOBAL_ASM("asm/FUN_00389ef0.s")
 
 GLOBAL_ASM("asm/FUN_0038a164.s")
 
-GLOBAL_ASM("asm/EnSkj_WaitForNextRound.s")
 
-GLOBAL_ASM("asm/EnSkj_WaitToGiveReward.s")
 
 GLOBAL_ASM("asm/FUN_0038a280.s")
 
@@ -204,11 +191,9 @@ GLOBAL_ASM("asm/FUN_0038a814.s")
 
 GLOBAL_ASM("asm/FUN_0038a918.s")
 
-GLOBAL_ASM("asm/EnSyatekiMan_EndGame.s")
 
 GLOBAL_ASM("asm/FUN_0038ac64.s")
 
-GLOBAL_ASM("asm/BgMoriKaitenkabe_Draw.s")
 
 GLOBAL_ASM("asm/FUN_0038adb0.s")
 
@@ -288,11 +273,8 @@ GLOBAL_ASM("asm/FUN_00390760.s")
 
 GLOBAL_ASM("asm/FUN_0039099c.s")
 
-GLOBAL_ASM("asm/EnHorse_FollowPlayer.s")
 
-GLOBAL_ASM("asm/EnHorse_Idle.s")
 
-GLOBAL_ASM("asm/EnHorse_Frozen.s")
 
 GLOBAL_ASM("asm/caseD_2e.s")
 
@@ -300,11 +282,8 @@ GLOBAL_ASM("asm/caseD_4a.s")
 
 GLOBAL_ASM("asm/caseD_45.s")
 
-GLOBAL_ASM("asm/EnPeehat_Larva_StateSeekPlayer.s")
 
-GLOBAL_ASM("asm/EnPeehat_StateBoomerangStunned.s")
 
-GLOBAL_ASM("asm/EnPeehat_Ground_SetStateHover.s")
 
 GLOBAL_ASM("asm/FUN_00391cbc.s")
 
@@ -334,9 +313,7 @@ GLOBAL_ASM("asm/FUN_00392a00.s")
 
 GLOBAL_ASM("asm/FUN_00392bd0.s")
 
-GLOBAL_ASM("asm/EnTite_TurnTowardPlayer.s")
 
-GLOBAL_ASM("asm/EnTite_SetupMoveTowardPlayer.s")
 
 GLOBAL_ASM("asm/caseD_11_00392fb8.s")
 
@@ -354,7 +331,6 @@ GLOBAL_ASM("asm/caseD_3_00393ae4.s")
 
 GLOBAL_ASM("asm/FUN_00393d44.s")
 
-GLOBAL_ASM("asm/EnDh_SetupWalk.s")
 
 GLOBAL_ASM("asm/FUN_00393e60.s")
 
@@ -378,7 +354,6 @@ GLOBAL_ASM("asm/FUN_003946e8.s")
 
 GLOBAL_ASM("asm/FUN_00394710.s")
 
-GLOBAL_ASM("asm/EnDntJiji_Talk.s")
 
 GLOBAL_ASM("asm/FUN_00394808.s")
 
@@ -386,7 +361,6 @@ GLOBAL_ASM("asm/FUN_00394824.s")
 
 GLOBAL_ASM("asm/FUN_00394828.s")
 
-GLOBAL_ASM("asm/BgGanonOtyuka_DoNothing.s")
 
 GLOBAL_ASM("asm/FUN_00394e8c.s")
 
@@ -434,9 +408,7 @@ GLOBAL_ASM("asm/caseD_49.s")
 
 GLOBAL_ASM("asm/caseD_4b.s")
 
-GLOBAL_ASM("asm/EnPeehat_Ground_SetStateLanding.s")
 
-GLOBAL_ASM("asm/EnPeehat_Ground_SetStateReturnHome.s")
 
 GLOBAL_ASM("asm/FUN_0039acb4.s")
 
@@ -472,7 +444,6 @@ GLOBAL_ASM("asm/FUN_0039bddc.s")
 
 GLOBAL_ASM("asm/FUN_0039be64.s")
 
-GLOBAL_ASM("asm/EnCs_PostLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_0039bf40.s")
 
@@ -480,11 +451,8 @@ GLOBAL_ASM("asm/FUN_0039bf60.s")
 
 GLOBAL_ASM("asm/FUN_0039bf98.s")
 
-GLOBAL_ASM("asm/EnDntJiji_SetupGivePrize.s")
 
-GLOBAL_ASM("asm/EnSyatekiMan_GivePrize.s")
 
-GLOBAL_ASM("asm/BgHeavyBlock_DrawPiece.s")
 
 GLOBAL_ASM("asm/FUN_0039c53c.s")
 
@@ -498,7 +466,6 @@ GLOBAL_ASM("asm/caseD_23_0039d078.s")
 
 GLOBAL_ASM("asm/caseD_33.s")
 
-GLOBAL_ASM("asm/EnPeehat_Flying_SetStateGround.s")
 
 GLOBAL_ASM("asm/FUN_0039d23c.s")
 
@@ -528,7 +495,6 @@ GLOBAL_ASM("asm/FUN_0039dc60.s")
 
 GLOBAL_ASM("asm/FUN_0039dc9c.s")
 
-GLOBAL_ASM("asm/EnCs_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_0039ded0.s")
 

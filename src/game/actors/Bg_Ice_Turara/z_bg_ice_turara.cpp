@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/BgIceTurara_Destroy.s")
 GLOBAL_ASM("asm/BgIceTurara_Update.s")
 
 GLOBAL_ASM("asm/BgIceTurara_Draw.s")
+
+GLOBAL_ASM("asm/BgIceTurara_Break.s")
+
+GLOBAL_ASM("asm/BgIceTurara_Fall.s")
+
+GLOBAL_ASM("asm/BgIceTurara_Regrow.s")
+
+GLOBAL_ASM("asm/BgIceTurara_Shiver.s")
+
+GLOBAL_ASM("asm/BgIceTurara_Stalagmite.s")
+
+GLOBAL_ASM("asm/BgIceTurara_Wait.s")
+
 }

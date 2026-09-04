@@ -26,4 +26,13 @@ GLOBAL_ASM("asm/ItemEtcetera_Init.s")
 GLOBAL_ASM("asm/ItemEtcetera_Destroy.s")
 
 GLOBAL_ASM("asm/ItemEtcetera_Update.s")
+
+GLOBAL_ASM("asm/ItemEtcetera_Draw.s")
+
+GLOBAL_ASM("asm/ItemEtcetera_DrawThroughLens.s")
+
+GLOBAL_ASM("asm/ItemEtcetera_MoveFireArrowDown.s")
+
+GLOBAL_ASM("asm/ItemEtcetera_UpdateFireArrow.s")
+
 }

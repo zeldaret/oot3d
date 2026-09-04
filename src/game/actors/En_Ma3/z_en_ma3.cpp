@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnMa3_Destroy.s")
 GLOBAL_ASM("asm/EnMa3_Update.s")
 
 GLOBAL_ASM("asm/EnMa3_Draw.s")
+
+GLOBAL_ASM("asm/EnMa3_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnMa3_PostDrawLimb.s")
+
 }

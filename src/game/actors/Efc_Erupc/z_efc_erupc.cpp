@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EfcErupc_Destroy.s")
 GLOBAL_ASM("asm/EfcErupc_Update.s")
 
 GLOBAL_ASM("asm/EfcErupc_Draw.s")
+
+GLOBAL_ASM("asm/EfcErupc_UpdateAction.s")
+
 }

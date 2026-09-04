@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/BossFd_Destroy.s")
 GLOBAL_ASM("asm/BossFd_Update.s")
 
 GLOBAL_ASM("asm/BossFd_Draw.s")
+
+GLOBAL_ASM("asm/BossFd_Fly.s")
+
+GLOBAL_ASM("asm/BossFd_SetCameraSpeed.s")
+
+GLOBAL_ASM("asm/BossFd_SpawnEmber.s")
+
+GLOBAL_ASM("asm/BossFd_Wait.s")
+
 }

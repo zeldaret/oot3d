@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/BgHidanDalm_Destroy.s")
 GLOBAL_ASM("asm/BgHidanDalm_Update.s")
 
 GLOBAL_ASM("asm/BgHidanDalm_Draw.s")
+
+GLOBAL_ASM("asm/BgHidanDalm_Shrink.s")
+
+GLOBAL_ASM("asm/BgHidanDalm_Wait.s")
+
 }

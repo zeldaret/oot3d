@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/BgJya1flift_Destroy.s")
 GLOBAL_ASM("asm/BgJya1flift_Update.s")
 
 GLOBAL_ASM("asm/BgJya1flift_Draw.s")
+
+GLOBAL_ASM("asm/BgJya1flift_DelayMove.s")
+
+GLOBAL_ASM("asm/BgJya1flift_DoNothing.s")
+
+GLOBAL_ASM("asm/BgJya1flift_Move.s")
+
 }

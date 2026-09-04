@@ -30,4 +30,17 @@ GLOBAL_ASM("asm/EnCs_Destroy.s")
 GLOBAL_ASM("asm/EnCs_Update.s")
 
 GLOBAL_ASM("asm/EnCs_Draw.s")
+
+GLOBAL_ASM("asm/EnCs_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnCs_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnCs_SetAnimFromIndex.s")
+
+GLOBAL_ASM("asm/EnCs_Talk.s")
+
+GLOBAL_ASM("asm/EnCs_Wait.s")
+
+GLOBAL_ASM("asm/EnCs_Walk.s")
+
 }

@@ -29,4 +29,27 @@ GLOBAL_ASM("asm/EnTite_Destroy.s")
 GLOBAL_ASM("asm/EnTite_Update.s")
 
 GLOBAL_ASM("asm/EnTite_Draw.s")
+
+GLOBAL_ASM("asm/EnTite_Attack.s")
+
+GLOBAL_ASM("asm/EnTite_FlipOnBack.s")
+
+GLOBAL_ASM("asm/EnTite_FlipUpright.s")
+
+GLOBAL_ASM("asm/EnTite_Idle.s")
+
+GLOBAL_ASM("asm/EnTite_MoveTowardPlayer.s")
+
+GLOBAL_ASM("asm/EnTite_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnTite_Recoil.s")
+
+GLOBAL_ASM("asm/EnTite_SetupIdle.s")
+
+GLOBAL_ASM("asm/EnTite_SetupMoveTowardPlayer.s")
+
+GLOBAL_ASM("asm/EnTite_SetupTurnTowardPlayer.s")
+
+GLOBAL_ASM("asm/EnTite_TurnTowardPlayer.s")
+
 }

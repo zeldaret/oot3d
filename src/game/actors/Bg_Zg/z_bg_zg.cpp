@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgZg_Destroy.s")
 GLOBAL_ASM("asm/BgZg_Update.s")
 
 GLOBAL_ASM("asm/BgZg_Draw.s")
+
+GLOBAL_ASM("asm/BgZg_DrawFn.s")
+
 }
