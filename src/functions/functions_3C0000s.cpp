@@ -110,7 +110,6 @@ GLOBAL_ASM("asm/FUN_003c5258.s")
 
 GLOBAL_ASM("asm/FUN_003c54f0.s")
 
-GLOBAL_ASM("asm/FUN_003c586c.s")
 
 GLOBAL_ASM("asm/FUN_003c6128.s")
 
@@ -268,7 +267,6 @@ GLOBAL_ASM("asm/FUN_003cfeac.s")
 
 GLOBAL_ASM("asm/FUN_003cff9c.s")
 
-GLOBAL_ASM("asm/FUN_003cfff4.s")
 
 GLOBAL_ASM("asm/FUN_003d04ac.s")
 
@@ -280,7 +278,6 @@ GLOBAL_ASM("asm/FUN_003d069c.s")
 
 GLOBAL_ASM("asm/FUN_003d0744.s")
 
-GLOBAL_ASM("asm/FUN_003d0830.s")
 
 GLOBAL_ASM("asm/FUN_003d0aa8.s")
 

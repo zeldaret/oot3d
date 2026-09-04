@@ -46,4 +46,6 @@ GLOBAL_ASM("asm/BgHeavyBlock_MovePiece.s")
 
 GLOBAL_ASM("asm/BgHeavyBlock_Wait.s")
 
+GLOBAL_ASM("asm/FUN_0036c684.s")
+
 }

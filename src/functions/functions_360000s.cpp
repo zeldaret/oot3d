@@ -317,7 +317,6 @@ GLOBAL_ASM("asm/FUN_0036932c.s")
 
 GLOBAL_ASM("asm/FUN_003693b4.s")
 
-GLOBAL_ASM("asm/FUN_003694d4.s")
 
 GLOBAL_ASM("asm/FUN_003695cc.s")
 
@@ -350,7 +349,6 @@ GLOBAL_ASM("asm/FUN_0036a024.s")
 
 GLOBAL_ASM("asm/FUN_0036a0c8.s")
 
-GLOBAL_ASM("asm/FUN_0036a154.s")
 
 GLOBAL_ASM("asm/FUN_0036a2dc.s")
 
@@ -360,7 +358,6 @@ GLOBAL_ASM("asm/Player_InCsMode.s")
 
 GLOBAL_ASM("asm/FUN_0036a83c.s")
 
-GLOBAL_ASM("asm/FUN_0036a84c.s")
 
 GLOBAL_ASM("asm/FUN_0036a924.s")
 
@@ -441,7 +438,6 @@ GLOBAL_ASM("asm/FUN_0036c5d8.s")
 
 GLOBAL_ASM("asm/FUN_0036c648.s")
 
-GLOBAL_ASM("asm/FUN_0036c684.s")
 
 GLOBAL_ASM("asm/FUN_0036c950.s")
 

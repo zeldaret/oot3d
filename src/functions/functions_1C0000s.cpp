@@ -19,7 +19,6 @@ GLOBAL_ASM("asm/FUN_001c2ecc.s")
 
 GLOBAL_ASM("asm/FUN_001c307c.s")
 
-GLOBAL_ASM("asm/FUN_001c3180.s")
 
 GLOBAL_ASM("asm/FUN_001c31c0.s")
 
@@ -58,7 +57,6 @@ GLOBAL_ASM("asm/FUN_001c4b18.s")
 
 GLOBAL_ASM("asm/FUN_001c4c88.s")
 
-GLOBAL_ASM("asm/FUN_001c4ddc.s")
 
 
 GLOBAL_ASM("asm/FUN_001c4e54.s")
@@ -194,7 +192,6 @@ GLOBAL_ASM("asm/FUN_001cbb90.s")
 GLOBAL_ASM("asm/FUN_001cbca0.s")
 
 
-GLOBAL_ASM("asm/FUN_001cbf9c.s")
 
 GLOBAL_ASM("asm/FUN_001cc3c0.s")
 
@@ -258,9 +255,7 @@ GLOBAL_ASM("asm/FUN_001cef68.s")
 
 GLOBAL_ASM("asm/FUN_001cf0b4.s")
 
-GLOBAL_ASM("asm/FUN_001cf0e4.s")
 
-GLOBAL_ASM("asm/FUN_001cf100.s")
 
 
 GLOBAL_ASM("asm/FUN_001cf3ac.s")
@@ -271,7 +266,6 @@ GLOBAL_ASM("asm/FUN_001cf54c.s")
 
 GLOBAL_ASM("asm/FUN_001cf550.s")
 
-GLOBAL_ASM("asm/FUN_001cf740.s")
 
 GLOBAL_ASM("asm/FUN_001cf750.s")
 
@@ -358,7 +352,6 @@ GLOBAL_ASM("asm/FUN_001e1ac0.s")
 
 GLOBAL_ASM("asm/FUN_001e1dfc.s")
 
-GLOBAL_ASM("asm/FUN_001e1ef8.s")
 
 GLOBAL_ASM("asm/FUN_001e29e4.s")
 
@@ -375,7 +368,6 @@ GLOBAL_ASM("asm/IChain_Apply_s16.s")
 
 GLOBAL_ASM("asm/FUN_001e2f04.s")
 
-GLOBAL_ASM("asm/FUN_001e2f1c.s")
 
 GLOBAL_ASM("asm/FUN_001e3104.s")
 
@@ -469,7 +461,6 @@ GLOBAL_ASM("asm/FUN_001e88ec.s")
 
 GLOBAL_ASM("asm/FUN_001e8ac0.s")
 
-GLOBAL_ASM("asm/FUN_001e8b34.s")
 
 
 GLOBAL_ASM("asm/FUN_001e8c0c.s")
@@ -540,7 +531,6 @@ GLOBAL_ASM("asm/FUN_001eb198.s")
 
 GLOBAL_ASM("asm/FUN_001eb244.s")
 
-GLOBAL_ASM("asm/FUN_001eb278.s")
 
 
 GLOBAL_ASM("asm/FUN_001eb2b4.s")
@@ -600,7 +590,6 @@ GLOBAL_ASM("asm/FUN_001eb564.s")
 
 GLOBAL_ASM("asm/FUN_001eb568.s")
 
-GLOBAL_ASM("asm/FUN_001eb56c.s")
 
 GLOBAL_ASM("asm/FUN_001eb8d4.s")
 
@@ -656,7 +645,6 @@ GLOBAL_ASM("asm/EffectSsDFire_SpawnFixedScale.s")
 
 GLOBAL_ASM("asm/FUN_001f268c.s")
 
-GLOBAL_ASM("asm/FUN_001f285c.s")
 
 GLOBAL_ASM("asm/FUN_001f294c.s")
 
@@ -670,17 +658,14 @@ GLOBAL_ASM("asm/FUN_001f84ec.s")
 
 GLOBAL_ASM("asm/Player_StartFishing.s")
 
-GLOBAL_ASM("asm/FUN_001fdcb8.s")
 
 GLOBAL_ASM("asm/FUN_001fe388.s")
 
 GLOBAL_ASM("asm/FUN_001fe3a0.s")
 
-GLOBAL_ASM("asm/FUN_001ff084.s")
 
 GLOBAL_ASM("asm/FUN_001ff2dc.s")
 
-GLOBAL_ASM("asm/FUN_001ff5c4.s")
 
 GLOBAL_ASM("asm/FUN_001ff6b4.s")
 

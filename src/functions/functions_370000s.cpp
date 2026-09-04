@@ -35,7 +35,6 @@ GLOBAL_ASM("asm/FUN_00370d60.s")
 
 GLOBAL_ASM("asm/FUN_00370f5c.s")
 
-GLOBAL_ASM("asm/FUN_0037100c.s")
 
 GLOBAL_ASM("asm/sins.s")
 
@@ -133,7 +132,6 @@ GLOBAL_ASM("asm/FUN_00372f38.s")
 
 GLOBAL_ASM("asm/Object_IsLoaded.s")
 
-GLOBAL_ASM("asm/FUN_0037308c.s")
 
 GLOBAL_ASM("asm/FUN_003731d8.s")
 

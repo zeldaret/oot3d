@@ -29,4 +29,19 @@ GLOBAL_ASM("asm/ObjDekujr_Destroy.s")
 GLOBAL_ASM("asm/ObjDekujr_Update.s")
 
 GLOBAL_ASM("asm/ObjDekujr_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00111470.s")
+
+GLOBAL_ASM("asm/FUN_00149298.s")
+
+GLOBAL_ASM("asm/FUN_0018613c.s")
+
+GLOBAL_ASM("asm/FUN_001cf740.s")
+
+GLOBAL_ASM("asm/FUN_003495e0.s")
+
+GLOBAL_ASM("asm/FUN_0038f11c.s")
+
+GLOBAL_ASM("asm/FUN_003c586c.s")
+
 }

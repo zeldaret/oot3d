@@ -30,4 +30,6 @@ GLOBAL_ASM("asm/ItemInbox_Draw.s")
 
 GLOBAL_ASM("asm/ItemInbox_Wait.s")
 
+GLOBAL_ASM("asm/FUN_003a0e88.s")
+
 }

@@ -42,4 +42,6 @@ GLOBAL_ASM("asm/EnDns_Talk.s")
 
 GLOBAL_ASM("asm/EnDns_Wait.s")
 
+GLOBAL_ASM("asm/FUN_0027f3f8.s")
+
 }

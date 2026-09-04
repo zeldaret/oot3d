@@ -37,4 +37,6 @@ GLOBAL_ASM("asm/BgJyaHaheniron_PillarCrumble.s")
 
 GLOBAL_ASM("asm/BgJyaHaheniron_RubbleCollide.s")
 
+GLOBAL_ASM("asm/FUN_0036a154.s")
+
 }

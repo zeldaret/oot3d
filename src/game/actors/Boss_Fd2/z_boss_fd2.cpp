@@ -50,4 +50,12 @@ GLOBAL_ASM("asm/BossFd2_Vulnerable.s")
 
 GLOBAL_ASM("asm/BossFd2_Wait.s")
 
+GLOBAL_ASM("asm/FUN_001f285c.s")
+
+GLOBAL_ASM("asm/FUN_00260008.s")
+
+GLOBAL_ASM("asm/FUN_0027cba8.s")
+
+GLOBAL_ASM("asm/FUN_00335904.s")
+
 }

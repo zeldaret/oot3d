@@ -70,4 +70,8 @@ GLOBAL_ASM("asm/EnPeehat_StateBoomerangStunned.s")
 
 GLOBAL_ASM("asm/EnPeehat_StateExplode.s")
 
+GLOBAL_ASM("asm/FUN_00323698.s")
+
+GLOBAL_ASM("asm/FUN_003255d0.s")
+
 }

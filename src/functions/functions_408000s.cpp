@@ -38,9 +38,7 @@ GLOBAL_ASM("asm/FUN_00408728.s")
 
 GLOBAL_ASM("asm/FUN_0040878c.s")
 
-GLOBAL_ASM("asm/FUN_00408828.s")
 
-GLOBAL_ASM("asm/FUN_00408aac.s")
 
 GLOBAL_ASM("asm/HandleNotification_00408b34.s")
 
@@ -170,7 +168,6 @@ GLOBAL_ASM("asm/FUN_00409fc0.s")
 
 GLOBAL_ASM("asm/FUN_0040a004.s")
 
-GLOBAL_ASM("asm/FUN_0040a020.s")
 
 GLOBAL_ASM("asm/FUN_0040a07c.s")
 
@@ -490,7 +487,6 @@ GLOBAL_ASM("asm/FUN_0040cbb8.s")
 
 GLOBAL_ASM("asm/FUN_0040cbe4.s")
 
-GLOBAL_ASM("asm/FUN_0040cbe8.s")
 
 GLOBAL_ASM("asm/FUN_0040cc18.s")
 
@@ -502,7 +498,6 @@ GLOBAL_ASM("asm/FUN_0040cc68.s")
 
 GLOBAL_ASM("asm/FUN_0040ccb4.s")
 
-GLOBAL_ASM("asm/FUN_0040cd2c.s")
 
 GLOBAL_ASM("asm/GetSize_0040cd58.s")
 

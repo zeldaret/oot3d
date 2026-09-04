@@ -32,4 +32,8 @@ GLOBAL_ASM("asm/EnBdfire_Draw.s")
 
 GLOBAL_ASM("asm/EnBdfire_DrawFire.s")
 
+GLOBAL_ASM("asm/FUN_003694d4.s")
+
+GLOBAL_ASM("asm/FUN_003fd178.s")
+
 }

@@ -42,4 +42,6 @@ GLOBAL_ASM("asm/ObjLightswitch_TurnOff.s")
 
 GLOBAL_ASM("asm/ObjLightswitch_TurnOn.s")
 
+GLOBAL_ASM("asm/FUN_0036a84c.s")
+
 }

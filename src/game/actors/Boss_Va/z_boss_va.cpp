@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/BossVa_Destroy.s")
 GLOBAL_ASM("asm/BossVa_Update.s")
 
 GLOBAL_ASM("asm/BossVa_Draw.s")
+
+GLOBAL_ASM("asm/FUN_001474bc.s")
+
+GLOBAL_ASM("asm/FUN_001485f4.s")
+
+GLOBAL_ASM("asm/FUN_001ff5c4.s")
+
+GLOBAL_ASM("asm/FUN_00358458.s")
+
 }

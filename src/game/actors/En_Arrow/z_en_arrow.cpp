@@ -34,4 +34,6 @@ GLOBAL_ASM("asm/EnArrow_Fly.s")
 
 GLOBAL_ASM("asm/EnArrow_Shoot.s")
 
+GLOBAL_ASM("asm/FUN_003aa580.s")
+
 }

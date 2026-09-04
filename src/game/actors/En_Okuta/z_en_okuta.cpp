@@ -54,4 +54,6 @@ GLOBAL_ASM("asm/EnOkuta_WaitToAppear.s")
 
 GLOBAL_ASM("asm/EnOkuta_WaitToDie.s")
 
+GLOBAL_ASM("asm/FUN_0019a4e8.s")
+
 }

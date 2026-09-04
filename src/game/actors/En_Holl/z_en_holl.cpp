@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnHoll_Destroy.s")
 GLOBAL_ASM("asm/EnHoll_Update.s")
 
 GLOBAL_ASM("asm/EnHoll_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00339f0c.s")
+
 }

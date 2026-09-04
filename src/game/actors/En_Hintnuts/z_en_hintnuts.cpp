@@ -56,4 +56,6 @@ GLOBAL_ASM("asm/EnHintnuts_ThrowNut.s")
 
 GLOBAL_ASM("asm/EnHintnuts_Wait.s")
 
+GLOBAL_ASM("asm/FUN_001e8b34.s")
+
 }

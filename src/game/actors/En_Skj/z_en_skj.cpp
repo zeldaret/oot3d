@@ -54,4 +54,24 @@ GLOBAL_ASM("asm/EnSkj_WaitToGiveReward.s")
 
 GLOBAL_ASM("asm/EnSkj_WonOcarinaMiniGame.s")
 
+GLOBAL_ASM("asm/FUN_00285fa4.s")
+
+GLOBAL_ASM("asm/FUN_0032c540.s")
+
+GLOBAL_ASM("asm/FUN_0032c550.s")
+
+GLOBAL_ASM("asm/FUN_0032c560.s")
+
+GLOBAL_ASM("asm/FUN_0032c570.s")
+
+GLOBAL_ASM("asm/FUN_0032e1f0.s")
+
+GLOBAL_ASM("asm/FUN_00334fa0.s")
+
+GLOBAL_ASM("asm/FUN_0033704c.s")
+
+GLOBAL_ASM("asm/FUN_003371d8.s")
+
+GLOBAL_ASM("asm/FUN_004c0878.s")
+
 }

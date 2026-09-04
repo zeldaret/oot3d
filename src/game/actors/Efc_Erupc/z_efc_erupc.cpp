@@ -32,4 +32,6 @@ GLOBAL_ASM("asm/EfcErupc_Draw.s")
 
 GLOBAL_ASM("asm/EfcErupc_UpdateAction.s")
 
+GLOBAL_ASM("asm/FUN_00314a30.s")
+
 }

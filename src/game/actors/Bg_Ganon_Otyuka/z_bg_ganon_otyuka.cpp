@@ -36,4 +36,6 @@ GLOBAL_ASM("asm/BgGanonOtyuka_Fall.s")
 
 GLOBAL_ASM("asm/BgGanonOtyuka_WaitForFall.s")
 
+GLOBAL_ASM("asm/FUN_003f87ac.s")
+
 }

@@ -46,4 +46,6 @@ GLOBAL_ASM("asm/EnHeishi1_WaitNight.s")
 
 GLOBAL_ASM("asm/EnHeishi1_Walk.s")
 
+GLOBAL_ASM("asm/FUN_003902e0.s")
+
 }

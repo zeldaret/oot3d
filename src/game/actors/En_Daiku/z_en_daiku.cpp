@@ -52,4 +52,6 @@ GLOBAL_ASM("asm/EnDaiku_UpdateText.s")
 
 GLOBAL_ASM("asm/EnDaiku_WaitFreedom.s")
 
+GLOBAL_ASM("asm/FUN_00117e44.s")
+
 }

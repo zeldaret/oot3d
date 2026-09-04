@@ -180,7 +180,6 @@ GLOBAL_ASM("asm/FUN_0031488c.s")
 
 GLOBAL_ASM("asm/FUN_00314988.s")
 
-GLOBAL_ASM("asm/FUN_00314a30.s")
 
 GLOBAL_ASM("asm/FUN_00314aa0.s")
 
@@ -198,7 +197,6 @@ GLOBAL_ASM("asm/FUN_00314e90.s")
 
 GLOBAL_ASM("asm/FUN_00314fe4.s")
 
-GLOBAL_ASM("asm/FUN_003150a4.s")
 
 GLOBAL_ASM("asm/FUN_003150fc.s")
 
@@ -224,11 +222,9 @@ GLOBAL_ASM("asm/FUN_003159f8.s")
 
 GLOBAL_ASM("asm/FUN_00315ac4.s")
 
-GLOBAL_ASM("asm/FUN_00315ba8.s")
 
 GLOBAL_ASM("asm/FUN_00315d44.s")
 
-GLOBAL_ASM("asm/FUN_00315d54.s")
 
 GLOBAL_ASM("asm/FUN_00315edc.s")
 
@@ -370,7 +366,6 @@ GLOBAL_ASM("asm/FUN_0031cebc.s")
 
 GLOBAL_ASM("asm/FUN_0031cfb8.s")
 
-GLOBAL_ASM("asm/FUN_0031d150.s")
 
 GLOBAL_ASM("asm/Math3D_PointDistToLine2D.s")
 
@@ -385,7 +380,6 @@ GLOBAL_ASM("asm/FUN_0031dc3c.s")
 
 GLOBAL_ASM("asm/FUN_0031dc84.s")
 
-GLOBAL_ASM("asm/FUN_0031de1c.s")
 
 GLOBAL_ASM("asm/FUN_0031dfc8.s")
 
@@ -414,7 +408,6 @@ GLOBAL_ASM("asm/FUN_0031f38c.s")
 
 GLOBAL_ASM("asm/FUN_0031f5a8.s")
 
-GLOBAL_ASM("asm/FUN_0031f978.s")
 
 GLOBAL_ASM("asm/FUN_0031fd60.s")
 

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnVm_Destroy.s")
 GLOBAL_ASM("asm/EnVm_Update.s")
 
 GLOBAL_ASM("asm/EnVm_Draw.s")
+
+GLOBAL_ASM("asm/FUN_001acb6c.s")
+
 }

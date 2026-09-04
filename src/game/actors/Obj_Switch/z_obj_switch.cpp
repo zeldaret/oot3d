@@ -62,4 +62,10 @@ GLOBAL_ASM("asm/ObjSwitch_SetOff.s")
 
 GLOBAL_ASM("asm/ObjSwitch_SetOn.s")
 
+GLOBAL_ASM("asm/FUN_001cf0e4.s")
+
+GLOBAL_ASM("asm/FUN_001cf100.s")
+
+GLOBAL_ASM("asm/FUN_001eb278.s")
+
 }

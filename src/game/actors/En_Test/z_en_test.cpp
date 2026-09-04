@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnTest_Destroy.s")
 GLOBAL_ASM("asm/EnTest_Update.s")
 
 GLOBAL_ASM("asm/EnTest_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0035ea64.s")
+
 }

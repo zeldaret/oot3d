@@ -27,4 +27,19 @@ GLOBAL_ASM("asm/EnMag_Destroy.s")
 GLOBAL_ASM("asm/EnMag_Update.s")
 
 GLOBAL_ASM("asm/EnMag_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0033d174.s")
+
+GLOBAL_ASM("asm/FUN_0033d220.s")
+
+GLOBAL_ASM("asm/FUN_00347fbc.s")
+
+GLOBAL_ASM("asm/FUN_00348054.s")
+
+GLOBAL_ASM("asm/FUN_00348068.s")
+
+GLOBAL_ASM("asm/FUN_0040a020.s")
+
+GLOBAL_ASM("asm/FUN_00410350.s")
+
 }

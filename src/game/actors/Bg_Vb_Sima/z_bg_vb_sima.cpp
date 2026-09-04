@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgVbSima_Destroy.s")
 GLOBAL_ASM("asm/BgVbSima_Update.s")
 
 GLOBAL_ASM("asm/BgVbSima_Draw.s")
+
+GLOBAL_ASM("asm/FUN_003a3200.s")
+
 }

@@ -10,7 +10,6 @@ GLOBAL_ASM("asm/FUN_003a0488.s")
 
 GLOBAL_ASM("asm/caseD_6_003a0720.s")
 
-GLOBAL_ASM("asm/FUN_003a0e88.s")
 
 GLOBAL_ASM("asm/FUN_003a0ffc.s")
 
@@ -49,7 +48,6 @@ GLOBAL_ASM("asm/FUN_003a30b8.s")
 
 GLOBAL_ASM("asm/FUN_003a30e4.s")
 
-GLOBAL_ASM("asm/FUN_003a3200.s")
 
 GLOBAL_ASM("asm/CollisionCheck_SetCylHitFX.s")
 
@@ -108,7 +106,6 @@ GLOBAL_ASM("asm/FUN_003a5604.s")
 
 GLOBAL_ASM("asm/FUN_003a5768.s")
 
-GLOBAL_ASM("asm/FUN_003a5778.s")
 
 GLOBAL_ASM("asm/FUN_003a590c.s")
 
@@ -181,9 +178,7 @@ GLOBAL_ASM("asm/FUN_003aa43c.s")
 
 GLOBAL_ASM("asm/caseD_11_003aa4c4.s")
 
-GLOBAL_ASM("asm/FUN_003aa580.s")
 
-GLOBAL_ASM("asm/FUN_003aa608.s")
 
 GLOBAL_ASM("asm/caseD_10_003aa694.s")
 
@@ -197,7 +192,6 @@ GLOBAL_ASM("asm/FUN_003ab924.s")
 
 GLOBAL_ASM("asm/FUN_003ab928.s")
 
-GLOBAL_ASM("asm/FUN_003ab92c.s")
 
 GLOBAL_ASM("asm/FUN_003ab984.s")
 

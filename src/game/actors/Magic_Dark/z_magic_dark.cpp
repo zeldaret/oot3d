@@ -36,4 +36,6 @@ GLOBAL_ASM("asm/MagicDark_DiamondUpdate.s")
 
 GLOBAL_ASM("asm/MagicDark_DimLighting.s")
 
+GLOBAL_ASM("asm/FUN_00320d54.s")
+
 }

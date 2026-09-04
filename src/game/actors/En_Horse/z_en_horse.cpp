@@ -121,4 +121,14 @@ GLOBAL_ASM("asm/EnHorse_UpdateIngoRace.s")
 
 GLOBAL_ASM("asm/EnHorse_UpdateSpeed.s")
 
+GLOBAL_ASM("asm/FUN_001ff084.s")
+
+GLOBAL_ASM("asm/FUN_0031d150.s")
+
+GLOBAL_ASM("asm/FUN_0033258c.s")
+
+GLOBAL_ASM("asm/FUN_0037308c.s")
+
+GLOBAL_ASM("asm/FUN_00408828.s")
+
 }

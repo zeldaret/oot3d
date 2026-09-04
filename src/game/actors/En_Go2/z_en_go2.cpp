@@ -64,4 +64,8 @@ GLOBAL_ASM("asm/EnGo2_StopRolling.s")
 
 GLOBAL_ASM("asm/FUN_0013449c.s")
 
+GLOBAL_ASM("asm/FUN_0012e0b0.s")
+
+GLOBAL_ASM("asm/FUN_0033dcbc.s")
+
 }

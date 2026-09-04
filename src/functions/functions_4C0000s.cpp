@@ -22,7 +22,6 @@ GLOBAL_ASM("asm/FUN_004c066c.s")
 
 GLOBAL_ASM("asm/FUN_004c0854.s")
 
-GLOBAL_ASM("asm/FUN_004c0878.s")
 
 GLOBAL_ASM("asm/Text_ParseNextCharacter_maybe.s")
 

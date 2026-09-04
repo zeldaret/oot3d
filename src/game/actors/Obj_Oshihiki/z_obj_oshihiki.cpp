@@ -32,4 +32,6 @@ GLOBAL_ASM("asm/ObjOshihiki_Draw.s")
 
 GLOBAL_ASM("asm/ObjOshihiki_OnActor.s")
 
+GLOBAL_ASM("asm/FUN_0034aae0.s")
+
 }

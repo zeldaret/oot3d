@@ -64,4 +64,6 @@ GLOBAL_ASM("asm/EnGe2_WaitLookAtPlayer.s")
 
 GLOBAL_ASM("asm/EnGe2_Walk.s")
 
+GLOBAL_ASM("asm/FUN_00298684.s")
+
 }

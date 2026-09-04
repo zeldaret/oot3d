@@ -44,4 +44,10 @@ GLOBAL_ASM("asm/EnFd_SpinAndSpawnFire.s")
 
 GLOBAL_ASM("asm/EnFd_WaitForCore.s")
 
+GLOBAL_ASM("asm/FUN_00111374.s")
+
+GLOBAL_ASM("asm/FUN_003426b0.s")
+
+GLOBAL_ASM("asm/FUN_0034fda8.s")
+
 }

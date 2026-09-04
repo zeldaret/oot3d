@@ -44,4 +44,6 @@ GLOBAL_ASM("asm/EnZo_Surface.s")
 
 GLOBAL_ASM("asm/EnZo_TreadWater.s")
 
+GLOBAL_ASM("asm/FUN_00315ba8.s")
+
 }

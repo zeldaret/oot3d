@@ -424,12 +424,10 @@ GLOBAL_ASM("asm/FUN_003f84d4.s")
 
 GLOBAL_ASM("asm/FUN_003f87a8.s")
 
-GLOBAL_ASM("asm/FUN_003f87ac.s")
 
 
 GLOBAL_ASM("asm/FUN_003f8e24.s")
 
-GLOBAL_ASM("asm/FUN_003f9060.s")
 
 GLOBAL_ASM("asm/FUN_003f9170.s")
 
@@ -491,7 +489,6 @@ GLOBAL_ASM("asm/FUN_003fb398.s")
 
 GLOBAL_ASM("asm/FUN_003fb3e8.s")
 
-GLOBAL_ASM("asm/FUN_003fb408.s")
 
 GLOBAL_ASM("asm/FUN_003fb4c8.s")
 
@@ -589,9 +586,7 @@ GLOBAL_ASM("asm/FUN_003fcfac.s")
 
 GLOBAL_ASM("asm/FUN_003fcfd8.s")
 
-GLOBAL_ASM("asm/FUN_003fd018.s")
 
-GLOBAL_ASM("asm/FUN_003fd178.s")
 
 GLOBAL_ASM("asm/AnimationContext_SetMoveActor.s")
 
@@ -627,7 +622,6 @@ GLOBAL_ASM("asm/FUN_003fd780.s")
 
 GLOBAL_ASM("asm/FUN_003fd784.s")
 
-GLOBAL_ASM("asm/FUN_003fd798.s")
 
 GLOBAL_ASM("asm/FUN_003fd910.s")
 

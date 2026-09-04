@@ -42,4 +42,12 @@ GLOBAL_ASM("asm/EnZl4_PostLimbDraw.s")
 
 GLOBAL_ASM("asm/EnZl4_TheEnd.s")
 
+GLOBAL_ASM("asm/FUN_00343414.s")
+
+GLOBAL_ASM("asm/FUN_003436d4.s")
+
+GLOBAL_ASM("asm/FUN_00347aec.s")
+
+GLOBAL_ASM("asm/FUN_0040cd2c.s")
+
 }

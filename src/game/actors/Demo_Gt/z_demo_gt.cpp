@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/DemoGt_Destroy.s")
 GLOBAL_ASM("asm/DemoGt_Update.s")
 
 GLOBAL_ASM("asm/DemoGt_Draw.s")
+
+GLOBAL_ASM("asm/FUN_003430fc.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgHidanRsekizou_Destroy.s")
 GLOBAL_ASM("asm/BgHidanRsekizou_Update.s")
 
 GLOBAL_ASM("asm/BgHidanRsekizou_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0031de1c.s")
+
 }

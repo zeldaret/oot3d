@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnDekubaba_Destroy.s")
 GLOBAL_ASM("asm/EnDekubaba_Update.s")
 
 GLOBAL_ASM("asm/EnDekubaba_Draw.s")
+
+GLOBAL_ASM("asm/FUN_001cbf9c.s")
+
+GLOBAL_ASM("asm/FUN_0032d48c.s")
+
 }

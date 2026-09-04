@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnRiverSound_Destroy.s")
 GLOBAL_ASM("asm/EnRiverSound_Update.s")
 
 GLOBAL_ASM("asm/EnRiverSound_Draw.s")
+
+GLOBAL_ASM("asm/FUN_002549b4.s")
+
+GLOBAL_ASM("asm/FUN_00285f50.s")
+
+GLOBAL_ASM("asm/FUN_003232a4.s")
+
+GLOBAL_ASM("asm/FUN_003232bc.s")
+
 }

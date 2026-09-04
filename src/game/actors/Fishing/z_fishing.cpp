@@ -30,4 +30,15 @@ GLOBAL_ASM("asm/Fishing_Destroy.s")
 GLOBAL_ASM("asm/Fishing_Update.s")
 
 GLOBAL_ASM("asm/Fishing_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00339600.s")
+
+GLOBAL_ASM("asm/FUN_00339660.s")
+
+GLOBAL_ASM("asm/FUN_00339890.s")
+
+GLOBAL_ASM("asm/FUN_0034051c.s")
+
+GLOBAL_ASM("asm/FUN_003fd018.s")
+
 }

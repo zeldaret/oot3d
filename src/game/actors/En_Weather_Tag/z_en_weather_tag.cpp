@@ -24,4 +24,7 @@ GLOBAL_ASM("asm/EnWeatherTag_Init.s")
 GLOBAL_ASM("asm/EnWeatherTag_Destroy.s")
 
 GLOBAL_ASM("asm/EnWeatherTag_Update.s")
+
+GLOBAL_ASM("asm/FUN_00328ddc.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnGoroiwa_Destroy.s")
 GLOBAL_ASM("asm/EnGoroiwa_Update.s")
 
 GLOBAL_ASM("asm/EnGoroiwa_Draw.s")
+
+GLOBAL_ASM("asm/FUN_001eb56c.s")
+
 }

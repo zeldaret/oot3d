@@ -42,4 +42,6 @@ GLOBAL_ASM("asm/BgYdanSp_FloorWebIdle.s")
 
 GLOBAL_ASM("asm/BgYdanSp_WallWebIdle.s")
 
+GLOBAL_ASM("asm/FUN_00330c34.s")
+
 }

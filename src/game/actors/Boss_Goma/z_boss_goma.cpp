@@ -78,4 +78,6 @@ GLOBAL_ASM("asm/BossGoma_UpdateHit.s")
 
 GLOBAL_ASM("asm/BossGoma_WallClimb.s")
 
+GLOBAL_ASM("asm/FUN_003524ec.s")
+
 }

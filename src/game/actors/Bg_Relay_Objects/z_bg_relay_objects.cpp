@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgRelayObjects_Destroy.s")
 GLOBAL_ASM("asm/BgRelayObjects_Update.s")
 
 GLOBAL_ASM("asm/BgRelayObjects_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00214874.s")
+
 }

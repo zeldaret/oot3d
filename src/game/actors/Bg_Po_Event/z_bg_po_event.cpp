@@ -56,4 +56,6 @@ GLOBAL_ASM("asm/BgPoEvent_PaintingPresent.s")
 
 GLOBAL_ASM("asm/BgPoEvent_PaintingVanish.s")
 
+GLOBAL_ASM("asm/FUN_00346850.s")
+
 }

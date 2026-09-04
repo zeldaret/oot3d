@@ -34,4 +34,6 @@ GLOBAL_ASM("asm/EnMd_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/EnMd_PostLimbDraw.s")
 
+GLOBAL_ASM("asm/FUN_001c4ddc.s")
+
 }

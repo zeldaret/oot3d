@@ -38,4 +38,10 @@ GLOBAL_ASM("asm/BossFd_SpawnEmber.s")
 
 GLOBAL_ASM("asm/BossFd_Wait.s")
 
+GLOBAL_ASM("asm/FUN_001317dc.s")
+
+GLOBAL_ASM("asm/FUN_0014690c.s")
+
+GLOBAL_ASM("asm/FUN_003150a4.s")
+
 }

@@ -125,7 +125,6 @@ GLOBAL_ASM("asm/FUN_00387a00.s")
 
 GLOBAL_ASM("asm/FUN_00387e08.s")
 
-GLOBAL_ASM("asm/FUN_00387fd0.s")
 
 GLOBAL_ASM("asm/FUN_00387fec.s")
 
@@ -209,7 +208,6 @@ GLOBAL_ASM("asm/FUN_0038c8e8.s")
 
 GLOBAL_ASM("asm/FUN_0038c958.s")
 
-GLOBAL_ASM("asm/FUN_0038ce68.s")
 
 GLOBAL_ASM("asm/CollisionCheck_RedBlood.s")
 
@@ -247,7 +245,6 @@ GLOBAL_ASM("asm/FUN_0038ee2c.s")
 
 GLOBAL_ASM("asm/FUN_0038eec8.s")
 
-GLOBAL_ASM("asm/FUN_0038f11c.s")
 
 GLOBAL_ASM("asm/FUN_0038f278.s")
 
@@ -259,7 +256,6 @@ GLOBAL_ASM("asm/FUN_0038fd58.s")
 
 GLOBAL_ASM("asm/FUN_003900ac.s")
 
-GLOBAL_ASM("asm/FUN_003902e0.s")
 
 GLOBAL_ASM("asm/FUN_00390344.s")
 

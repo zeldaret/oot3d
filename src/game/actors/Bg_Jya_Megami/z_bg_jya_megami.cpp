@@ -34,4 +34,6 @@ GLOBAL_ASM("asm/BgJyaMegami_DetectLight.s")
 
 GLOBAL_ASM("asm/BgJyaMegami_Explode.s")
 
+GLOBAL_ASM("asm/FUN_00315d54.s")
+
 }

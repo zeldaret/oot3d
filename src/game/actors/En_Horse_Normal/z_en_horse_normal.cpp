@@ -40,4 +40,10 @@ GLOBAL_ASM("asm/EnHorseNormal_WaitClone.s")
 
 GLOBAL_ASM("asm/EnHorseNormal_Wander.s")
 
+GLOBAL_ASM("asm/FUN_001c3180.s")
+
+GLOBAL_ASM("asm/FUN_003406b8.s")
+
+GLOBAL_ASM("asm/FUN_003a5778.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnTrap_Destroy.s")
 GLOBAL_ASM("asm/EnTrap_Update.s")
 
 GLOBAL_ASM("asm/EnTrap_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0035e6a0.s")
+
 }

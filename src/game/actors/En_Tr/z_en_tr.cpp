@@ -52,4 +52,8 @@ GLOBAL_ASM("asm/EnTr_TurnLookOverShoulder.s")
 
 GLOBAL_ASM("asm/EnTr_WaitToReappear.s")
 
+GLOBAL_ASM("asm/FUN_00327b50.s")
+
+GLOBAL_ASM("asm/FUN_00353310.s")
+
 }

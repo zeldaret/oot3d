@@ -46,4 +46,10 @@ GLOBAL_ASM("asm/EnBox_Open.s")
 
 GLOBAL_ASM("asm/EnBox_WaitOpen.s")
 
+GLOBAL_ASM("asm/FUN_0027f34c.s")
+
+GLOBAL_ASM("asm/FUN_00290ce0.s")
+
+GLOBAL_ASM("asm/FUN_00387fd0.s")
+
 }

@@ -83,7 +83,6 @@ GLOBAL_ASM("asm/FUN_0035239c.s")
 
 GLOBAL_ASM("asm/FUN_003523dc.s")
 
-GLOBAL_ASM("asm/FUN_003524ec.s")
 
 GLOBAL_ASM("asm/FUN_003525d0.s")
 
@@ -119,7 +118,6 @@ GLOBAL_ASM("asm/FUN_00353214.s")
 
 GLOBAL_ASM("asm/DynaPolyActor_Init.s")
 
-GLOBAL_ASM("asm/FUN_00353310.s")
 
 GLOBAL_ASM("asm/FUN_00353484.s")
 
@@ -151,7 +149,6 @@ GLOBAL_ASM("asm/FUN_00353e78.s")
 
 GLOBAL_ASM("asm/DynaPoly_SetBgActor.s")
 
-GLOBAL_ASM("asm/FUN_00354014.s")
 
 GLOBAL_ASM("asm/FUN_00354220.s")
 
@@ -283,7 +280,6 @@ GLOBAL_ASM("asm/FUN_003583d4.s")
 
 GLOBAL_ASM("asm/BgCheck_EntityRaycastFloor3.s")
 
-GLOBAL_ASM("asm/FUN_00358458.s")
 
 GLOBAL_ASM("asm/FUN_003586a4.s")
 
@@ -473,7 +469,6 @@ GLOBAL_ASM("asm/FUN_0035e5b4.s")
 
 GLOBAL_ASM("asm/FUN_0035e600.s")
 
-GLOBAL_ASM("asm/FUN_0035e6a0.s")
 
 GLOBAL_ASM("asm/FUN_0035e6e0.s")
 
@@ -491,7 +486,6 @@ GLOBAL_ASM("asm/FUN_0035ea34.s")
 
 GLOBAL_ASM("asm/FUN_0035ea4c.s")
 
-GLOBAL_ASM("asm/FUN_0035ea64.s")
 
 GLOBAL_ASM("asm/FUN_0035eb74.s")
 
