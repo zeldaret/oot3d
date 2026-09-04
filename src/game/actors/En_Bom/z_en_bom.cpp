@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/EnBom_Destroy.s")
 GLOBAL_ASM("asm/EnBom_Update.s")
 
 GLOBAL_ASM("asm/EnBom_Draw.s")
+
+GLOBAL_ASM("asm/EnBom_Explode.s")
+
+GLOBAL_ASM("asm/EnBom_Move.s")
+
+GLOBAL_ASM("asm/EnBom_WaitForRelease.s")
+
 }

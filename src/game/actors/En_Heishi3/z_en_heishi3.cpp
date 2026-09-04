@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnHeishi3_Destroy.s")
 GLOBAL_ASM("asm/EnHeishi3_Update.s")
 
 GLOBAL_ASM("asm/EnHeishi3_Draw.s")
+
+GLOBAL_ASM("asm/EnHeishi3_CatchStart.s")
+
+GLOBAL_ASM("asm/EnHeishi3_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnHeishi3_ResetAnimationToIdle.s")
+
+GLOBAL_ASM("asm/EnHeishi3_SetupGuardType.s")
+
+GLOBAL_ASM("asm/EnHeishi3_StandSentinelInCastle.s")
+
+GLOBAL_ASM("asm/EnHeishi3_StandSentinelInGrounds.s")
+
 }

@@ -29,4 +29,15 @@ GLOBAL_ASM("asm/EnTuboTrap_Destroy.s")
 GLOBAL_ASM("asm/EnTuboTrap_Update.s")
 
 GLOBAL_ASM("asm/EnTuboTrap_Draw.s")
+
+GLOBAL_ASM("asm/EnTuboTrap_Fly.s")
+
+GLOBAL_ASM("asm/EnTuboTrap_Levitate.s")
+
+GLOBAL_ASM("asm/EnTuboTrap_SpawnFragments.s")
+
+GLOBAL_ASM("asm/EnTuboTrap_WaitForProximity.s")
+
+GLOBAL_ASM("asm/EnTuboTrap_WaitForProximity_003e6f88.s")
+
 }

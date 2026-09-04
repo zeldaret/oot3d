@@ -27,4 +27,7 @@ GLOBAL_ASM("asm/BgIngate_Destroy.s")
 GLOBAL_ASM("asm/BgIngate_Update.s")
 
 GLOBAL_ASM("asm/BgIngate_Draw.s")
+
+GLOBAL_ASM("asm/BgIngate_DoNothing.s")
+
 }

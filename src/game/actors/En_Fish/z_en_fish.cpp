@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnFish_Destroy.s")
 GLOBAL_ASM("asm/EnFish_Update.s")
 
 GLOBAL_ASM("asm/EnFish_Draw.s")
+
+GLOBAL_ASM("asm/EnFish_Dropped_Fall.s")
+
+GLOBAL_ASM("asm/EnFish_Dropped_FlopOnGround.s")
+
+GLOBAL_ASM("asm/EnFish_Dropped_SwimAway.s")
+
+GLOBAL_ASM("asm/EnFish_Respawning_ApproachPlayer.s")
+
+GLOBAL_ASM("asm/EnFish_Respawning_FleePlayer.s")
+
+GLOBAL_ASM("asm/EnFish_Respawning_FollowChild.s")
+
+GLOBAL_ASM("asm/EnFish_Respawning_SlowDown.s")
+
+GLOBAL_ASM("asm/EnFish_SetYOffset.s")
+
+GLOBAL_ASM("asm/EnFish_Unique_SwimIdle.s")
+
 }

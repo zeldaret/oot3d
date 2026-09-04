@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnViewer_Destroy.s")
 GLOBAL_ASM("asm/EnViewer_Update.s")
 
 GLOBAL_ASM("asm/EnViewer_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00408aac.s")
+
 }

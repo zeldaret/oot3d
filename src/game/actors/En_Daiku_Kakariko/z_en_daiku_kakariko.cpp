@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/EnDaikuKakariko_Destroy.s")
 GLOBAL_ASM("asm/EnDaikuKakariko_Update.s")
 
 GLOBAL_ASM("asm/EnDaikuKakariko_Draw.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_HandleTalking.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_Run.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_SetAnimFromIndex.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_StopRunning.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_Talk.s")
+
+GLOBAL_ASM("asm/EnDaikuKakariko_Wait.s")
+
 }

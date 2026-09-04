@@ -30,4 +30,15 @@ GLOBAL_ASM("asm/BossGanon2_Destroy.s")
 GLOBAL_ASM("asm/BossGanon2_Update.s")
 
 GLOBAL_ASM("asm/BossGanon2_Draw.s")
+
+GLOBAL_ASM("asm/FUN_001304d8.s")
+
+GLOBAL_ASM("asm/FUN_0013463c.s")
+
+GLOBAL_ASM("asm/FUN_00213614.s")
+
+GLOBAL_ASM("asm/FUN_003cfff4.s")
+
+GLOBAL_ASM("asm/FUN_003f9060.s")
+
 }

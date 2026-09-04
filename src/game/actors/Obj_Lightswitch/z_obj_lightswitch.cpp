@@ -29,4 +29,19 @@ GLOBAL_ASM("asm/ObjLightswitch_Destroy.s")
 GLOBAL_ASM("asm/ObjLightswitch_Update.s")
 
 GLOBAL_ASM("asm/ObjLightswitch_Draw.s")
+
+GLOBAL_ASM("asm/ObjLightswitch_Disappear.s")
+
+GLOBAL_ASM("asm/ObjLightswitch_DisappearDelay.s")
+
+GLOBAL_ASM("asm/ObjLightswitch_Off.s")
+
+GLOBAL_ASM("asm/ObjLightswitch_On.s")
+
+GLOBAL_ASM("asm/ObjLightswitch_TurnOff.s")
+
+GLOBAL_ASM("asm/ObjLightswitch_TurnOn.s")
+
+GLOBAL_ASM("asm/FUN_0036a84c.s")
+
 }

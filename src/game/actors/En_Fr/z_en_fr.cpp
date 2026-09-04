@@ -26,4 +26,9 @@ GLOBAL_ASM("asm/EnFr_Init.s")
 GLOBAL_ASM("asm/EnFr_Destroy.s")
 
 GLOBAL_ASM("asm/EnFr_Update.s")
+
+GLOBAL_ASM("asm/EnFr_SetReward.s")
+
+GLOBAL_ASM("asm/FUN_0034251c.s")
+
 }

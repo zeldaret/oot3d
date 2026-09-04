@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnDoor_Destroy.s")
 GLOBAL_ASM("asm/EnDoor_Update.s")
 
 GLOBAL_ASM("asm/EnDoor_Draw.s")
+
+GLOBAL_ASM("asm/EnDoor_AjarClose.s")
+
+GLOBAL_ASM("asm/EnDoor_AjarOpen.s")
+
+GLOBAL_ASM("asm/EnDoor_AjarWait.s")
+
+GLOBAL_ASM("asm/EnDoor_Check.s")
+
+GLOBAL_ASM("asm/EnDoor_Idle.s")
+
+GLOBAL_ASM("asm/EnDoor_Open.s")
+
+GLOBAL_ASM("asm/EnDoor_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnDoor_SetupType.s")
+
+GLOBAL_ASM("asm/EnDoor_WaitForCheck.s")
+
 }

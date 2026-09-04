@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnInsect_Destroy.s")
 GLOBAL_ASM("asm/EnInsect_Update.s")
 
 GLOBAL_ASM("asm/EnInsect_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0021ea58.s")
+
 }

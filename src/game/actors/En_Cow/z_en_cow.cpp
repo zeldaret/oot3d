@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnCow_Destroy.s")
 GLOBAL_ASM("asm/EnCow_Update.s")
 
 GLOBAL_ASM("asm/EnCow_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0033ddbc.s")
+
+GLOBAL_ASM("asm/FUN_00349008.s")
+
 }

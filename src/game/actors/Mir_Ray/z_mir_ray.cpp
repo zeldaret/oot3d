@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/MirRay_Destroy.s")
 GLOBAL_ASM("asm/MirRay_Update.s")
 
 GLOBAL_ASM("asm/MirRay_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0010004c.s")
+
+GLOBAL_ASM("asm/FUN_00150d58.s")
+
+GLOBAL_ASM("asm/FUN_00288394.s")
+
+GLOBAL_ASM("asm/FUN_003393ec.s")
+
+GLOBAL_ASM("asm/FUN_00339474.s")
+
+GLOBAL_ASM("asm/FUN_00340ac8.s")
+
 }

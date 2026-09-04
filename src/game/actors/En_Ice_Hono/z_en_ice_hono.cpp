@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnIceHono_Destroy.s")
 GLOBAL_ASM("asm/EnIceHono_Update.s")
 
 GLOBAL_ASM("asm/EnIceHono_Draw.s")
+
+GLOBAL_ASM("asm/EnIceHono_CapturableFlame.s")
+
+GLOBAL_ASM("asm/EnIceHono_DropFlame.s")
+
+GLOBAL_ASM("asm/EnIceHono_SmallFlameMove.s")
+
+GLOBAL_ASM("asm/EnIceHono_SpreadFlames.s")
+
 }

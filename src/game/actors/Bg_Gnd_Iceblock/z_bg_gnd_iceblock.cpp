@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/BgGndIceblock_Destroy.s")
 GLOBAL_ASM("asm/BgGndIceblock_Update.s")
 
 GLOBAL_ASM("asm/BgGndIceblock_Draw.s")
+
+GLOBAL_ASM("asm/BgGndIceblock_Fall.s")
+
+GLOBAL_ASM("asm/BgGndIceblock_Hole.s")
+
+GLOBAL_ASM("asm/BgGndIceblock_Idle.s")
+
+GLOBAL_ASM("asm/BgGndIceblock_Reset.s")
+
+GLOBAL_ASM("asm/BgGndIceblock_SetPosition.s")
+
+GLOBAL_ASM("asm/BgGndIceblock_Slide.s")
+
 }

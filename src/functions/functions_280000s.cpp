@@ -2,9 +2,7 @@
 
 GLOBAL_ASM("asm/FUN_0028033c.s")
 
-GLOBAL_ASM("asm/EnGe2_UpdateFriendly.s")
 
-GLOBAL_ASM("asm/EnGe3_UpdateWhenNotTalking.s")
 
 GLOBAL_ASM("asm/caseD_1_00281938.s")
 
@@ -48,7 +46,6 @@ GLOBAL_ASM("asm/FUN_00284508.s")
 
 GLOBAL_ASM("asm/FUN_0028456c.s")
 
-GLOBAL_ASM("asm/EnTite_Idle.s")
 
 GLOBAL_ASM("asm/FUN_00284fd0.s")
 
@@ -56,9 +53,7 @@ GLOBAL_ASM("asm/FUN_0028525c.s")
 
 GLOBAL_ASM("asm/caseD_16_0028534c.s")
 
-GLOBAL_ASM("asm/EnDh_Attack.s")
 
-GLOBAL_ASM("asm/EnDh_Damage.s")
 
 GLOBAL_ASM("asm/FUN_00285978.s")
 
@@ -70,11 +65,8 @@ GLOBAL_ASM("asm/FUN_00285e5c.s")
 
 GLOBAL_ASM("asm/FUN_00285f34.s")
 
-GLOBAL_ASM("asm/FUN_00285f50.s")
 
-GLOBAL_ASM("asm/FUN_00285fa4.s")
 
-GLOBAL_ASM("asm/OceffStorm_Draw2.s")
 
 GLOBAL_ASM("asm/FUN_002874b0.s")
 
@@ -84,7 +76,6 @@ GLOBAL_ASM("asm/FUN_0028752c.s")
 
 GLOBAL_ASM("asm/FUN_00287550.s")
 
-GLOBAL_ASM("asm/EnOkuta_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_00287938.s")
 
@@ -130,7 +121,6 @@ GLOBAL_ASM("asm/FUN_00288254.s")
 
 GLOBAL_ASM("asm/FUN_002882f4.s")
 
-GLOBAL_ASM("asm/FUN_00288394.s")
 
 GLOBAL_ASM("asm/FUN_002883b8.s")
 
@@ -142,7 +132,6 @@ GLOBAL_ASM("asm/FUN_00288594.s")
 
 GLOBAL_ASM("asm/FUN_002886b8.s")
 
-GLOBAL_ASM("asm/BgPoEvent_AmyWait.s")
 
 GLOBAL_ASM("asm/FUN_0028887c.s")
 
@@ -162,7 +151,6 @@ GLOBAL_ASM("asm/FUN_00289028.s")
 
 GLOBAL_ASM("asm/FUN_002890a8.s")
 
-GLOBAL_ASM("asm/EnTr_Reappear.s")
 
 GLOBAL_ASM("asm/FUN_00289334.s")
 
@@ -196,7 +184,6 @@ GLOBAL_ASM("asm/FUN_002894dc.s")
 
 GLOBAL_ASM("asm/FUN_002894e0.s")
 
-GLOBAL_ASM("asm/BgDyYoseizo_Draw.s")
 
 GLOBAL_ASM("asm/FUN_0028a8f4.s")
 
@@ -230,9 +217,7 @@ GLOBAL_ASM("asm/caseD_2_0028f108.s")
 
 GLOBAL_ASM("asm/caseD_11_0028f3f8.s")
 
-GLOBAL_ASM("asm/DemoKekkai_DrawTrialBarrier.s")
 
-GLOBAL_ASM("asm/DemoKekkai_TrialBarrierIdle.s")
 
 GLOBAL_ASM("asm/FUN_0028fa74.s")
 
@@ -262,13 +247,11 @@ GLOBAL_ASM("asm/FUN_00290afc.s")
 
 GLOBAL_ASM("asm/FUN_00290bbc.s")
 
-GLOBAL_ASM("asm/FUN_00290ce0.s")
 
 GLOBAL_ASM("asm/FUN_00290dc4.s")
 
 GLOBAL_ASM("asm/FUN_00291378.s")
 
-GLOBAL_ASM("asm/EnBomBowlMan_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_002919d8.s")
 
@@ -280,7 +263,6 @@ GLOBAL_ASM("asm/FUN_00292b50.s")
 
 GLOBAL_ASM("asm/caseD_4_002930a8.s")
 
-GLOBAL_ASM("asm/caseD_14_00293124.s")
 
 GLOBAL_ASM("asm/FUN_00293210.s")
 
@@ -312,11 +294,8 @@ GLOBAL_ASM("asm/FUN_0029551c.s")
 
 GLOBAL_ASM("asm/FUN_0029559c.s")
 
-GLOBAL_ASM("asm/EnTite_FlipOnBack.s")
 
-GLOBAL_ASM("asm/EnTite_FlipUpright.s")
 
-GLOBAL_ASM("asm/EnTite_MoveTowardPlayer.s")
 
 GLOBAL_ASM("asm/FUN_00295e58.s")
 
@@ -330,13 +309,10 @@ GLOBAL_ASM("asm/caseD_e_002969bc.s")
 
 GLOBAL_ASM("asm/FUN_00296a7c.s")
 
-GLOBAL_ASM("asm/EnDh_Walk.s")
 
-GLOBAL_ASM("asm/EnDha_TakeDamage.s")
 
 GLOBAL_ASM("asm/FUN_00296eb4.s")
 
-GLOBAL_ASM("asm/EnOssan_InitKokiriShopkeeper.s")
 
 GLOBAL_ASM("asm/FUN_00297e04.s")
 
@@ -348,19 +324,14 @@ GLOBAL_ASM("asm/FUN_00297e90.s")
 
 GLOBAL_ASM("asm/FUN_00297e98.s")
 
-GLOBAL_ASM("asm/EnKakasi_OverrideLimbDraw.s")
 
-GLOBAL_ASM("asm/EnKakasi_PostLimbDraw.s")
 
-GLOBAL_ASM("asm/EnPeehat_OverrideLimbDraw.s")
 
-GLOBAL_ASM("asm/EnWeiyer_OverrideLimbDraw.s")
 
 GLOBAL_ASM("asm/FUN_002985d0.s")
 
 GLOBAL_ASM("asm/FUN_002985f0.s")
 
-GLOBAL_ASM("asm/FUN_00298684.s")
 
 GLOBAL_ASM("asm/FUN_002986e8.s")
 
@@ -378,11 +349,9 @@ GLOBAL_ASM("asm/FUN_00298de4.s")
 
 GLOBAL_ASM("asm/FUN_00298ef4.s")
 
-GLOBAL_ASM("asm/EnDntJiji_SetupHide.s")
 
 GLOBAL_ASM("asm/FUN_00298fa4.s")
 
-GLOBAL_ASM("asm/EnExItem_TargetPrizeGive.s")
 
 GLOBAL_ASM("asm/FUN_00299110.s")
 
@@ -392,15 +361,12 @@ GLOBAL_ASM("asm/FUN_002991d4.s")
 
 GLOBAL_ASM("asm/FUN_00299258.s")
 
-GLOBAL_ASM("asm/BgMizuShutter_WaitForCutscene.s")
 
-GLOBAL_ASM("asm/BgMizuShutter_WaitForTimer.s")
 
 GLOBAL_ASM("asm/FUN_00299348.s")
 
 GLOBAL_ASM("asm/FUN_0029937c.s")
 
-GLOBAL_ASM("asm/EnSyatekiMan_StartGame.s")
 
 GLOBAL_ASM("asm/FUN_00299518.s")
 
@@ -408,7 +374,6 @@ GLOBAL_ASM("asm/FUN_0029964c.s")
 
 GLOBAL_ASM("asm/FUN_00299704.s")
 
-GLOBAL_ASM("asm/EnExRuppy_EnterWater.s")
 
 GLOBAL_ASM("asm/FUN_002998b0.s")
 
@@ -448,6 +413,5 @@ GLOBAL_ASM("asm/FUN_0029ac3c.s")
 
 GLOBAL_ASM("asm/FUN_0029d22c.s")
 
-GLOBAL_ASM("asm/FUN_0029e828.s")
 
 GLOBAL_ASM("asm/FUN_0029f8a0.s")

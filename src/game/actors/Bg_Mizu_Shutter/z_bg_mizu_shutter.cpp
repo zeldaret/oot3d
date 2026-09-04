@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/BgMizuShutter_Destroy.s")
 GLOBAL_ASM("asm/BgMizuShutter_Update.s")
 
 GLOBAL_ASM("asm/BgMizuShutter_Draw.s")
+
+GLOBAL_ASM("asm/BgMizuShutter_Move.s")
+
+GLOBAL_ASM("asm/BgMizuShutter_WaitForCutscene.s")
+
+GLOBAL_ASM("asm/BgMizuShutter_WaitForSwitch.s")
+
+GLOBAL_ASM("asm/BgMizuShutter_WaitForTimer.s")
+
 }

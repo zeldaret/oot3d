@@ -29,4 +29,15 @@ GLOBAL_ASM("asm/EnFw_Destroy.s")
 GLOBAL_ASM("asm/EnFw_Update.s")
 
 GLOBAL_ASM("asm/EnFw_Draw.s")
+
+GLOBAL_ASM("asm/EnFw_Bounce.s")
+
+GLOBAL_ASM("asm/EnFw_JumpToParentInitPos.s")
+
+GLOBAL_ASM("asm/EnFw_Run.s")
+
+GLOBAL_ASM("asm/EnFw_SpawnDust.s")
+
+GLOBAL_ASM("asm/EnFw_TurnToParentInitPos.s")
+
 }

@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/EnZo_Destroy.s")
 GLOBAL_ASM("asm/EnZo_Update.s")
 
 GLOBAL_ASM("asm/EnZo_Draw.s")
+
+GLOBAL_ASM("asm/EnZo_Dive.s")
+
+GLOBAL_ASM("asm/EnZo_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnZo_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnZo_Standing.s")
+
+GLOBAL_ASM("asm/EnZo_Submerged.s")
+
+GLOBAL_ASM("asm/EnZo_Surface.s")
+
+GLOBAL_ASM("asm/EnZo_TreadWater.s")
+
+GLOBAL_ASM("asm/FUN_00315ba8.s")
+
 }

@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnWf_Destroy.s")
 GLOBAL_ASM("asm/EnWf_Update.s")
 
 GLOBAL_ASM("asm/EnWf_Draw.s")
+
+GLOBAL_ASM("asm/EnWf_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnWf_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/FUN_0020d318.s")
+
+GLOBAL_ASM("asm/FUN_003ab92c.s")
+
 }

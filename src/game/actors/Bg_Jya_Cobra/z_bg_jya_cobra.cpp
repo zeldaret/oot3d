@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgJyaCobra_Destroy.s")
 GLOBAL_ASM("asm/BgJyaCobra_Update.s")
 
 GLOBAL_ASM("asm/BgJyaCobra_Draw.s")
+
+GLOBAL_ASM("asm/FUN_001170b8.s")
+
 }

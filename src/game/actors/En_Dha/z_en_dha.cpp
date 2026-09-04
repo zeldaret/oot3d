@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnDha_Destroy.s")
 GLOBAL_ASM("asm/EnDha_Update.s")
 
 GLOBAL_ASM("asm/EnDha_Draw.s")
+
+GLOBAL_ASM("asm/EnDha_Die.s")
+
+GLOBAL_ASM("asm/EnDha_SetupWait.s")
+
+GLOBAL_ASM("asm/EnDha_TakeDamage.s")
+
+GLOBAL_ASM("asm/EnDha_Wait.s")
+
 }

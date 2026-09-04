@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnDog_Destroy.s")
 GLOBAL_ASM("asm/EnDog_Update.s")
 
 GLOBAL_ASM("asm/EnDog_Draw.s")
+
+GLOBAL_ASM("asm/EnDog_ChooseMovement.s")
+
+GLOBAL_ASM("asm/EnDog_FaceLink.s")
+
+GLOBAL_ASM("asm/EnDog_FollowLink.s")
+
+GLOBAL_ASM("asm/EnDog_FollowPath.s")
+
+GLOBAL_ASM("asm/EnDog_RunAway.s")
+
+GLOBAL_ASM("asm/EnDog_Wait.s")
+
 }

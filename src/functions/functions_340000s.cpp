@@ -14,7 +14,6 @@ GLOBAL_ASM("asm/FUN_00340478.s")
 
 GLOBAL_ASM("asm/FUN_003404a8.s")
 
-GLOBAL_ASM("asm/FUN_0034051c.s")
 
 GLOBAL_ASM("asm/FUN_003405ec.s")
 
@@ -22,7 +21,6 @@ GLOBAL_ASM("asm/Math_CosF.s")
 
 GLOBAL_ASM("asm/Math_SinF.s")
 
-GLOBAL_ASM("asm/FUN_003406b8.s")
 
 GLOBAL_ASM("asm/FUN_00340824.s")
 
@@ -32,7 +30,6 @@ GLOBAL_ASM("asm/BgCheck_EntitySphVsWall1.s")
 
 GLOBAL_ASM("asm/FUN_00340a1c.s")
 
-GLOBAL_ASM("asm/FUN_00340ac8.s")
 
 GLOBAL_ASM("asm/FUN_00340b34.s")
 
@@ -56,7 +53,6 @@ GLOBAL_ASM("asm/FUN_00341268.s")
 
 GLOBAL_ASM("asm/SkelAnime_InitLink.s")
 
-GLOBAL_ASM("asm/FUN_003415a8.s")
 
 GLOBAL_ASM("asm/FUN_00341c18.s")
 
@@ -66,25 +62,18 @@ GLOBAL_ASM("asm/FUN_00341d5c.s")
 
 GLOBAL_ASM("asm/FUN_00341df0.s")
 
-GLOBAL_ASM("asm/FUN_00341e1c.s")
 
 GLOBAL_ASM("asm/FUN_00341e68.s")
 
-GLOBAL_ASM("asm/EnHorse_StartBraking.s")
 
-GLOBAL_ASM("asm/EnHorse_ResolveCollision.s")
 
-GLOBAL_ASM("asm/EnHorse_BgCheckBridgeJumpPoint.s")
 
 GLOBAL_ASM("asm/FUN_00342230.s")
 
 GLOBAL_ASM("asm/FUN_003422e4.s")
 
-GLOBAL_ASM("asm/EnFz_Damaged.s")
 
-GLOBAL_ASM("asm/FUN_0034251c.s")
 
-GLOBAL_ASM("asm/FUN_003426b0.s")
 
 GLOBAL_ASM("asm/FUN_00342714.s")
 
@@ -116,9 +105,7 @@ GLOBAL_ASM("asm/FUN_00342ed8.s")
 
 GLOBAL_ASM("asm/FUN_00343088.s")
 
-GLOBAL_ASM("asm/FUN_003430fc.s")
 
-GLOBAL_ASM("asm/DemoGj_InitSetIndexes.s")
 
 GLOBAL_ASM("asm/__ARM_common_memclr4_10.s")
 
@@ -136,9 +123,7 @@ GLOBAL_ASM("asm/memcpy.s")
 
 GLOBAL_ASM("asm/__memcpy_last_bytes.s")
 
-GLOBAL_ASM("asm/FUN_00343414.s")
 
-GLOBAL_ASM("asm/FUN_003436d4.s")
 
 GLOBAL_ASM("asm/FUN_003436f0.s")
 
@@ -204,7 +189,6 @@ GLOBAL_ASM("asm/FUN_00345590.s")
 
 GLOBAL_ASM("asm/FUN_00345a08.s")
 
-GLOBAL_ASM("asm/BossGoma_SetupEncounterState4.s")
 
 GLOBAL_ASM("asm/FUN_00345cb4.s")
 
@@ -214,7 +198,6 @@ GLOBAL_ASM("asm/FUN_00345fe0.s")
 
 GLOBAL_ASM("asm/FUN_0034613c.s")
 
-GLOBAL_ASM("asm/FUN_003461f0.s")
 
 GLOBAL_ASM("asm/Actor_SetTextWithPrefix.s")
 
@@ -226,9 +209,7 @@ GLOBAL_ASM("asm/FUN_00346714.s")
 
 GLOBAL_ASM("asm/FUN_00346778.s")
 
-GLOBAL_ASM("asm/BgGndIceblock_SetPosition.s")
 
-GLOBAL_ASM("asm/FUN_00346850.s")
 
 GLOBAL_ASM("asm/FUN_003468fc.s")
 
@@ -238,9 +219,7 @@ GLOBAL_ASM("asm/FUN_0034696c.s")
 
 GLOBAL_ASM("asm/FUN_00346ab4.s")
 
-GLOBAL_ASM("asm/FUN_00346bb4.s")
 
-GLOBAL_ASM("asm/FUN_00346c48.s")
 
 GLOBAL_ASM("asm/FUN_00346d94.s")
 
@@ -282,27 +261,20 @@ GLOBAL_ASM("asm/SkelAnime_SetCurrentFrame.s")
 
 GLOBAL_ASM("asm/FUN_003478bc.s")
 
-GLOBAL_ASM("asm/EnGirlA_TryChangeShopItem.s")
 
-GLOBAL_ASM("asm/EnDha_SetupWait.s")
 
-GLOBAL_ASM("asm/FUN_00347aec.s")
 
 GLOBAL_ASM("asm/FUN_00347cc4.s")
 
 GLOBAL_ASM("asm/FUN_00347d24.s")
 
-GLOBAL_ASM("asm/EnSsh_SetColliderScale.s")
 
 GLOBAL_ASM("asm/FUN_00347ed4.s")
 
 GLOBAL_ASM("asm/FUN_00347f48.s")
 
-GLOBAL_ASM("asm/FUN_00347fbc.s")
 
-GLOBAL_ASM("asm/FUN_00348054.s")
 
-GLOBAL_ASM("asm/FUN_00348068.s")
 
 GLOBAL_ASM("asm/ZAR_GetCSABByIndex.s")
 
@@ -332,7 +304,6 @@ GLOBAL_ASM("asm/FUN_00348f34.s")
 
 GLOBAL_ASM("asm/Path_GetByIndex.s")
 
-GLOBAL_ASM("asm/FUN_00349008.s")
 
 GLOBAL_ASM("asm/FUN_003490e0.s")
 
@@ -350,7 +321,6 @@ GLOBAL_ASM("asm/FUN_00349514.s")
 
 GLOBAL_ASM("asm/FUN_00349574.s")
 
-GLOBAL_ASM("asm/FUN_003495e0.s")
 
 GLOBAL_ASM("asm/FUN_0034a800.s")
 
@@ -362,7 +332,6 @@ GLOBAL_ASM("asm/FUN_0034a928.s")
 
 GLOBAL_ASM("asm/FUN_0034a944.s")
 
-GLOBAL_ASM("asm/FUN_0034aae0.s")
 
 GLOBAL_ASM("asm/FUN_0034aaf0.s")
 
@@ -386,15 +355,10 @@ GLOBAL_ASM("asm/FUN_0034b33c.s")
 
 GLOBAL_ASM("asm/FUN_0034b3dc.s")
 
-GLOBAL_ASM("asm/EnDaiku_Change.s")
 
-GLOBAL_ASM("asm/EnDaikuKakariko_HandleTalking.s")
 
-GLOBAL_ASM("asm/EnDaikuKakariko_SetAnimFromIndex.s")
 
-GLOBAL_ASM("asm/EnDaiku_TentIdle.s")
 
-GLOBAL_ASM("asm/EnDaiku_UpdateText.s")
 
 GLOBAL_ASM("asm/FUN_0034bb0c.s")
 
@@ -412,19 +376,15 @@ GLOBAL_ASM("asm/FUN_0034be30.s")
 
 GLOBAL_ASM("asm/FUN_0034bea8.s")
 
-GLOBAL_ASM("asm/BossGoma_SetupFloorMain.s")
 
 GLOBAL_ASM("asm/FUN_0034bf5c.s")
 
-GLOBAL_ASM("asm/FUN_0034c050.s")
 
 GLOBAL_ASM("asm/FUN_0034c128.s")
 
-GLOBAL_ASM("asm/EnDodongo_SetupWalk.s")
 
 GLOBAL_ASM("asm/FUN_0034c294.s")
 
-GLOBAL_ASM("asm/EnPoField_SetupWaitForSpawn.s")
 
 GLOBAL_ASM("asm/FUN_0034c3b8.s")
 
@@ -432,11 +392,9 @@ GLOBAL_ASM("asm/FUN_0034c3e4.s")
 
 GLOBAL_ASM("asm/FUN_0034c440.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupSideStep.s")
 
 GLOBAL_ASM("asm/FUN_0034c664.s")
 
-GLOBAL_ASM("asm/FUN_0034c92c.s")
 
 GLOBAL_ASM("asm/FUN_0034c998.s")
 
@@ -490,7 +448,6 @@ GLOBAL_ASM("asm/FUN_0034e568.s")
 
 GLOBAL_ASM("asm/EffectSsEnIce_Spawn.s")
 
-GLOBAL_ASM("asm/FUN_0034e6d0.s")
 
 GLOBAL_ASM("asm/FUN_0034e988.s")
 
@@ -516,13 +473,10 @@ GLOBAL_ASM("asm/FUN_0034f248.s")
 
 GLOBAL_ASM("asm/FUN_0034f280.s")
 
-GLOBAL_ASM("asm/EnPeehat_SpawnDust.s")
 
-GLOBAL_ASM("asm/EnNb_SetCurrentAnim.s")
 
 GLOBAL_ASM("asm/FUN_0034f558.s")
 
-GLOBAL_ASM("asm/EnMu_Interact.s")
 
 GLOBAL_ASM("asm/FUN_0034f6bc.s")
 
@@ -548,7 +502,6 @@ GLOBAL_ASM("asm/SystemArena_Free.s")
 
 GLOBAL_ASM("asm/FUN_0034fc7c.s")
 
-GLOBAL_ASM("asm/FUN_0034fda8.s")
 
 GLOBAL_ASM("asm/FUN_0034fe20.s")
 

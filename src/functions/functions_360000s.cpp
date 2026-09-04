@@ -22,7 +22,6 @@ GLOBAL_ASM("asm/FUN_003609f4.s")
 
 GLOBAL_ASM("asm/FUN_00360a1c.s")
 
-GLOBAL_ASM("asm/EnGe1_SetTalkAction.s")
 
 GLOBAL_ASM("asm/FUN_00360d9c.s")
 
@@ -66,7 +65,6 @@ GLOBAL_ASM("asm/FUN_00362998.s")
 
 GLOBAL_ASM("asm/FUN_00362a4c.s")
 
-GLOBAL_ASM("asm/EnKarebaba_SetupIdle.s")
 
 GLOBAL_ASM("asm/FUN_00362ab4.s")
 
@@ -86,7 +84,6 @@ GLOBAL_ASM("asm/Actor_GetScreenPos.s")
 
 GLOBAL_ASM("asm/FUN_00363a98.s")
 
-GLOBAL_ASM("asm/BossGanondrof_SetupThrow.s")
 
 GLOBAL_ASM("asm/Object_GetIndex.s")
 
@@ -130,13 +127,9 @@ GLOBAL_ASM("asm/FUN_00364b1c.s")
 
 GLOBAL_ASM("asm/FUN_00364c18.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupRollBack.s")
 
-GLOBAL_ASM("asm/EnGeldB_SetupJump.s")
 
-GLOBAL_ASM("asm/EnGeldB_ReactToPlayer.s")
 
-GLOBAL_ASM("asm/EnGeldB_DodgeRanged.s")
 
 GLOBAL_ASM("asm/FUN_00365560.s")
 
@@ -152,11 +145,9 @@ GLOBAL_ASM("asm/FUN_00365860.s")
 
 GLOBAL_ASM("asm/FUN_003658b8.s")
 
-GLOBAL_ASM("asm/EnDodongo_SpawnBombSmoke.s")
 
 GLOBAL_ASM("asm/FUN_00365d20.s")
 
-GLOBAL_ASM("asm/EnTuboTrap_SpawnFragments.s")
 
 GLOBAL_ASM("asm/EffectSsKakera_Spawn.s")
 
@@ -196,7 +187,6 @@ GLOBAL_ASM("asm/FUN_003667ec.s")
 
 GLOBAL_ASM("asm/FUN_00366c24.s")
 
-GLOBAL_ASM("asm/BossGoma_UpdateCeilingMovement.s")
 
 GLOBAL_ASM("asm/FUN_00366f60.s")
 
@@ -282,7 +272,6 @@ GLOBAL_ASM("asm/FUN_003688a8.s")
 
 GLOBAL_ASM("asm/FUN_00368944.s")
 
-GLOBAL_ASM("asm/EnSb_SetupWaitClosed.s")
 
 GLOBAL_ASM("asm/EffectSsBubble_Spawn.s")
 
@@ -328,7 +317,6 @@ GLOBAL_ASM("asm/FUN_0036932c.s")
 
 GLOBAL_ASM("asm/FUN_003693b4.s")
 
-GLOBAL_ASM("asm/FUN_003694d4.s")
 
 GLOBAL_ASM("asm/FUN_003695cc.s")
 
@@ -338,7 +326,6 @@ GLOBAL_ASM("asm/FUN_00369608.s")
 
 GLOBAL_ASM("asm/Gameplay_ClearCamera.s")
 
-GLOBAL_ASM("asm/EnGe2_ChangeAction.s")
 
 GLOBAL_ASM("asm/Math_FAtan2F.s")
 
@@ -350,9 +337,7 @@ GLOBAL_ASM("asm/FUN_00369a68.s")
 
 GLOBAL_ASM("asm/FUN_00369b58.s")
 
-GLOBAL_ASM("asm/EnSsh_IsCloseToLink.s")
 
-GLOBAL_ASM("asm/EnSsh_SetAnimation.s")
 
 GLOBAL_ASM("asm/FUN_00369d44.s")
 
@@ -364,19 +349,15 @@ GLOBAL_ASM("asm/FUN_0036a024.s")
 
 GLOBAL_ASM("asm/FUN_0036a0c8.s")
 
-GLOBAL_ASM("asm/FUN_0036a154.s")
 
 GLOBAL_ASM("asm/FUN_0036a2dc.s")
 
-GLOBAL_ASM("asm/ObjSwitch_SetOff.s")
 
-GLOBAL_ASM("asm/ObjSwitch_SetOn.s")
 
 GLOBAL_ASM("asm/Player_InCsMode.s")
 
 GLOBAL_ASM("asm/FUN_0036a83c.s")
 
-GLOBAL_ASM("asm/FUN_0036a84c.s")
 
 GLOBAL_ASM("asm/FUN_0036a924.s")
 
@@ -446,7 +427,6 @@ GLOBAL_ASM("asm/FUN_0036c174.s")
 
 GLOBAL_ASM("asm/FUN_0036c258.s")
 
-GLOBAL_ASM("asm/DoorShutter_SetupDoor.s")
 
 GLOBAL_ASM("asm/Gameplay_SetupRespawnPoint.s")
 
@@ -458,7 +438,6 @@ GLOBAL_ASM("asm/FUN_0036c5d8.s")
 
 GLOBAL_ASM("asm/FUN_0036c648.s")
 
-GLOBAL_ASM("asm/FUN_0036c684.s")
 
 GLOBAL_ASM("asm/FUN_0036c950.s")
 
@@ -488,13 +467,10 @@ GLOBAL_ASM("asm/FUN_0036d260.s")
 
 GLOBAL_ASM("asm/FUN_0036d288.s")
 
-GLOBAL_ASM("asm/BgDyYoseizo_SpawnParticles.s")
 
-GLOBAL_ASM("asm/EnFirefly_SetupFlyIdle.s")
 
 GLOBAL_ASM("asm/FUN_0036d940.s")
 
-GLOBAL_ASM("asm/EnBoom_Fly.s")
 
 GLOBAL_ASM("asm/Item_DropCollectible.s")
 
@@ -546,7 +522,6 @@ GLOBAL_ASM("asm/Actor_IsFacingPlayer.s")
 
 GLOBAL_ASM("asm/FUN_0036f1b4.s")
 
-GLOBAL_ASM("asm/EnBili_UpdateFloating.s")
 
 GLOBAL_ASM("asm/FUN_0036f2f8.s")
 
@@ -556,7 +531,6 @@ GLOBAL_ASM("asm/FUN_0036f364.s")
 
 GLOBAL_ASM("asm/Lights_PointGlowSetInfo.s")
 
-GLOBAL_ASM("asm/EnFloormas_SetupLand.s")
 
 GLOBAL_ASM("asm/FUN_0036f4d8.s")
 
@@ -588,8 +562,6 @@ GLOBAL_ASM("asm/Math_ApproachZeroF.s")
 
 GLOBAL_ASM("asm/FUN_0036fca8.s")
 
-GLOBAL_ASM("asm/BossGoma_PlayEffectsAndSfx.s")
 
-GLOBAL_ASM("asm/BossFd_SpawnEmber.s")
 
 GLOBAL_ASM("asm/FUN_0036fef4.s")

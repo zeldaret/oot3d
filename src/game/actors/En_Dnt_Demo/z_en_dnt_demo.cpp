@@ -26,4 +26,11 @@ GLOBAL_ASM("asm/EnDntDemo_Init.s")
 GLOBAL_ASM("asm/EnDntDemo_Destroy.s")
 
 GLOBAL_ASM("asm/EnDntDemo_Update.s")
+
+GLOBAL_ASM("asm/EnDntDemo_Judge.s")
+
+GLOBAL_ASM("asm/EnDntDemo_Prize.s")
+
+GLOBAL_ASM("asm/EnDntDemo_Results.s")
+
 }

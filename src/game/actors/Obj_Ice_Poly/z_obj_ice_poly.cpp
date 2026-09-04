@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/ObjIcePoly_Destroy.s")
 GLOBAL_ASM("asm/ObjIcePoly_Update.s")
 
 GLOBAL_ASM("asm/ObjIcePoly_Draw.s")
+
+GLOBAL_ASM("asm/ObjIcePoly_Idle.s")
+
+GLOBAL_ASM("asm/ObjIcePoly_Melt.s")
+
 }

@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/OceffStorm_Destroy.s")
 GLOBAL_ASM("asm/OceffStorm_Update.s")
 
 GLOBAL_ASM("asm/OceffStorm_Draw.s")
+
+GLOBAL_ASM("asm/OceffStorm_Draw2.s")
+
+GLOBAL_ASM("asm/OceffStorm_UnkAction.s")
+
 }

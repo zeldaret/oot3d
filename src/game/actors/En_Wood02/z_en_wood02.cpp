@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnWood02_Destroy.s")
 GLOBAL_ASM("asm/EnWood02_Update.s")
 
 GLOBAL_ASM("asm/EnWood02_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0034e6d0.s")
+
 }

@@ -29,4 +29,15 @@ GLOBAL_ASM("asm/EnTorch2_Destroy.s")
 GLOBAL_ASM("asm/EnTorch2_Update.s")
 
 GLOBAL_ASM("asm/EnTorch2_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00192d38.s")
+
+GLOBAL_ASM("asm/FUN_00193740.s")
+
+GLOBAL_ASM("asm/FUN_001e2f1c.s")
+
+GLOBAL_ASM("asm/FUN_00346bb4.s")
+
+GLOBAL_ASM("asm/FUN_00346c48.s")
+
 }

@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/EnRr_Destroy.s")
 GLOBAL_ASM("asm/EnRr_Update.s")
 
 GLOBAL_ASM("asm/EnRr_Draw.s")
+
+GLOBAL_ASM("asm/EnRr_CollisionCheck.s")
+
+GLOBAL_ASM("asm/EnRr_SetupStunned.s")
+
+GLOBAL_ASM("asm/EnRr_Stunned.s")
+
 }

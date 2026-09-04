@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/ArrowIce_Destroy.s")
 GLOBAL_ASM("asm/ArrowIce_Update.s")
 
 GLOBAL_ASM("asm/ArrowIce_Draw.s")
+
+GLOBAL_ASM("asm/ArrowIce_Charge.s")
+
+GLOBAL_ASM("asm/ArrowIce_Fly.s")
+
+GLOBAL_ASM("asm/ArrowIce_Hit.s")
+
 }

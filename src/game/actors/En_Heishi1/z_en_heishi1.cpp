@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnHeishi1_Destroy.s")
 GLOBAL_ASM("asm/EnHeishi1_Update.s")
 
 GLOBAL_ASM("asm/EnHeishi1_Draw.s")
+
+GLOBAL_ASM("asm/EnHeishi1_Kick.s")
+
+GLOBAL_ASM("asm/EnHeishi1_SetupKick.s")
+
+GLOBAL_ASM("asm/EnHeishi1_SetupWait.s")
+
+GLOBAL_ASM("asm/EnHeishi1_SetupWaitNight.s")
+
+GLOBAL_ASM("asm/EnHeishi1_SetupWalk.s")
+
+GLOBAL_ASM("asm/EnHeishi1_Wait.s")
+
+GLOBAL_ASM("asm/EnHeishi1_WaitNight.s")
+
+GLOBAL_ASM("asm/EnHeishi1_Walk.s")
+
+GLOBAL_ASM("asm/FUN_003902e0.s")
+
 }

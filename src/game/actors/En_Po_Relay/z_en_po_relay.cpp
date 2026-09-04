@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnPoRelay_Destroy.s")
 GLOBAL_ASM("asm/EnPoRelay_Update.s")
 
 GLOBAL_ASM("asm/EnPoRelay_Draw.s")
+
+GLOBAL_ASM("asm/EnPoRelay_DisappearAndReward.s")
+
+GLOBAL_ASM("asm/EnPoRelay_EndRace.s")
+
+GLOBAL_ASM("asm/EnPoRelay_Idle.s")
+
+GLOBAL_ASM("asm/EnPoRelay_Race.s")
+
+GLOBAL_ASM("asm/EnPoRelay_Talk.s")
+
+GLOBAL_ASM("asm/EnPoRelay_Talk2.s")
+
 }

@@ -29,4 +29,25 @@ GLOBAL_ASM("asm/EnFd_Destroy.s")
 GLOBAL_ASM("asm/EnFd_Update.s")
 
 GLOBAL_ASM("asm/EnFd_Draw.s")
+
+GLOBAL_ASM("asm/EnFd_JumpToGround.s")
+
+GLOBAL_ASM("asm/EnFd_Land.s")
+
+GLOBAL_ASM("asm/EnFd_Reappear.s")
+
+GLOBAL_ASM("asm/EnFd_Run.s")
+
+GLOBAL_ASM("asm/EnFd_SpinAndGrow.s")
+
+GLOBAL_ASM("asm/EnFd_SpinAndSpawnFire.s")
+
+GLOBAL_ASM("asm/EnFd_WaitForCore.s")
+
+GLOBAL_ASM("asm/FUN_00111374.s")
+
+GLOBAL_ASM("asm/FUN_003426b0.s")
+
+GLOBAL_ASM("asm/FUN_0034fda8.s")
+
 }

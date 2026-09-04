@@ -27,4 +27,7 @@ GLOBAL_ASM("asm/EnHata_Destroy.s")
 GLOBAL_ASM("asm/EnHata_Update.s")
 
 GLOBAL_ASM("asm/EnHata_Draw.s")
+
+GLOBAL_ASM("asm/EnHata_OverrideLimbDraw.s")
+
 }

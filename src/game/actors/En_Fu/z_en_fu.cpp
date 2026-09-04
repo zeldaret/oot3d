@@ -29,4 +29,17 @@ GLOBAL_ASM("asm/EnFu_Destroy.s")
 GLOBAL_ASM("asm/EnFu_Update.s")
 
 GLOBAL_ASM("asm/EnFu_Draw.s")
+
+GLOBAL_ASM("asm/EnFu_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnFu_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnFu_TeachSong.s")
+
+GLOBAL_ASM("asm/EnFu_WaitAdult.s")
+
+GLOBAL_ASM("asm/EnFu_WaitChild.s")
+
+GLOBAL_ASM("asm/EnFu_WaitForPlayback.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgBdanObjects_Destroy.s")
 GLOBAL_ASM("asm/BgBdanObjects_Update.s")
 
 GLOBAL_ASM("asm/BgBdanObjects_Draw.s")
+
+GLOBAL_ASM("asm/BgBdanObjects_DoNothing.s")
+
 }

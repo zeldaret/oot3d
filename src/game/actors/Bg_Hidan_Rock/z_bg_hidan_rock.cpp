@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/BgHidanRock_Destroy.s")
 GLOBAL_ASM("asm/BgHidanRock_Update.s")
 
 GLOBAL_ASM("asm/BgHidanRock_Draw.s")
+
+GLOBAL_ASM("asm/FUN_003d0830.s")
+
+GLOBAL_ASM("asm/FUN_0040cbe8.s")
+
 }

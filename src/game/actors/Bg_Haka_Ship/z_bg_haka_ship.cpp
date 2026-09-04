@@ -29,4 +29,19 @@ GLOBAL_ASM("asm/BgHakaShip_Destroy.s")
 GLOBAL_ASM("asm/BgHakaShip_Update.s")
 
 GLOBAL_ASM("asm/BgHakaShip_Draw.s")
+
+GLOBAL_ASM("asm/BgHakaShip_ChildUpdatePosition.s")
+
+GLOBAL_ASM("asm/BgHakaShip_CrashFall.s")
+
+GLOBAL_ASM("asm/BgHakaShip_CrashShake.s")
+
+GLOBAL_ASM("asm/BgHakaShip_CutsceneStationary.s")
+
+GLOBAL_ASM("asm/BgHakaShip_Move.s")
+
+GLOBAL_ASM("asm/BgHakaShip_SetupCrash.s")
+
+GLOBAL_ASM("asm/BgHakaShip_WaitForSong.s")
+
 }

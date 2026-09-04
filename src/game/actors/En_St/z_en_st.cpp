@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnSt_Destroy.s")
 GLOBAL_ASM("asm/EnSt_Update.s")
 
 GLOBAL_ASM("asm/EnSt_Draw.s")
+
+GLOBAL_ASM("asm/EnSt_StartOnCeilingOrGround.s")
+
 }

@@ -30,4 +30,13 @@ GLOBAL_ASM("asm/BgJyaHaheniron_Destroy.s")
 GLOBAL_ASM("asm/BgJyaHaheniron_Update.s")
 
 GLOBAL_ASM("asm/BgJyaHaheniron_Draw.s")
+
+GLOBAL_ASM("asm/BgJyaHaheniron_ChairCrumble.s")
+
+GLOBAL_ASM("asm/BgJyaHaheniron_PillarCrumble.s")
+
+GLOBAL_ASM("asm/BgJyaHaheniron_RubbleCollide.s")
+
+GLOBAL_ASM("asm/FUN_0036a154.s")
+
 }

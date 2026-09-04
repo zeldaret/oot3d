@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnShopnuts_Destroy.s")
 GLOBAL_ASM("asm/EnShopnuts_Update.s")
 
 GLOBAL_ASM("asm/EnShopnuts_Draw.s")
+
+GLOBAL_ASM("asm/EnShopnuts_Burrow.s")
+
+GLOBAL_ASM("asm/EnShopnuts_LookAround.s")
+
+GLOBAL_ASM("asm/EnShopnuts_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnShopnuts_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnShopnuts_SetupWait.s")
+
+GLOBAL_ASM("asm/EnShopnuts_SpawnSalesman.s")
+
+GLOBAL_ASM("asm/EnShopnuts_Stand.s")
+
+GLOBAL_ASM("asm/EnShopnuts_ThrowNut.s")
+
+GLOBAL_ASM("asm/EnShopnuts_Wait.s")
+
 }

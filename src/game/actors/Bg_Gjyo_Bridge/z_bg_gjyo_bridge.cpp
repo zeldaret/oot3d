@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/BgGjyoBridge_Destroy.s")
 GLOBAL_ASM("asm/BgGjyoBridge_Update.s")
 
 GLOBAL_ASM("asm/BgGjyoBridge_Draw.s")
+
+GLOBAL_ASM("asm/BgGjyoBridge_SpawnBridge.s")
+
+GLOBAL_ASM("asm/BgGjyoBridge_TriggerCutscene.s")
+
 }

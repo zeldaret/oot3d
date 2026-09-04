@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/ElfMsg_Destroy.s")
 GLOBAL_ASM("asm/ElfMsg_Update.s")
 
 GLOBAL_ASM("asm/ElfMsg_Draw.s")
+
+GLOBAL_ASM("asm/ElfMsg_CallNaviCuboid.s")
+
+GLOBAL_ASM("asm/ElfMsg_CallNaviCylinder.s")
+
 }

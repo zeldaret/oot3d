@@ -29,4 +29,23 @@ GLOBAL_ASM("asm/EnSb_Destroy.s")
 GLOBAL_ASM("asm/EnSb_Update.s")
 
 GLOBAL_ASM("asm/EnSb_Draw.s")
+
+GLOBAL_ASM("asm/EnSb_Bounce.s")
+
+GLOBAL_ASM("asm/EnSb_Cooldown.s")
+
+GLOBAL_ASM("asm/EnSb_Lunge.s")
+
+GLOBAL_ASM("asm/EnSb_Open.s")
+
+GLOBAL_ASM("asm/EnSb_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnSb_SetupWaitClosed.s")
+
+GLOBAL_ASM("asm/EnSb_TurnAround.s")
+
+GLOBAL_ASM("asm/EnSb_WaitClosed.s")
+
+GLOBAL_ASM("asm/EnSb_WaitOpen.s")
+
 }

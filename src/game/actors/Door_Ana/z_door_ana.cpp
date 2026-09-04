@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/DoorAna_Destroy.s")
 GLOBAL_ASM("asm/DoorAna_Update.s")
 
 GLOBAL_ASM("asm/DoorAna_Draw.s")
+
+GLOBAL_ASM("asm/DoorAna_GrabLink.s")
+
+GLOBAL_ASM("asm/DoorAna_WaitClosed.s")
+
+GLOBAL_ASM("asm/DoorAna_WaitOpen.s")
+
 }

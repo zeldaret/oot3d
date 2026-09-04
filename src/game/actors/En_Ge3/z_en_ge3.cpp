@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/EnGe3_Destroy.s")
 GLOBAL_ASM("asm/EnGe3_Update.s")
 
 GLOBAL_ASM("asm/EnGe3_Draw.s")
+
+GLOBAL_ASM("asm/EnGe3_ForceTalk.s")
+
+GLOBAL_ASM("asm/EnGe3_GiveCard.s")
+
+GLOBAL_ASM("asm/EnGe3_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnGe3_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/EnGe3_UpdateWhenNotTalking.s")
+
+GLOBAL_ASM("asm/EnGe3_Wait.s")
+
+GLOBAL_ASM("asm/EnGe3_WaitLookAtPlayer.s")
+
+GLOBAL_ASM("asm/EnGe3_WaitTillCardGiven.s")
+
 }

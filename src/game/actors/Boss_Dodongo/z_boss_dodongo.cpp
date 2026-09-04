@@ -30,4 +30,11 @@ GLOBAL_ASM("asm/BossDodongo_Destroy.s")
 GLOBAL_ASM("asm/BossDodongo_Update.s")
 
 GLOBAL_ASM("asm/BossDodongo_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0029e828.s")
+
+GLOBAL_ASM("asm/FUN_003309e0.s")
+
+GLOBAL_ASM("asm/FUN_0037100c.s")
+
 }

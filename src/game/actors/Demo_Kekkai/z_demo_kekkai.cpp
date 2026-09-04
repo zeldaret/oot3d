@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/DemoKekkai_Destroy.s")
 GLOBAL_ASM("asm/DemoKekkai_Update.s")
 
 GLOBAL_ASM("asm/DemoKekkai_Draw.s")
+
+GLOBAL_ASM("asm/DemoKekkai_DrawTrialBarrier.s")
+
+GLOBAL_ASM("asm/DemoKekkai_TowerBarrier.s")
+
+GLOBAL_ASM("asm/DemoKekkai_TrialBarrierIdle.s")
+
 }

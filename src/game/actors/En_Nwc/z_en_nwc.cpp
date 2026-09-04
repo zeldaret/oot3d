@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/EnNwc_Destroy.s")
 GLOBAL_ASM("asm/EnNwc_Update.s")
 
 GLOBAL_ASM("asm/EnNwc_Draw.s")
+
+GLOBAL_ASM("asm/EnNwc_ChickFall.s")
+
+GLOBAL_ASM("asm/EnNwc_ChickNoop.s")
+
+GLOBAL_ASM("asm/EnNwc_Idle.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnPoSisters_Destroy.s")
 GLOBAL_ASM("asm/EnPoSisters_Update.s")
 
 GLOBAL_ASM("asm/EnPoSisters_Draw.s")
+
+GLOBAL_ASM("asm/FUN_0034c050.s")
+
 }

@@ -29,4 +29,11 @@ GLOBAL_ASM("asm/OceffSpot_Destroy.s")
 GLOBAL_ASM("asm/OceffSpot_Update.s")
 
 GLOBAL_ASM("asm/OceffSpot_Draw.s")
+
+GLOBAL_ASM("asm/OceffSpot_End.s")
+
+GLOBAL_ASM("asm/OceffSpot_GrowCylinder.s")
+
+GLOBAL_ASM("asm/OceffSpot_Wait.s")
+
 }

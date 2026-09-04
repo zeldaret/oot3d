@@ -26,4 +26,9 @@ GLOBAL_ASM("asm/ShotSun_Init.s")
 GLOBAL_ASM("asm/ShotSun_Destroy.s")
 
 GLOBAL_ASM("asm/ShotSun_Update.s")
+
+GLOBAL_ASM("asm/ShotSun_UpdateHyliaSun.s")
+
+GLOBAL_ASM("asm/FUN_0038ce68.s")
+
 }

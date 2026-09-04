@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/ObjSyokudai_Destroy.s")
 GLOBAL_ASM("asm/ObjSyokudai_Update.s")
 
 GLOBAL_ASM("asm/ObjSyokudai_Draw.s")
+
+GLOBAL_ASM("asm/FUN_003fb408.s")
+
 }

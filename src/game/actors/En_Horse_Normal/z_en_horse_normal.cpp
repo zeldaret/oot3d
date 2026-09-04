@@ -29,4 +29,21 @@ GLOBAL_ASM("asm/EnHorseNormal_Destroy.s")
 GLOBAL_ASM("asm/EnHorseNormal_Update.s")
 
 GLOBAL_ASM("asm/EnHorseNormal_Draw.s")
+
+GLOBAL_ASM("asm/EnHorseNormal_CycleAnimations.s")
+
+GLOBAL_ASM("asm/EnHorseNormal_FollowPath.s")
+
+GLOBAL_ASM("asm/EnHorseNormal_Wait.s")
+
+GLOBAL_ASM("asm/EnHorseNormal_WaitClone.s")
+
+GLOBAL_ASM("asm/EnHorseNormal_Wander.s")
+
+GLOBAL_ASM("asm/FUN_001c3180.s")
+
+GLOBAL_ASM("asm/FUN_003406b8.s")
+
+GLOBAL_ASM("asm/FUN_003a5778.s")
+
 }

@@ -29,4 +29,15 @@ GLOBAL_ASM("asm/EnBubble_Destroy.s")
 GLOBAL_ASM("asm/EnBubble_Update.s")
 
 GLOBAL_ASM("asm/EnBubble_Draw.s")
+
+GLOBAL_ASM("asm/EnBubble_Disappear.s")
+
+GLOBAL_ASM("asm/EnBubble_Fly.s")
+
+GLOBAL_ASM("asm/EnBubble_Pop.s")
+
+GLOBAL_ASM("asm/EnBubble_Regrow.s")
+
+GLOBAL_ASM("asm/EnBubble_Wait.s")
+
 }

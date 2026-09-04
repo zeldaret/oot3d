@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnNiwGirl_Destroy.s")
 GLOBAL_ASM("asm/EnNiwGirl_Update.s")
 
 GLOBAL_ASM("asm/EnNiwGirl_Draw.s")
+
+GLOBAL_ASM("asm/EnNiwGirl_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnNiwGirl_Talk.s")
+
 }

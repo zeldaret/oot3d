@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgSpot03Taki_Destroy.s")
 GLOBAL_ASM("asm/BgSpot03Taki_Update.s")
 
 GLOBAL_ASM("asm/BgSpot03Taki_Draw.s")
+
+GLOBAL_ASM("asm/FUN_00323f04.s")
+
 }

@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/ObjComb_Destroy.s")
 GLOBAL_ASM("asm/ObjComb_Update.s")
 
 GLOBAL_ASM("asm/ObjComb_Draw.s")
+
+GLOBAL_ASM("asm/ObjComb_Wait.s")
+
 }

@@ -26,4 +26,7 @@ GLOBAL_ASM("asm/DoorKiller_Init.s")
 GLOBAL_ASM("asm/DoorKiller_Destroy.s")
 
 GLOBAL_ASM("asm/DoorKiller_Update.s")
+
+GLOBAL_ASM("asm/FUN_00196208.s")
+
 }

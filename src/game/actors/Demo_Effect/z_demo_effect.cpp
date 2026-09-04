@@ -26,4 +26,7 @@ GLOBAL_ASM("asm/DemoEffect_Init.s")
 GLOBAL_ASM("asm/DemoEffect_Destroy.s")
 
 GLOBAL_ASM("asm/DemoEffect_Update.s")
+
+GLOBAL_ASM("asm/DemoEffect_DrawSpiritualStones.s")
+
 }

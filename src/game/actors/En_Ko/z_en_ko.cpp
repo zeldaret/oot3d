@@ -29,4 +29,13 @@ GLOBAL_ASM("asm/EnKo_Destroy.s")
 GLOBAL_ASM("asm/EnKo_Update.s")
 
 GLOBAL_ASM("asm/EnKo_Draw.s")
+
+GLOBAL_ASM("asm/EnKo_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnKo_PostLimbDraw.s")
+
+GLOBAL_ASM("asm/FUN_00171ed4.s")
+
+GLOBAL_ASM("asm/FUN_0034c92c.s")
+
 }

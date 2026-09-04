@@ -24,4 +24,7 @@ GLOBAL_ASM("asm/ObjBlockstop_Init.s")
 GLOBAL_ASM("asm/ObjBlockstop_Destroy.s")
 
 GLOBAL_ASM("asm/ObjBlockstop_Update.s")
+
+GLOBAL_ASM("asm/FUN_003aa608.s")
+
 }

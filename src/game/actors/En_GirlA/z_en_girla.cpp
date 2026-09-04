@@ -26,4 +26,15 @@ GLOBAL_ASM("asm/EnGirlA_Init.s")
 GLOBAL_ASM("asm/EnGirlA_Destroy.s")
 
 GLOBAL_ASM("asm/EnGirlA_Update.s")
+
+GLOBAL_ASM("asm/EnGirlA_Draw.s")
+
+GLOBAL_ASM("asm/EnGirlA_InitItem.s")
+
+GLOBAL_ASM("asm/EnGirlA_InitializeItemAction.s")
+
+GLOBAL_ASM("asm/EnGirlA_TryChangeShopItem.s")
+
+GLOBAL_ASM("asm/func_80A3BEE0.s")
+
 }

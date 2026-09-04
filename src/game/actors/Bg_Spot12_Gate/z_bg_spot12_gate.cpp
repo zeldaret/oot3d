@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/BgSpot12Gate_Destroy.s")
 GLOBAL_ASM("asm/BgSpot12Gate_Update.s")
 
 GLOBAL_ASM("asm/BgSpot12Gate_Draw.s")
+
+GLOBAL_ASM("asm/BgSpot12Gate_DoNothing.s")
+
 }

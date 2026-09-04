@@ -29,4 +29,7 @@ GLOBAL_ASM("asm/EnLight_Destroy.s")
 GLOBAL_ASM("asm/EnLight_Update.s")
 
 GLOBAL_ASM("asm/EnLight_Draw.s")
+
+GLOBAL_ASM("asm/EnLight_UpdateSwitch.s")
+
 }

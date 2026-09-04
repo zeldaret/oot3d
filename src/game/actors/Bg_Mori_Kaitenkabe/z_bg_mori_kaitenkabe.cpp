@@ -26,4 +26,9 @@ GLOBAL_ASM("asm/BgMoriKaitenkabe_Init.s")
 GLOBAL_ASM("asm/BgMoriKaitenkabe_Destroy.s")
 
 GLOBAL_ASM("asm/BgMoriKaitenkabe_Update.s")
+
+GLOBAL_ASM("asm/BgMoriKaitenkabe_Draw.s")
+
+GLOBAL_ASM("asm/BgMoriKaitenkabe_Wait.s")
+
 }

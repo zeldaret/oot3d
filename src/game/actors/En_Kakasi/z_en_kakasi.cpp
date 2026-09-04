@@ -29,4 +29,9 @@ GLOBAL_ASM("asm/EnKakasi_Destroy.s")
 GLOBAL_ASM("asm/EnKakasi_Update.s")
 
 GLOBAL_ASM("asm/EnKakasi_Draw.s")
+
+GLOBAL_ASM("asm/EnKakasi_OverrideLimbDraw.s")
+
+GLOBAL_ASM("asm/EnKakasi_PostLimbDraw.s")
+
 }

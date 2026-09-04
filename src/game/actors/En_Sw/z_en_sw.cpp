@@ -30,4 +30,7 @@ GLOBAL_ASM("asm/EnSw_Destroy.s")
 GLOBAL_ASM("asm/EnSw_Update.s")
 
 GLOBAL_ASM("asm/EnSw_Draw.s")
+
+GLOBAL_ASM("asm/FUN_003415a8.s")
+
 }
