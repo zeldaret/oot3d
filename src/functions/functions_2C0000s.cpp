@@ -570,8 +570,6 @@ GLOBAL_ASM("asm/FUN_002d5f18.s")
 
 GLOBAL_ASM("asm/FUN_002d5f68.s")
 
-GLOBAL_ASM("asm/Actor_Destroy.s")
-
 GLOBAL_ASM("asm/FUN_002d64f4.s")
 
 GLOBAL_ASM("asm/FUN_002d6628.s")
@@ -639,8 +637,6 @@ GLOBAL_ASM("asm/FUN_002d9f68.s")
 GLOBAL_ASM("asm/FUN_002da0cc.s")
 
 GLOBAL_ASM("asm/FUN_002da0e4.s")
-
-GLOBAL_ASM("asm/Actor_Delete.s")
 
 GLOBAL_ASM("asm/FUN_002da2a0.s")
 

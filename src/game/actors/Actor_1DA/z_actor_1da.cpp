@@ -24,7 +24,7 @@ static
 #endif
 InitChainEntry sInitChain[] = {
     ICHAIN_VEC3F_DIV1000(scale, 200, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneForward, 1000, ICHAIN_STOP),
+    ICHAIN_F32(cullingVolumeDistance, 1000, ICHAIN_STOP),
 };
 
 #ifdef NON_MATCHING

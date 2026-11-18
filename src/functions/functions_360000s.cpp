@@ -80,8 +80,6 @@ GLOBAL_ASM("asm/FUN_003631d0.s")
 
 GLOBAL_ASM("asm/FUN_00363604.s")
 
-GLOBAL_ASM("asm/Actor_GetScreenPos.s")
-
 GLOBAL_ASM("asm/FUN_00363a98.s")
 
 
@@ -90,8 +88,6 @@ GLOBAL_ASM("asm/Object_GetIndex.s")
 GLOBAL_ASM("asm/FUN_00363cb8.s")
 
 GLOBAL_ASM("asm/FUN_00363d50.s")
-
-GLOBAL_ASM("asm/Actor_WorldDistXZToPoint.s")
 
 GLOBAL_ASM("asm/FUN_00363e8c.s")
 
@@ -193,8 +189,6 @@ GLOBAL_ASM("asm/FUN_00366f60.s")
 GLOBAL_ASM("asm/FUN_00367060.s")
 
 GLOBAL_ASM("asm/FUN_003672b8.s")
-
-GLOBAL_ASM("asm/Actor_WorldYawTowardPoint.s")
 
 GLOBAL_ASM("asm/FUN_00367374.s")
 
@@ -361,8 +355,6 @@ GLOBAL_ASM("asm/FUN_0036a83c.s")
 
 GLOBAL_ASM("asm/FUN_0036a924.s")
 
-GLOBAL_ASM("asm/Actor_SpawnAsChild.s")
-
 GLOBAL_ASM("asm/FUN_0036aaa4.s")
 
 GLOBAL_ASM("asm/FUN_0036ab8c.s")
@@ -414,8 +406,6 @@ GLOBAL_ASM("asm/Text_GetFaceReaction.s")
 GLOBAL_ASM("asm/FUN_0036bbd0.s")
 
 GLOBAL_ASM("asm/FUN_0036bc84.s")
-
-GLOBAL_ASM("asm/Actor_ProcessTalkRequest.s")
 
 GLOBAL_ASM("asm/FUN_0036bcc8.s")
 
@@ -474,8 +464,6 @@ GLOBAL_ASM("asm/FUN_0036d940.s")
 
 GLOBAL_ASM("asm/Item_DropCollectible.s")
 
-GLOBAL_ASM("asm/Actor_WorldPitchTowardPoint.s")
-
 GLOBAL_ASM("asm/Lights_PointSetColorAndRadius.s")
 
 GLOBAL_ASM("asm/Math_SmoothStepToF.s")
@@ -493,8 +481,6 @@ GLOBAL_ASM("asm/Camera_GetCamDirYaw.s")
 GLOBAL_ASM("asm/Animation_PlayLoop.s")
 
 GLOBAL_ASM("asm/EffectSsLightning_Spawn.s")
-
-GLOBAL_ASM("asm/Actor_WorldYawTowardActor.s")
 
 GLOBAL_ASM("asm/BgCheck_EntityRaycastFloor4.s")
 
@@ -517,8 +503,6 @@ GLOBAL_ASM("asm/Player_GetMask.s")
 GLOBAL_ASM("asm/FUN_0036efa8.s")
 
 GLOBAL_ASM("asm/FUN_0036f00c.s")
-
-GLOBAL_ASM("asm/Actor_IsFacingPlayer.s")
 
 GLOBAL_ASM("asm/FUN_0036f1b4.s")
 

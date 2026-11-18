@@ -156,8 +156,6 @@ GLOBAL_ASM("asm/FUN_00326e74.s")
 
 GLOBAL_ASM("asm/FUN_0032709c.s")
 
-GLOBAL_ASM("asm/Player_GetExplosiveHeld.s")
-
 GLOBAL_ASM("asm/FUN_003279fc.s")
 
 GLOBAL_ASM("asm/FUN_00327a00.s")
@@ -744,8 +742,6 @@ GLOBAL_ASM("asm/FUN_0033e2a0.s")
 GLOBAL_ASM("asm/FUN_0033e450.s")
 
 GLOBAL_ASM("asm/FUN_0033e6c8.s")
-
-GLOBAL_ASM("asm/ActorShadow_Draw.s")
 
 GLOBAL_ASM("asm/FUN_0033ea74.s")
 

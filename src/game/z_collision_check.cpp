@@ -37,4 +37,25 @@ s32 Collider_DestroyCylinder(PlayState* play, ColliderCylinder* collider) {
     Collider_DestroyCylinderDim(play, &collider->dim);
     return 1;
 }
+
+void CollisionCheck_SetInfo(CollisionCheckInfo* info, DamageTable* damageTable, CollisionCheckInfoInit* init) {
+    info->health = init->health;
+    info->damageTable = damageTable;
+    info->cylRadius = init->cylRadius;
+    info->cylHeight = init->cylHeight;
+    info->mass = init->mass;
+}
+
+void CollisionCheck_SetInfo2(CollisionCheckInfo* info, DamageTable* damageTable, CollisionCheckInfoInit2* init) {
+    info->health = init->health;
+    info->damageTable = damageTable;
+    info->cylRadius = init->cylRadius;
+    info->cylHeight = init->cylHeight;
+    info->cylYShift = init->cylYShift;
+    info->mass = init->mass;
+}
+
+void Collider_UpdateCylinder(Actor* actor, ColliderCylinder* collider) {
+    collider->dim.pos = actor->world.pos;
+}
 }

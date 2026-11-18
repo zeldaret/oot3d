@@ -74,8 +74,6 @@ GLOBAL_ASM("asm/FUN_004a30a0.s")
 
 GLOBAL_ASM("asm/FUN_004a31a4.s")
 
-GLOBAL_ASM("asm/Actor_Init.s")
-
 GLOBAL_ASM("asm/FUN_004a3344.s")
 
 GLOBAL_ASM("asm/FUN_004a34d0.s")

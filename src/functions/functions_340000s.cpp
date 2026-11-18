@@ -199,8 +199,6 @@ GLOBAL_ASM("asm/FUN_00345fe0.s")
 GLOBAL_ASM("asm/FUN_0034613c.s")
 
 
-GLOBAL_ASM("asm/Actor_SetTextWithPrefix.s")
-
 GLOBAL_ASM("asm/FUN_003464b8.s")
 
 GLOBAL_ASM("asm/FUN_003465e0.s")

@@ -22,9 +22,9 @@ ActorInit Item_B_Heart_InitVars = {
 
 static InitChainEntry sInitChain[] = {
     ICHAIN_VEC3F_DIV1000(scale, 0, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneForward, 4000, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneScale, 800, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneDownward, 800, ICHAIN_STOP),
+    ICHAIN_F32(cullingVolumeDistance, 4000, ICHAIN_CONTINUE),
+    ICHAIN_F32(cullingVolumeScale, 800, ICHAIN_CONTINUE),
+    ICHAIN_F32(cullingVolumeDownward, 800, ICHAIN_STOP),
 };
 
 void ItemBHeart_Init(Actor* actor, GameState* state) {
@@ -36,7 +36,7 @@ void ItemBHeart_Init(Actor* actor, GameState* state) {
     } else {
         Actor_ProcessInitChain(&self->actor, sInitChain);
         ActorShape_Init(&self->actor.shape, 0.0f, NULL, 0.8f);
-        self->actor.unk_19A = 1;
+        self->actor.hasSkelAnimModel = 1;
         FUN_00372f38(&self->actor, play, &self->skelAnimModel, 0, 0);
     }
 }
