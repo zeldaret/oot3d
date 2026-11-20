@@ -36,6 +36,9 @@ u32 Actor_ProcessTalkRequest(Actor* actor, PlayState* play);
 void Actor_GetScreenPos(PlayState* play, Actor* actor, s16* x, s16* y);
 
 void Lib_MemSet(u8* dest, size_t size, u8 val);
+void Color_RGBA8_Copy(Color_RGBA8* dest, Color_RGBA8* src);
+s16 Rand_S16Offset(s16 base, s16 range);
+s32 FUN_00368d94(s32 arg0, s32 arg1);
 
 void Math_ApproachS(s16* pValue, s16 target, s16 scale, s16 step);
 void Math_ApproachF(f32* pValue, f32 target, f32 fraction, f32 step);
@@ -176,3 +179,4 @@ void FUN_00312fc4(void* address, size_t size);
 void FUN_00311c70(u32 arg0);
 
 float sqrtf(float arg);
+float fabsf(float arg);

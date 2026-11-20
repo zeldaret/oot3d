@@ -265,16 +265,6 @@ GLOBAL_ASM("asm/FUN_00192904.s")
 
 GLOBAL_ASM("asm/FUN_001929e0.s")
 
-GLOBAL_ASM("asm/IChain_Apply_f32.s")
-
-GLOBAL_ASM("asm/IChain_Apply_u32.s")
-
-GLOBAL_ASM("asm/IChain_Apply_Vec3s.s")
-
-GLOBAL_ASM("asm/IChain_Apply_s32.s")
-
-GLOBAL_ASM("asm/IChain_Apply_Vec3f.s")
-
 
 
 

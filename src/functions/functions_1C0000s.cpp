@@ -24,10 +24,6 @@ GLOBAL_ASM("asm/FUN_001c31c0.s")
 
 GLOBAL_ASM("asm/FUN_001c3314.s")
 
-GLOBAL_ASM("asm/IChain_Apply_u8.s")
-
-GLOBAL_ASM("asm/IChain_Apply_s8.s")
-
 GLOBAL_ASM("asm/FUN_001c33e0.s")
 
 GLOBAL_ASM("asm/FUN_001c33f4.s")
@@ -359,10 +355,6 @@ GLOBAL_ASM("asm/FUN_001e2a10.s")
 
 GLOBAL_ASM("asm/FUN_001e2d60.s")
 
-
-GLOBAL_ASM("asm/IChain_Apply_u16.s")
-
-GLOBAL_ASM("asm/IChain_Apply_s16.s")
 
 GLOBAL_ASM("asm/FUN_001e2f04.s")
 

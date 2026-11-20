@@ -93,8 +93,6 @@ GLOBAL_ASM("asm/FUN_00363e8c.s")
 
 GLOBAL_ASM("asm/FUN_00363ec4.s")
 
-GLOBAL_ASM("asm/Color_RGBA8_Copy.s")
-
 GLOBAL_ASM("asm/FUN_00363f44.s")
 
 GLOBAL_ASM("asm/FUN_00364084.s")
@@ -270,8 +268,6 @@ GLOBAL_ASM("asm/FUN_00368944.s")
 GLOBAL_ASM("asm/EffectSsBubble_Spawn.s")
 
 GLOBAL_ASM("asm/EffectSsDtBubble_SpawnColorProfile.s")
-
-GLOBAL_ASM("asm/Rand_S16Offset.s")
 
 GLOBAL_ASM("asm/FUN_00368b98.s")
 
@@ -466,8 +462,6 @@ GLOBAL_ASM("asm/Item_DropCollectible.s")
 
 GLOBAL_ASM("asm/Lights_PointSetColorAndRadius.s")
 
-GLOBAL_ASM("asm/Math_SmoothStepToF.s")
-
 GLOBAL_ASM("asm/FUN_0036e288.s")
 
 GLOBAL_ASM("asm/FUN_0036e3a8.s")
@@ -541,8 +535,6 @@ GLOBAL_ASM("asm/EffectSsBomb2_SpawnLayered.s")
 GLOBAL_ASM("asm/EffectSsHahen_SpawnBurst.s")
 
 GLOBAL_ASM("asm/FUN_0036fadc.s")
-
-GLOBAL_ASM("asm/Math_ApproachZeroF.s")
 
 GLOBAL_ASM("asm/FUN_0036fca8.s")
 

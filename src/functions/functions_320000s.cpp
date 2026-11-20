@@ -588,11 +588,6 @@ GLOBAL_ASM("asm/ShrinkWindow_SetVal.s")
 GLOBAL_ASM("asm/FUN_00338ce8.s")
 
 GLOBAL_ASM("asm/FUN_00338db4.s")
-
-GLOBAL_ASM("asm/Math_CosS.s")
-
-GLOBAL_ASM("asm/FUN_00338f68.s")
-
 GLOBAL_ASM("asm/FUN_00338fa0.s")
 
 GLOBAL_ASM("asm/FUN_00339100.s")

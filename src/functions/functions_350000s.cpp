@@ -86,8 +86,6 @@ GLOBAL_ASM("asm/FUN_003525e0.s")
 
 GLOBAL_ASM("asm/FUN_003528dc.s")
 
-GLOBAL_ASM("asm/Math_StepToAngleS.s")
-
 GLOBAL_ASM("asm/FUN_00352aa8.s")
 
 GLOBAL_ASM("asm/FUN_00352b58.s")
