@@ -25,7 +25,7 @@ void BgGndNisekabe_Init(Actor* actor, GameState* state) {
     PlayState* play = (PlayState*)state;
 
     Actor_SetScale(&self->actor, 0.1);
-    self->actor.uncullZoneForward = 3000.0;
+    self->actor.cullingVolumeDistance = 3000.0;
     switch (self->actor.params & 0xFF) {
         case 0:
             FUN_00372f38(&self->actor, play, &self->skelAnimModel, 13, 0);

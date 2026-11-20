@@ -469,8 +469,6 @@ GLOBAL_ASM("asm/FUN_00161554.s")
 
 GLOBAL_ASM("asm/FUN_001615fc.s")
 
-GLOBAL_ASM("asm/Actor_Noop.s")
-
 GLOBAL_ASM("asm/FUN_00161654.s")
 
 GLOBAL_ASM("asm/FUN_001616f0.s")

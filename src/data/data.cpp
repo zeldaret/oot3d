@@ -2,7 +2,35 @@
 
 GLOBAL_ASM("data/data_4F9000.s")
 
+Color_RGBA8 gWhiteColor __attribute__((section(".data_50C924"))) = { 255, 255, 255, 255 };
+
+GLOBAL_ASM("data/data_50C928.s")
+
 GameInfo* gGameInfo __attribute__((section(".data_51b2f4"))) = NULL;
+
+extern "C" {
+void IChain_Apply_u8(Actor*, InitChainEntry*);
+void IChain_Apply_s8(Actor*, InitChainEntry*);
+void IChain_Apply_u16(Actor*, InitChainEntry*);
+void IChain_Apply_s16(Actor*, InitChainEntry*);
+void IChain_Apply_u32(Actor*, InitChainEntry*);
+void IChain_Apply_s32(Actor*, InitChainEntry*);
+void IChain_Apply_f32(Actor*, InitChainEntry*);
+void IChain_Apply_f32div1000(Actor*, InitChainEntry*);
+void IChain_Apply_Vec3f(Actor*, InitChainEntry*);
+void IChain_Apply_Vec3fdiv1000(Actor*, InitChainEntry*);
+void IChain_Apply_Vec3s(Actor*, InitChainEntry*);
+}
+
+typedef void (*IChainHandler)(Actor* actor, InitChainEntry* chain);
+
+IChainHandler sIChainHandlers[] __attribute__((section(".sIChainHandlers"))) = {
+    IChain_Apply_u8, IChain_Apply_s8, IChain_Apply_u16, IChain_Apply_s16, IChain_Apply_u32,
+    IChain_Apply_s32, IChain_Apply_f32, IChain_Apply_f32div1000, IChain_Apply_Vec3f,
+    IChain_Apply_Vec3fdiv1000, IChain_Apply_Vec3s,
+};
+
+GLOBAL_ASM("data/data_5321A0.s")
 
 GLOBAL_ASM("data/data_51B2F8.s")
 

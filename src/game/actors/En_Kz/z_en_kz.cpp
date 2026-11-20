@@ -257,7 +257,7 @@ void EnKz_Init(Actor* actor, GameState* state) {
     Collider_SetCylinder(play, &self->collider, &self->actor, &sCylinderInit);
     CollisionCheck_SetInfo2(&self->actor.colChkInfo, NULL, &sColChkInfoInit);
     Actor_SetScale(&self->actor, 0.01);
-    actor->targetMode = 3;
+    actor->attentionRangeType = 3;
     self->unk_D14 = 0;
     FUN_003717ac(&self->skelAnime, sAnimations, 0);
 
@@ -318,7 +318,7 @@ void EnKz_SetupMweep(EnKz* self, PlayState* play) {
     initPos.z += 260.0f;
     Gameplay_CameraSetAtEye(play, self->cutsceneCamera, &pos, &initPos);
     FUN_0036e980(play, &self->actor, 8);
-    self->actor.speedXZ = 0.1f;
+    self->actor.speed = 0.1f;
     self->actionFunc = EnKz_Mweep;
 }
 
@@ -336,7 +336,7 @@ void EnKz_Mweep(EnKz* self, PlayState* play) {
         Inventory_ReplaceItem(play, ITEM_LETTER_RUTO, ITEM_BOTTLE);
         EnKz_SetMovedPos(self, play);
         gSaveContext.eventChkInf[3] |= 8;
-        self->actor.speedXZ = zero;
+        self->actor.speed = zero;
         self->actionFunc = EnKz_StopMweep;
     }
     if (Animation_OnFrameImpl(&self->skelAnime, 7.0f, 2.0f / 3.0f)) {

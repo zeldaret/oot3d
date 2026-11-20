@@ -29,11 +29,11 @@ ActorInit Bg_Treemouth_InitVars = {
 };
 
 static InitChainEntry sInitChain[] = {
-    ICHAIN_U8(targetMode, 5, ICHAIN_CONTINUE),
+    ICHAIN_U8(attentionRangeType, 5, ICHAIN_CONTINUE),
     ICHAIN_VEC3F(scale, 1, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneForward, 8000, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneScale, 300, ICHAIN_CONTINUE),
-    ICHAIN_F32(uncullZoneDownward, 300, ICHAIN_STOP),
+    ICHAIN_F32(cullingVolumeDistance, 8000, ICHAIN_CONTINUE),
+    ICHAIN_F32(cullingVolumeScale, 300, ICHAIN_CONTINUE),
+    ICHAIN_F32(cullingVolumeDownward, 300, ICHAIN_STOP),
 };
 
 static void BgTreemouth_SetupAction(BgTreemouth* self, BgTreemouthActionFunc actionFunc) {
@@ -46,10 +46,10 @@ void BgTreemouth_Init(Actor* actor, GameState* state) {
     CollisionHeader* colHeader = NULL;
 
     Actor_ProcessInitChain(actor, sInitChain);
-    self->dyna.actor.unk_19A = 1;
+    self->dyna.actor.hasSkelAnimModel = 1;
     FUN_00372f38(&self->dyna.actor, play, &self->skelAnimModel, 2, 0);
     DynaPolyActor_Init(&self->dyna, DPM_UNK);
-    ReadCollisionHeaderFromZsi(play->GetObjectStatus(self->dyna.actor.objBankIndex)->zarInfo.FUN_003532c0(0),
+    ReadCollisionHeaderFromZsi(play->GetObjectStatus(self->dyna.actor.objectSlot)->zarInfo.FUN_003532c0(0),
                               &colHeader);
     self->dyna.bgId = DynaPoly_SetBgActor(play, &play->colCtx.dyna, actor, colHeader);
     ActorShape_Init(&actor->shape, 0.0f, NULL, 0.0f);
@@ -130,10 +130,10 @@ void FUN_003f48c4(BgTreemouth* self, PlayState* play) {
             if (Flags_GetEventChkInf(0xC)) {
                 if (Actor_IsFacingAndNearPlayer(&self->dyna.actor, 1658.0f, 0x7530)) {
                     self->dyna.actor.flags |= 1;
-                    if (self->dyna.actor.isTargeted) {
+                    if (self->dyna.actor.isLockedOn) {
                         self->dyna.actor.flags &= ~1;
                         play->FUN_0037573c(
-                            play->GetObjectStatus(self->dyna.actor.objBankIndex)->zarInfo.GetQDBByIndex(1));
+                            play->GetObjectStatus(self->dyna.actor.objectSlot)->zarInfo.GetQDBByIndex(1));
                         gSaveContext.cutsceneTrigger = 1;
                         BgTreemouth_SetupAction(self, FUN_0016e7f8);
                     }
@@ -141,7 +141,7 @@ void FUN_003f48c4(BgTreemouth* self, PlayState* play) {
             } else if (Actor_IsFacingAndNearPlayer(&self->dyna.actor, 1658.0f, 0x4E20)) {
                 Flags_SetEventChkInf(0xC);
                 play->FUN_0037573c(
-                    play->GetObjectStatus(self->dyna.actor.objBankIndex)->zarInfo.GetQDBByIndex(0));
+                    play->GetObjectStatus(self->dyna.actor.objectSlot)->zarInfo.GetQDBByIndex(0));
                 gSaveContext.cutsceneTrigger = 1;
                 BgTreemouth_SetupAction(self, FUN_0016e7f8);
             }
@@ -173,12 +173,12 @@ void FUN_0016e7f8(BgTreemouth* self, PlayState* play) {
 
         if (FUN_00369f3c(play) == 0) {
             play->FUN_0037573c(
-                play->GetObjectStatus(self->dyna.actor.objBankIndex)->zarInfo.GetQDBByIndex(2));
+                play->GetObjectStatus(self->dyna.actor.objectSlot)->zarInfo.GetQDBByIndex(2));
             Flags_SetEventChkInf(5);
             BgTreemouth_SetupAction(self, FUN_001944c0);
         } else {
             play->FUN_0037573c(
-                play->GetObjectStatus(self->dyna.actor.objBankIndex)->zarInfo.GetQDBByIndex(3));
+                play->GetObjectStatus(self->dyna.actor.objectSlot)->zarInfo.GetQDBByIndex(3));
             play->csCtx.frames = 0;
             BgTreemouth_SetupAction(self, FUN_003f48c4);
         }

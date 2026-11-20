@@ -376,8 +376,6 @@ GLOBAL_ASM("asm/Gameplay_Destroy.s")
 
 GLOBAL_ASM("asm/Gameplay_Destroy_0044e2b0.s")
 
-GLOBAL_ASM("asm/Actor_InitContext.s")
-
 GLOBAL_ASM("asm/FUN_0044efec.s")
 
 GLOBAL_ASM("asm/Cutscene_HandleConditionalTriggers.s")

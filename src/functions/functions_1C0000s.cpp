@@ -281,8 +281,6 @@ GLOBAL_ASM("asm/FUN_001d0364.s")
 
 GLOBAL_ASM("asm/FUN_001d03ec.s")
 
-GLOBAL_ASM("asm/ActorShadow_DrawFeet.s")
-
 
 GLOBAL_ASM("asm/FUN_001d0c3c.s")
 

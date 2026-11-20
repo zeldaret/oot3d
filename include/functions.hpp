@@ -25,6 +25,11 @@ Actor* Actor_SpawnAsChild(ActorContext* actorCtx, Actor* parent, PlayState* play
 void Actor_UpdateBgCheckInfo(PlayState* play, Actor* actor, f32 wallCheckHeight, f32 wallCheckRadius,
                              f32 ceilingCheckHeight, s32 flags);
 f32 Actor_WorldDistXYZToActor(Actor* actorA, Actor* actorB);
+f32 Actor_WorldDistXZToActor(Actor* actorA, Actor* actorB);
+f32 Actor_WorldDistXZToPoint(Actor* actor, Vec3f* point);
+u8 Actor_ApplyDamage(Actor* actor);
+s16 Actor_WorldYawTowardActor(Actor* actor, Actor* other);
+s16 Actor_WorldYawTowardPoint(Actor* actor, Vec3f* point);
 s32 Actor_IsFacingPlayer(Actor* actor, s16 angle);
 void Actor_MoveForward(Actor* actor);
 u32 Actor_ProcessTalkRequest(Actor* actor, PlayState* play);
@@ -69,6 +74,8 @@ s16 Gameplay_ChangeCameraStatus(PlayState* play, s16 camId, s16 status);
 void Audio_PlaySoundGeneral(u32 sfxId, Vec3f* a1, u8 a2, f32* a3, f32* a4, s8* a5);
 void Audio_PlayActorSound2(Actor* actor, s32 arg1);
 void FUN_0035af04(Player* player, s32 arg1);
+s32 Player_HoldsHookshot(Player* player);
+s32 Player_GetExplosiveHeld(Player* player);
 void Audio_QueueSeqCmd(s32 arg0, s32 arg1, s32 arg2);
 void TitleCard_InitBossName(PlayState* play, TitleCardContext* titleCtx, void* texture, s16 x, s16 y,
                             s16 width, s16 height, f32 f);

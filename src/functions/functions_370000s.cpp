@@ -139,8 +139,6 @@ GLOBAL_ASM("asm/FUN_003731e0.s")
 
 GLOBAL_ASM("asm/SkelAnime_SetPlaySpeed.s")
 
-GLOBAL_ASM("asm/Actor_SetFocus.s")
-
 GLOBAL_ASM("asm/FUN_00373264.s")
 
 
@@ -157,10 +155,6 @@ GLOBAL_ASM("asm/Animation_OnFrameImpl.s")
 GLOBAL_ASM("asm/FUN_0037378c.s")
 
 GLOBAL_ASM("asm/Rand_CenteredFloat.s")
-
-GLOBAL_ASM("asm/Actor_Spawn.s")
-
-GLOBAL_ASM("asm/Actor_GetCollidedExplosive.s")
 
 GLOBAL_ASM("asm/FUN_00373bec.s")
 
@@ -215,13 +209,7 @@ GLOBAL_ASM("asm/Animation_Change_00375c08.s")
 
 GLOBAL_ASM("asm/Audio_PlaySoundAtPosition.s")
 
-GLOBAL_ASM("asm/Actor_ChangeType.s")
-
 GLOBAL_ASM("asm/BodyBreak_Alloc.s")
-
-GLOBAL_ASM("asm/Actor_ApplyDamage.s")
-
-GLOBAL_ASM("asm/Actor_SetColorFilter.s")
 
 GLOBAL_ASM("asm/FUN_00375f88.s")
 
@@ -234,12 +222,6 @@ GLOBAL_ASM("asm/CollisionCheck_SetAC.s")
 GLOBAL_ASM("asm/CollisionCheck_SetAT.s")
 
 GLOBAL_ASM("asm/CollisionCheck_SetOC.s")
-
-GLOBAL_ASM("asm/Collider_UpdateCylinder.s")
-
-GLOBAL_ASM("asm/Actor_UpdateBgCheckInfo.s")
-
-GLOBAL_ASM("asm/Actor_MoveForward.s")
 
 
 GLOBAL_ASM("asm/Message_GetState.s")

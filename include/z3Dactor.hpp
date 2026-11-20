@@ -103,22 +103,22 @@ typedef struct {
 
 typedef struct Actor {
     /* 0x000 */ s16     id; // Actor Id
-    /* 0x002 */ u8      type; // Actor Type. Refer to the corresponding enum for values
+    /* 0x002 */ u8      category; // Actor Type. Refer to the corresponding enum for values
     /* 0x003 */ s8      room; // Room number the actor is in. -1 denotes that the actor won't despawn on a room change
     /* 0x004 */ u32     flags; // Flags used for various purposes
     /* 0x008 */ PosRot  home; // Initial position/rotation when spawned. Can be used for other purposes
     /* 0x01C */ s16     params; // Configurable variable set by the actor's spawn data; original name: "args_data"
-    /* 0x01E */ s8      objBankIndex; // Object bank index of the actor's object dependency; original name: "bank"
-    /* 0x01F */ s8      targetMode; // Controls how far the actor can be targeted from and how far it can stay locked on
+    /* 0x01E */ s8      objectSlot; // Object bank index of the actor's object dependency; original name: "bank"
+    /* 0x01F */ s8      attentionRangeType; // Controls how far the actor can be targeted from and how far it can stay locked on
     /* 0x020 */ u8      unk_20;
     /* 0x021 */ char    unk_21[0x3];
     /* 0x024 */ u32     sfx; // SFX ID to play. Sound plays when value is set, then is cleared the following update cycle
     /* 0x028 */ PosRot  world; // Position/rotation in the world
     /* 0x03C */ PosRot  focus; // Target reticle focuses on this position. For player this represents head pos and rot
-    /* 0x050 */ f32     targetArrowOffset; // Height offset of the target arrow relative to `focus` position
+    /* 0x050 */ f32     lockOnArrowOffset; // Height offset of the target arrow relative to `focus` position
     /* 0x054 */ Vec3f   scale; // Scale of the actor in each axis
     /* 0x060 */ Vec3f   velocity; // Velocity of the actor in each axis
-    /* 0x06C */ f32     speedXZ; // How fast the actor is traveling along the XZ plane
+    /* 0x06C */ f32     speed; // How fast the actor is traveling along the XZ plane
     /* 0x070 */ f32     gravity; // Acceleration due to gravity. Value is added to Y velocity every frame
     /* 0x074 */ f32     minVelocityY; // Sets the lower bounds cap on velocity along the Y axis
     /* 0x078 */ CollisionPoly* wallPoly; // Wall polygon an actor is touching
@@ -127,7 +127,7 @@ typedef struct Actor {
     /* 0x081 */ u8      floorBgId; // Bg ID of the floor polygon directly below the actor
     /* 0x082 */ s16     wallYaw; // Y rotation of the wall polygon the actor is touching
     /* 0x084 */ f32     floorHeight; // Y position of the floor polygon directly below the actor
-    /* 0x088 */ f32     yDistToWater; // Distance to the surface of active waterbox. Negative value means above water
+    /* 0x088 */ f32     depthInWater; // Distance to the surface of active waterbox. Negative value means above water
     /* 0x08C */ f32     waterBoxYSurface;
     /* 0x090 */ u16     bgCheckFlags;
     /* 0x092 */ s16     yawTowardsPlayer; // Y rotation difference between the actor and the player
@@ -136,19 +136,19 @@ typedef struct Actor {
     /* 0x09C */ f32     yDistToPlayer; // Dist is negative if the actor is above the player
     /* 0x0A0 */ CollisionCheckInfo colChkInfo; // Variables related to the Collision Check system
     /* 0x0BC */ ActorShape shape; // Variables related to the physical shape of the actor
-    /* 0x0EC */ Vec3f   unk_EC; // Stores result of some vector transformation involving actor xyz vector, and a matrix at PlayState + 11D60
-    /* 0x0F8 */ f32     unk_F8; // Related to above
-    /* 0x0FC */ f32     uncullZoneForward; // Amount to increase the uncull zone forward by (in projected space)
-    /* 0x100 */ f32     uncullZoneScale; // Amount to increase the uncull zone scale by (in projected space)
-    /* 0x104 */ f32     uncullZoneDownward; // Amount to increase uncull zone downward by (in projected space)
+    /* 0x0EC */ Vec3f   projectedPos; // Stores result of some vector transformation involving actor xyz vector, and a matrix at PlayState + 11D60
+    /* 0x0F8 */ f32     projectedW; // Related to above
+    /* 0x0FC */ f32     cullingVolumeDistance; // Amount to increase the uncull zone forward by (in projected space)
+    /* 0x100 */ f32     cullingVolumeScale; // Amount to increase the uncull zone scale by (in projected space)
+    /* 0x104 */ f32     cullingVolumeDownward; // Amount to increase uncull zone downward by (in projected space)
     /* 0x108 */ Vec3f   prevPos; // World position from the previous update cycle
-    /* 0x114 */ u8      isTargeted; // Set to true if the actor is currently being targeted by the player
-    /* 0x115 */ u8      targetPriority; // Lower values have higher priority. Resets to 0 when player stops targeting
+    /* 0x114 */ u8      isLockedOn; // Set to true if the actor is currently being targeted by the player
+    /* 0x115 */ u8      attentionPriority; // Lower values have higher priority. Resets to 0 when player stops targeting
     /* 0x116 */ u16     textId; // Text ID to pass to link/display when interacting with the actor
     /* 0x118 */ u16     freezeTimer; // Actor does not update when set. Timer decrements automatically
     /* 0x120 */ char    unk_118[0x7];
     /* 0x121 */ u8      isDrawn; // Set to true if the actor is currently being drawn. Always stays false for lens actors
-    /* 0x122 */ u8      unk_122; // Set within a routine that deals with collision
+    /* 0x122 */ u8      dropFlag;
     /* 0x123 */ u8      naviEnemyId; // Sets what 0600 dialog to display when talking to navi. Default 0xFF
     /* 0x124 */ struct Actor* parent; // Usage is actor specific. Set if actor is spawned via `Actor_SpawnAsChild`
     /* 0x128 */ struct Actor* child; // Usage is actor specific. Set if actor is spawned via `Actor_SpawnAsChild`
@@ -162,10 +162,10 @@ typedef struct Actor {
     /* 0x148 */ MTX34 modelMtx; // Transforms model space coordinates to world coordinates
     /* 0x178 */ void*         unk_178; // Unknown pointer type
     /* 0x17C */ void*         unk_17C[6]; // Unknown pointer type
-    /* 0x194 */ u32           unk_194;
-    /* 0x198 */ u8            unk_198;
+    /* 0x194 */ SkeletonAnimationModel* shadowModel;
+    /* 0x198 */ u8            shadowModelType;
     /* 0x199 */ char          unk_199[0x1];
-    /* 0x19A */ s8            unk_19A;
+    /* 0x19A */ s8            hasSkelAnimModel;
     /* 0x19B */ s8            unk_19B;
     /* 0x19C */ u16           unk_19C;
     /* 0x19E */ char          unk_19E[0x2];
@@ -199,7 +199,9 @@ typedef struct {
 
 typedef struct {
     /* 0x0000 */ Actor  actor;
-    /* 0x01A4 */ char   unk_148[0x00A8];
+    /* 0x01A4 */ char   unk_148[0x0005];
+    /* 0x01A9 */ s8     heldItemAction;
+    /* 0x01AA */ char   unk_1AA[0x00A2];
     /* 0x024C */ void*  giDrawSpace;
     /* 0x0250 */ char   unk_250[0x105C];
     /* 0x12AC */ u8     getItemId;
@@ -213,14 +215,17 @@ typedef struct {
     /* 0x1714 */ u32    stateFlags2;
     /* 0x1718 */ char   unk_1718[0x0013];
     /* 0x172B */ s8     exchangeItemId;
-    /* 0x172C */ char   unk_172C[0xAF0];
+    /* 0x172C */ char   unk_172C[0x08D4];
+    /* 0x2000 */ char   unk_2000[0x21C];
     /* 0x221C */ float  xzSpeed; //probably
     /* 0x2220 */ char   unk_2220[0x0007];
     /* 0x2227 */ u8     isg;
     /* 0x2228 */ char   unk_2228[0x0074];
     /* 0x229C */ f32    pushedSpeed; // Pushing player, examples include water currents, floor conveyors, climbing sloped surfaces
     /* 0x22A0 */ s16    pushedYaw; // Yaw direction of player being pushed
-    /* 0x22A2 */ char   unk_22A2[0x07AA];
+    /* 0x22A2 */ char   unk_22A2[0x0716];
+    /* 0x29B8 */ u32    unk_29B8;
+    /* 0x29BC */ char   unk_29BC[0x0090];
 } Player; //total size (from init vars): 2A4C
 
 struct EnItem00;

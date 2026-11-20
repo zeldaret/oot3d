@@ -47894,6 +47894,14 @@ data 0x04F9000
     {
         *(i.data_4F9000)
     }
+    data_50C924 +0
+    {
+        *(.data_50C924)
+    }
+    data_50C928 +0
+    {
+        *(i.data_50C928)
+    }
     z_actor_table.data +0
     {
         *z_actor_table.o(+DATA)
@@ -50957,6 +50965,14 @@ data 0x04F9000
     data_531EB4 +0
     {
         *(i.data_531EB4)
+    }
+    sIChainHandlers +0
+    {
+        *(.sIChainHandlers)
+    }
+    data_5321A0 +0
+    {
+        *(i.data_5321A0)
     }
     z_magic_dark.data +0
     {

@@ -13,6 +13,6 @@ void ReadCollisionHeaderFromZsi(void* arg1, CollisionHeader** col) {
 void* DynaPolyInfo_Alloc(DynaPolyActor* dyna, GameState* state, s32 index) {
     PlayState* play = (PlayState*)state;
     
-    return play->GetObjectStatus(dyna->actor.objBankIndex)->zarInfo.FUN_003532c0(index);
+    return play->GetObjectStatus(dyna->actor.objectSlot)->zarInfo.FUN_003532c0(index);
 }
 }

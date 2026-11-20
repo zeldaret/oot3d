@@ -11,8 +11,6 @@ GLOBAL_ASM("asm/DamageTable_Get.s")
 GLOBAL_ASM("asm/FUN_0035021c.s")
 
 
-GLOBAL_ASM("asm/CollisionCheck_SetInfo2.s")
-
 GLOBAL_ASM("asm/FUN_00350348.s")
 
 GLOBAL_ASM("asm/FUN_0035046c.s")
@@ -37,8 +35,6 @@ GLOBAL_ASM("asm/SkelAnime_Free2.s")
 
 GLOBAL_ASM("asm/FUN_00350c68.s")
 
-GLOBAL_ASM("asm/CollisionCheck_SetInfo.s")
-
 GLOBAL_ASM("asm/Collider_SetJntSph.s")
 
 GLOBAL_ASM("asm/Collider_InitJntSph.s")
@@ -48,8 +44,6 @@ GLOBAL_ASM("asm/ZeldaArena_Free.s")
 GLOBAL_ASM("asm/FUN_00350f34.s")
 
 GLOBAL_ASM("asm/DynaPoly_DeleteBgActor.s")
-
-GLOBAL_ASM("asm/Actor_ProcessInitChain.s")
 
 GLOBAL_ASM("asm/FUN_003510f0.s")
 
@@ -190,8 +184,6 @@ GLOBAL_ASM("asm/OLib_ClampMaxDist.s")
 
 GLOBAL_ASM("asm/FUN_00355830.s")
 
-GLOBAL_ASM("asm/Player_HoldsHookshot.s")
-
 
 GLOBAL_ASM("asm/FUN_00355b40.s")
 
@@ -261,8 +253,6 @@ GLOBAL_ASM("asm/FUN_00357d54.s")
 
 
 GLOBAL_ASM("asm/FUN_00357ea0.s")
-
-GLOBAL_ASM("asm/Actor_WorldDistXZToActor.s")
 
 GLOBAL_ASM("asm/FUN_00357ed4.s")
 
@@ -353,8 +343,6 @@ GLOBAL_ASM("asm/FUN_0035a050.s")
 
 GLOBAL_ASM("asm/FUN_0035a49c.s")
 
-GLOBAL_ASM("asm/Actor_WorldDistXYZToPoint.s")
-
 GLOBAL_ASM("asm/FUN_0035a534.s")
 
 GLOBAL_ASM("asm/FUN_0035a6f4.s")
@@ -366,8 +354,6 @@ GLOBAL_ASM("asm/FUN_0035ae08.s")
 GLOBAL_ASM("asm/EffectSsHahen_Spawn.s")
 
 GLOBAL_ASM("asm/EffectSsKFire_Spawn.s")
-
-GLOBAL_ASM("asm/FUN_0035af04.s")
 
 GLOBAL_ASM("asm/FUN_0035af20.s")
 

@@ -7,6 +7,8 @@ extern SaveContext gSaveContext; //0x00587958
 
 extern f32 FLOAT_0054ac20;
 
+extern Color_RGBA8 gWhiteColor;
+
 struct DAT_0054ac24_struct {
     s8 unk_0;
     s8 unk_1;
