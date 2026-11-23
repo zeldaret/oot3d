@@ -47871,6 +47871,14 @@ rodata 0x004CA000
     {
         *(i.rodata_4DF3FC)
     }
+    sSinCosTable 0x004DF42C
+    {
+        *(.sSinCosTable)
+    }
+    rodata_4E042C 0x004E042C
+    {
+        *(i.rodata_4E042C)
+    }
     Class_4EBE18E_vtable 0x004EBE18
     {
         *Class_4EBE18.o(.constdata__ZTVN3z3D12Class_4EBE18E)

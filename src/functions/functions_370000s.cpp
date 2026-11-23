@@ -4,17 +4,11 @@ GLOBAL_ASM("asm/FUN_00370084.s")
 
 GLOBAL_ASM("asm/FUN_00370170.s")
 
-GLOBAL_ASM("asm/Rand_S16Offset_003702c8.s")
-
 GLOBAL_ASM("asm/Animation_MorphToLoop.s")
-
-GLOBAL_ASM("asm/Math_ScaledStepToS.s")
 
 
 GLOBAL_ASM("asm/FUN_0037043c.s")
 
-
-GLOBAL_ASM("asm/Math_StepToF.s")
 
 GLOBAL_ASM("asm/FUN_00370634.s")
 
@@ -120,8 +114,6 @@ GLOBAL_ASM("asm/FUN_00372a60.s")
 
 GLOBAL_ASM("asm/FUN_00372a80.s")
 
-GLOBAL_ASM("asm/Math_StepToS.s")
-
 GLOBAL_ASM("asm/FUN_00372b50.s")
 
 GLOBAL_ASM("asm/ZAR_GetCTXBByIndex.s")
@@ -141,8 +133,6 @@ GLOBAL_ASM("asm/SkelAnime_SetPlaySpeed.s")
 
 GLOBAL_ASM("asm/FUN_00373264.s")
 
-
-GLOBAL_ASM("asm/Math_ApproachF.s")
 
 GLOBAL_ASM("asm/FUN_00373598.s")
 
@@ -198,8 +188,6 @@ GLOBAL_ASM("asm/FUN_0037587c.s")
 GLOBAL_ASM("asm/Math_Atan2S.s")
 
 GLOBAL_ASM("asm/Rand_ZeroOne.s")
-
-GLOBAL_ASM("asm/Math_SmoothStepToS.s")
 
 GLOBAL_ASM("asm/FUN_00375b70.s")
 

@@ -215,8 +215,6 @@ GLOBAL_ASM("asm/FUN_00315744.s")
 
 GLOBAL_ASM("asm/FUN_003158ac.s")
 
-GLOBAL_ASM("asm/Math_ApproachS.s")
-
 
 GLOBAL_ASM("asm/FUN_003159f8.s")
 
